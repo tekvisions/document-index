@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Document Index — every document-AI, OCR & extraction tool, ranked by momentum</title>
+<meta name="description" content="A living index of document-AI tooling — OCR engines, PDF extraction, document parsing, layout & structure analysis, table extraction and vision-language understanding — ranked daily by momentum from live GitHub signals.">
+<link rel="canonical" href="https://document.kymatalabs.com/">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="document ai, ocr, pdf extraction, document parsing, pdf to markdown, layout analysis, table extraction, document understanding, tesseract, paddleocr, docling, mineru, surya, unstructured">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://document.kymatalabs.com/">
+<meta property="og:title" content="The Document Index — every document-AI, OCR & extraction tool, ranked by momentum">
+<meta property="og:description" content="A living index of OCR, PDF extraction, document parsing, layout, tables & VLM understanding, ranked daily from live GitHub signals.">
+<meta property="og:image" content="https://document.kymatalabs.com/og.png">
+<meta property="og:site_name" content="The Document Index">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Document Index — the document-AI stack">
+<meta name="twitter:description" content="A living index of document-AI & extraction tooling, ranked daily by momentum.">
+<meta name="twitter:image" content="https://document.kymatalabs.com/og.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="The Document Index" href="/rss.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebSite", "name": "The Document Index",
+  "url": "https://document.kymatalabs.com/",
+  "description": "A living index of document-AI tooling — OCR, PDF extraction, parsing, layout, tables & understanding, ranked by momentum from live GitHub signals.",
+  "publisher": { "@type": "Organization", "name": "Kymata Labs LLC", "url": "https://www.kymatalabs.com" },
+  "isPartOf": { "@type": "WebSite", "name": "The Living Indexes", "url": "https://indexes.kymatalabs.com/" } }
+</script>
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+  { "@type": "Question", "name": "What is the Document Index?",
+    "acceptedAnswer": { "@type": "Answer", "text": "The Document Index is a living, self-updating directory of the open-source tools that turn documents into structured, LLM-ready data — OCR engines (such as Tesseract and PaddleOCR), PDF extraction (Marker, MinerU, PyMuPDF), document parsing (Unstructured, Docling), layout and table extraction, and vision-language document understanding. Each tool is ranked by momentum, recomputed every day from live GitHub signals. It is one of The Living Indexes, built and operated by Kymata Labs' AI agents." } },
+  { "@type": "Question", "name": "What is document AI?",
+    "acceptedAnswer": { "@type": "Answer", "text": "Document AI is the field of turning unstructured documents — PDFs, scans, images, forms — into structured, machine-readable data. It spans optical character recognition (OCR), layout and reading-order analysis, table and figure extraction, and increasingly vision-language models that read a page the way a person does. It is the critical first step that feeds clean text and structure into RAG pipelines, agents and analytics." } },
+  { "@type": "Question", "name": "How is momentum scored?",
+    "acceptedAnswer": { "@type": "Answer", "text": "Momentum is a 0 to 100 score that blends log-scaled GitHub stars (55%), push-recency (32%, full credit if pushed today, decaying to zero by about 180 days), and rising-newness (13%, a bonus for young repositories gaining stars fast). A tool that shipped this week can outrank a larger one that has gone quiet — momentum, not legacy." } },
+  { "@type": "Question", "name": "How often is the Document Index updated?",
+    "acceptedAnswer": { "@type": "Answer", "text": "Every day. A GitHub Action recomputes each tool's momentum from live GitHub signals and republishes the site automatically, with no human in the loop." } } ] }
+</script>
+<script>var t;try{t=localStorage.getItem('dsx-theme')}catch(e){}if(t)document.documentElement.setAttribute('data-theme',t);</script>
+</head>
+<body>
+<div class="kstrip"><div class="wrap">
+  <a href="https://www.kymatalabs.com" target="_blank" rel="noopener"><span class="dot"></span>Kymata Labs</a>
+  <span class="sep">/</span>
+  <a href="https://indexes.kymatalabs.com" target="_blank" rel="noopener">The Living Indexes</a>
+  <span class="grow"></span>
+  <a href="https://www.kymatalabs.com/live" target="_blank" rel="noopener">Built by tekvisions ↗</a>
+</div></div>
+
+<header><div class="wrap head-row">
+  <div class="brand"><a href="/"><span class="node"><i></i><i></i><i></i></span><span class="disp">Document <em>Index</em></span></a></div>
+  <div class="head-actions">
+    <a href="/rss.xml">RSS</a><a href="/llms.txt">llms.txt</a><a href="/ai.txt">ai.txt</a>
+    <a href="https://github.com/tekvisions" target="_blank" rel="noopener">GitHub</a>
+    <button class="theme-btn" id="theme" aria-label="Toggle theme">◐</button>
+  </div>
+</div></header>
+
+<main>
+  <section class="hero"><div class="wrap">
+    <div class="kicker">Recomputed daily from live GitHub signals</div>
+    <h1>Turn any document into <span class="amp disp">structured data</span>.</h1>
+    <p class="lede">A living index of document-AI tooling — OCR, PDF extraction, document parsing, layout &amp; table analysis, and vision-language understanding — the tools that read a page so your pipeline doesn't have to — ranked by momentum, not marketing.</p>
+    <div class="stats">
+      <div class="stat"><div class="num disp" id="s-count">0</div><div class="lbl">tools indexed</div></div>
+      <div class="stat"><div class="num disp" id="s-cats">0</div><div class="lbl">categories</div></div>
+      <div class="stat"><div class="num disp" id="s-top">—</div><div class="lbl">top momentum</div></div>
+    </div>
+  </div></section>
+
+  <section class="toolbar"><div class="wrap">
+    <div class="search-row">
+      <label class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="q" type="search" placeholder="search OCR, parsers, owners…" autocomplete="off" spellcheck="false">
+      </label>
+      <div class="sort" id="sort">
+        <button data-sort="momentum" class="active">Momentum</button>
+        <button data-sort="stars">Stars</button>
+        <button data-sort="new">Newest</button>
+      </div>
+    </div>
+    <div class="chips" id="chips"></div>
+  </div></section>
+
+  <div class="wrap">
+    <div class="meta-line" id="metaline">scanning the index…</div>
+    <div class="grid" id="grid"></div>
+  </div>
+
+  <section class="about"><div class="wrap">
+    <h2 class="disp">About the Document Index</h2>
+    <p class="intro">The Document Index is a living, self-updating directory of the open-source tools that turn documents into structured, LLM-ready data — OCR engines, PDF extraction, document parsing, layout and table analysis, and vision-language understanding. It tracks the libraries builders actually run to read PDFs, scans and forms — and ranks every entry by momentum, recomputed daily from live GitHub signals. It is one of <a href="https://indexes.kymatalabs.com">The Living Indexes</a>, a fleet built and operated end-to-end by Kymata Labs' AI agents.</p>
+    <div class="faq">
+      <div class="q"><h3>What is document AI?</h3><p>Turning unstructured documents — PDFs, scans, images, forms — into structured, machine-readable data: OCR, layout and reading-order analysis, table extraction, and vision-language models that read a page like a person. It's the first step that feeds clean text into RAG and agents.</p></div>
+      <div class="q"><h3>How is momentum scored?</h3><p>A 0–100 score blending log-scaled stars (55%), push-recency (32%, decaying to zero by ~180 days), and rising-newness (13%). A tool that shipped this week can outrank a bigger one that's gone quiet.</p></div>
+      <div class="q"><h3>What's included?</h3><p>OCR engines, PDF extraction, document parsing, layout &amp; structure, table extraction and vision-language understanding — the document-AI stack. Extraction tooling, not document-management apps.</p></div>
+      <div class="q"><h3>Part of The Living Indexes</h3><p>A fleet of self-updating maps of the AI-builder ecosystem — from RAG and diffusion to voice, agents, gateways and fine-tuning. Explore them all at <a href="https://indexes.kymatalabs.com">indexes.kymatalabs.com</a>.</p></div>
+    </div>
+  </div></section>
+</main>
+
+<footer><div class="wrap foot-row">
+  <div>
+    <div class="blurb">The Document Index is a self-updating map of the document-AI stack. Every day a GitHub Action recomputes each tool's momentum — stars, push-recency, and how fast it's rising — and republishes.</div>
+    <div class="updated" id="foot-updated"></div>
+  </div>
+  <div class="links">
+    <div class="grouphead">The network</div>
+    <a href="https://www.kymatalabs.com" target="_blank" rel="noopener">Kymata Labs ↗</a>
+    <a href="https://indexes.kymatalabs.com" target="_blank" rel="noopener">↗ The Living Indexes</a>
+    <a href="https://www.kymatalabs.com/live" target="_blank" rel="noopener">Built by tekvisions →</a>
+  </div>
+  <div class="links">
+    <div class="grouphead">This index</div>
+    <a href="/sitemap.xml">Sitemap</a><a href="/rss.xml">RSS feed</a>
+    <a href="/llms.txt">llms.txt</a><a href="/ai.txt">ai.txt</a>
+  </div>
+</div></footer>
+
+<script src="/app.js"></script>
+</body>
+</html>

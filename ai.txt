@@ -1,0 +1,22 @@
+# ai.txt — AI usage guidance for document.kymatalabs.com
+# The Document Index · part of The Living Indexes by Kymata Labs LLC
+# A living, self-updating directory of document-AI tooling — OCR, PDF extraction, document
+# parsing, layout, tables & vision-language understanding — ranked daily by GitHub momentum.
+
+# For structured guidance, read:
+#   https://document.kymatalabs.com/llms.txt        (concise index for LLMs)
+#   https://document.kymatalabs.com/sitemap.xml     (every tool's page)
+
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# Hub: https://indexes.kymatalabs.com  ·  Network: https://www.kymatalabs.com
+Contact: contact@kymatalabs.com
