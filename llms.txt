@@ -3,48 +3,48 @@
 > The living index of document-AI tooling — OCR, PDF extraction, document parsing, layout
 > & structure, table extraction and vision-language understanding — ranked daily by GitHub momentum.
 
-Updated: 2026-07-03T12:30:09.510713+00:00
-Tools indexed: 202
+Updated: 2026-07-04T11:57:31.566167+00:00
+Tools indexed: 201
 
 ## Top document-AI tools by momentum
 
-- [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) — momentum 89, ⭐13126 — OCR Engines — Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
-- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) — momentum 86, ⭐84619 — OCR Engines — Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit
-- [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) — momentum 86, ⭐75078 — OCR Engines — Tesseract Open Source OCR Engine (main repository)
-- [opendatalab/MinerU](https://github.com/opendatalab/MinerU) — momentum 86, ⭐73187 — Document Parsing — Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic
-- [docling-project/docling](https://github.com/docling-project/docling) — momentum 86, ⭐62567 — Document Parsing — Get your documents ready for gen AI
-- [datalab-to/marker](https://github.com/datalab-to/marker) — momentum 83, ⭐37085 — PDF Extraction — Convert PDF to markdown + JSON quickly with high accuracy
-- [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) — momentum 82, ⭐34066 — OCR Engines — OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched
-- [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) — momentum 81, ⭐26268 — PDF Extraction — PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
-- [datalab-to/surya](https://github.com/datalab-to/surya) — momentum 77, ⭐21024 — Table Extraction — OCR, layout analysis, reading order, table recognition in 90+ languages
-- [Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured) — momentum 77, ⭐15064 — Document Parsing — Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for tran
-- [run-llama/liteparse](https://github.com/run-llama/liteparse) — momentum 77, ⭐11339 — Document Parsing — A fast, helpful, and open-source document parser
-- [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) — momentum 77, ⭐10141 — PDF Extraction — PyMuPDF is a high performance Python library for data extraction, analysis, conversion & manipulatio
-- [datalab-to/chandra](https://github.com/datalab-to/chandra) — momentum 76, ⭐11405 — OCR Engines — OCR model that handles complex tables, forms, handwriting with full layout.
-- [naptha/tesseract.js](https://github.com/naptha/tesseract.js) — momentum 75, ⭐38170 — OCR Engines — Pure Javascript OCR for more than 100 Languages 📖🎉🖥
-- [RapidAI/RapidOCR](https://github.com/RapidAI/RapidOCR) — momentum 75, ⭐7028 — Collections — 📄 Awesome OCR multiple programing languages toolkits based on ONNX Runtime, OpenVINO, MNN, PaddlePad
-- [Zipstack/unstract](https://github.com/Zipstack/unstract) — momentum 75, ⭐6686 — Document Parsing — LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows
-- [jsvine/pdfplumber](https://github.com/jsvine/pdfplumber) — momentum 74, ⭐10491 — PDF Extraction — Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extrac
-- [mindee/doctr](https://github.com/mindee/doctr) — momentum 74, ⭐6168 — OCR Engines — docTR (Document Text Recognition) - a seamless, high-performing & accessible library for OCR-related
-- [PaddlePaddle/PaddleX](https://github.com/PaddlePaddle/PaddleX) — momentum 73, ⭐6181 — Document Parsing — All-in-One Development Tool based on PaddlePaddle
-- [NomanShaikh007/OCR_Text_Extractor](https://github.com/NomanShaikh007/OCR_Text_Extractor) — momentum 71, ⭐234 — OCR Engines — Extract text from images and scanned PDFs using OCR. Support for multiple languages, batch processin
-- [DayBreak-u/chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) — momentum 69, ⭐12331 — Document Parsing — 超轻量级中文ocr，支持竖排文字识别, 支持ncnn、mnn、tnn推理 ( dbnet(1.8M) + crnn(2.5M) + anglenet(378KB)) 总模型仅4.7M
+- [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) — momentum 89, ⭐13219 — OCR Engines — Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
+- [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) — momentum 86, ⭐84650 — OCR Engines — Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit
+- [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) — momentum 86, ⭐75096 — OCR Engines — Tesseract Open Source OCR Engine (main repository)
+- [opendatalab/MinerU](https://github.com/opendatalab/MinerU) — momentum 86, ⭐73330 — Document Parsing — Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic
+- [docling-project/docling](https://github.com/docling-project/docling) — momentum 86, ⭐62624 — Document Parsing — Get your documents ready for gen AI
+- [datalab-to/marker](https://github.com/datalab-to/marker) — momentum 83, ⭐37143 — PDF Extraction — Convert PDF to markdown + JSON quickly with high accuracy
+- [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) — momentum 82, ⭐34077 — OCR Engines — OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched
+- [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) — momentum 80, ⭐26285 — PDF Extraction — PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
+- [Unstructured-IO/unstructured](https://github.com/Unstructured-IO/unstructured) — momentum 77, ⭐15066 — Document Parsing — Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for tran
+- [run-llama/liteparse](https://github.com/run-llama/liteparse) — momentum 77, ⭐11351 — Document Parsing — A fast, helpful, and open-source document parser
+- [datalab-to/surya](https://github.com/datalab-to/surya) — momentum 76, ⭐21029 — Table Extraction — OCR, layout analysis, reading order, table recognition in 90+ languages
+- [datalab-to/chandra](https://github.com/datalab-to/chandra) — momentum 76, ⭐11411 — OCR Engines — OCR model that handles complex tables, forms, handwriting with full layout.
+- [pymupdf/PyMuPDF](https://github.com/pymupdf/PyMuPDF) — momentum 76, ⭐10147 — PDF Extraction — PyMuPDF is a high performance Python library for data extraction, analysis, conversion & manipulatio
+- [naptha/tesseract.js](https://github.com/naptha/tesseract.js) — momentum 75, ⭐38171 — OCR Engines — Pure Javascript OCR for more than 100 Languages 📖🎉🖥
+- [RapidAI/RapidOCR](https://github.com/RapidAI/RapidOCR) — momentum 75, ⭐7033 — Collections — 📄 Awesome OCR multiple programing languages toolkits based on ONNX Runtime, OpenVINO, MNN, PaddlePad
+- [Zipstack/unstract](https://github.com/Zipstack/unstract) — momentum 75, ⭐6687 — Document Parsing — LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows
+- [jsvine/pdfplumber](https://github.com/jsvine/pdfplumber) — momentum 74, ⭐10499 — PDF Extraction — Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extrac
+- [mindee/doctr](https://github.com/mindee/doctr) — momentum 74, ⭐6169 — OCR Engines — docTR (Document Text Recognition) - a seamless, high-performing & accessible library for OCR-related
+- [PaddlePaddle/PaddleX](https://github.com/PaddlePaddle/PaddleX) — momentum 73, ⭐6182 — Document Parsing — All-in-One Development Tool based on PaddlePaddle
+- [UglyToad/PdfPig](https://github.com/UglyToad/PdfPig) — momentum 70, ⭐2489 — PDF Extraction — Read and extract text and other content from PDFs in C# (port of PDFBox)
+- [DayBreak-u/chineseocr_lite](https://github.com/DayBreak-u/chineseocr_lite) — momentum 69, ⭐12330 — Document Parsing — 超轻量级中文ocr，支持竖排文字识别, 支持ncnn、mnn、tnn推理 ( dbnet(1.8M) + crnn(2.5M) + anglenet(378KB)) 总模型仅4.7M
 - [deepdoctection/deepdoctection](https://github.com/deepdoctection/deepdoctection) — momentum 69, ⭐3185 — Document Parsing — A Repo For Document AI
-- [UglyToad/PdfPig](https://github.com/UglyToad/PdfPig) — momentum 69, ⭐2489 — PDF Extraction — Read and extract text and other content from PDFs in C# (port of PDFBox)
-- [shipfastlabs/parsel](https://github.com/shipfastlabs/parsel) — momentum 69, ⭐330 — Document Parsing — A fast, helpful, and open-source document parser for PHP
-- [kotaro-kinoshita/yomitoku](https://github.com/kotaro-kinoshita/yomitoku) — momentum 68, ⭐1527 — Document Parsing — YomiTokuはAIを活用した日本語文書解析エンジンを提供するPythonパッケージです。 Yomitoku is an AI-powered document image analysis pac
-- [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) — momentum 66, ⭐1556 — PDF Extraction — Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects sca
-- [FB208/OpenBidKit_Yibiao](https://github.com/FB208/OpenBidKit_Yibiao) — momentum 66, ⭐1225 — Document Parsing — 开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用
-- [unjs/unpdf](https://github.com/unjs/unpdf) — momentum 66, ⭐1169 — PDF Extraction — 📄 PDF extraction and rendering across all JavaScript runtimes
-- [Yuliang-Liu/MonkeyOCR](https://github.com/Yuliang-Liu/MonkeyOCR) — momentum 65, ⭐6597 — Document Parsing — A lightweight LMM-based Document Parsing Model
-- [jingsongliujing/OnnxOCR](https://github.com/jingsongliujing/OnnxOCR) — momentum 65, ⭐1825 — OCR Engines — 基于PaddleOCR重构，并且脱离PaddlePaddle深度学习训练框架的轻量级OCR，推理速度超快   ——  A lightweight OCR system based on PaddleO
+- [shipfastlabs/parsel](https://github.com/shipfastlabs/parsel) — momentum 69, ⭐331 — Document Parsing — A fast, helpful, and open-source document parser for PHP
+- [kotaro-kinoshita/yomitoku](https://github.com/kotaro-kinoshita/yomitoku) — momentum 67, ⭐1527 — Document Parsing — YomiTokuはAIを活用した日本語文書解析エンジンを提供するPythonパッケージです。 Yomitoku is an AI-powered document image analysis pac
+- [firecrawl/pdf-inspector](https://github.com/firecrawl/pdf-inspector) — momentum 66, ⭐1559 — PDF Extraction — Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects sca
+- [FB208/OpenBidKit_Yibiao](https://github.com/FB208/OpenBidKit_Yibiao) — momentum 66, ⭐1234 — Document Parsing — 开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用
+- [unjs/unpdf](https://github.com/unjs/unpdf) — momentum 66, ⭐1171 — PDF Extraction — 📄 PDF extraction and rendering across all JavaScript runtimes
 - [mittagessen/kraken](https://github.com/mittagessen/kraken) — momentum 65, ⭐1022 — OCR Engines — OCR engine for all the languages
 - [yfedoseev/pdf_oxide](https://github.com/yfedoseev/pdf_oxide) — momentum 65, ⭐875 — PDF Extraction — The fastest PDF library for Python and Rust. Text extraction, image extraction, markdown conversion,
+- [Yuliang-Liu/MonkeyOCR](https://github.com/Yuliang-Liu/MonkeyOCR) — momentum 64, ⭐6597 — Document Parsing — A lightweight LMM-based Document Parsing Model
 - [run-llama/llama_cloud_services](https://github.com/run-llama/llama_cloud_services) — momentum 64, ⭐4252 — Document Parsing — Knowledge Agents and Management in the Cloud
-- [shcherbak-ai/contextgem](https://github.com/shcherbak-ai/contextgem) — momentum 64, ⭐1852 — Document Parsing — ContextGem: Effortless LLM extraction from documents
+- [jingsongliujing/OnnxOCR](https://github.com/jingsongliujing/OnnxOCR) — momentum 64, ⭐1825 — OCR Engines — 基于PaddleOCR重构，并且脱离PaddlePaddle深度学习训练框架的轻量级OCR，推理速度超快   ——  A lightweight OCR system based on PaddleO
 - [tjmlabs/ColiVara](https://github.com/tjmlabs/ColiVara) — momentum 64, ⭐1481 — OCR Engines — Colivara is a suite of services that allows you to store, search, and retrieve documents based on th
 - [24eme/signaturepdf](https://github.com/24eme/signaturepdf) — momentum 64, ⭐808 — PDF Extraction — Free open-source web software for signing PDF (alone or with others) and also organize pages, edit m
-- [xberg-io/html-to-markdown](https://github.com/xberg-io/html-to-markdown) — momentum 64, ⭐791 — VLM & Understanding — High performance and CommonMark compliant HTML to Markdown converter. Maintained by the Kreuzberg te
+- [xberg-io/html-to-markdown](https://github.com/xberg-io/html-to-markdown) — momentum 64, ⭐792 — VLM & Understanding — High performance and CommonMark compliant HTML to Markdown converter. Maintained by the Kreuzberg te
 - [ispras/dedoc](https://github.com/ispras/dedoc) — momentum 64, ⭐712 — PDF Extraction — Dedoc is a library (service) for automate documents parsing and bringing to a uniform format. It aut
 - [Zepp-Hanzj/MemMapExplorer](https://github.com/Zepp-Hanzj/MemMapExplorer) — momentum 64, ⭐103 — Layout & Structure — MemMap Explorer: WinDirStat-style treemap UI for MAP/ELF symbol and memory layout analysis on Window
-- [ComPDFKit/docslight](https://github.com/ComPDFKit/docslight) — momentum 64, ⭐58 — Document Parsing — With DocSlight, precisely parse and extract data from any document, including PDFs, scans, images, a
+- [ComPDFKit/docslight](https://github.com/ComPDFKit/docslight) — momentum 64, ⭐59 — Document Parsing — With DocSlight, precisely parse and extract data from any document, including PDFs, scans, images, a
+- [shcherbak-ai/contextgem](https://github.com/shcherbak-ai/contextgem) — momentum 63, ⭐1853 — Document Parsing — ContextGem: Effortless LLM extraction from documents
+- [eyelevelai/groundx-on-prem](https://github.com/eyelevelai/groundx-on-prem) — momentum 63, ⭐815 — Document Parsing — A Kubernetes deployable instance of GroundX  for document parsing, storage, and search.
