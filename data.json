@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-13T17:48:22.000827+00:00",
- "count": 227,
+ "generated_at": "2026-10-14T15:30:19.125436+00:00",
+ "count": 229,
  "categories": [
   {
    "name": "Document Parsing",
-   "count": 76
+   "count": 77
   },
   {
    "name": "OCR Engines",
@@ -15,11 +15,11 @@
    "count": 36
   },
   {
-   "name": "VLM & Understanding",
-   "count": 22
+   "name": "Layout & Structure",
+   "count": 23
   },
   {
-   "name": "Layout & Structure",
+   "name": "VLM & Understanding",
    "count": 22
   },
   {
@@ -39,12 +39,12 @@
    "url": "https://github.com/storytold/pdfcraft",
    "owner": "storytold",
    "owner_avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
-   "stars": 12451,
-   "forks": 4737,
-   "open_issues": 838,
+   "stars": 13410,
+   "forks": 5114,
+   "open_issues": 965,
    "language": "Rust",
    "license": "Apache-2.0",
-   "pushed_at": "2026-10-13T17:05:05Z",
+   "pushed_at": "2026-10-14T15:21:58Z",
    "created_at": "2026-09-30T13:39:37Z",
    "description": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
    "topics": [
@@ -68,12 +68,12 @@
    "url": "https://github.com/opendatalab/MinerU",
    "owner": "opendatalab",
    "owner_avatar": "https://avatars.githubusercontent.com/u/97503431?v=4",
-   "stars": 81653,
-   "forks": 6777,
+   "stars": 81735,
+   "forks": 6778,
    "open_issues": 10,
    "language": "Python",
    "license": "NOASSERTION",
-   "pushed_at": "2026-10-12T18:04:19Z",
+   "pushed_at": "2026-10-14T02:15:22Z",
    "created_at": "2024-02-29T08:52:34Z",
    "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
    "topics": [
@@ -99,46 +99,18 @@
    "rank": 2
   },
   {
-   "name": "tesseract",
-   "full_name": "tesseract-ocr/tesseract",
-   "slug": "tesseract-ocr-tesseract",
-   "url": "https://github.com/tesseract-ocr/tesseract",
-   "owner": "tesseract-ocr",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/8401422?v=4",
-   "stars": 76968,
-   "forks": 10833,
-   "open_issues": 497,
-   "language": "C++",
-   "license": "Apache-2.0",
-   "pushed_at": "2026-10-10T06:01:54Z",
-   "created_at": "2014-08-12T18:04:59Z",
-   "description": "Tesseract Open Source OCR Engine (main repository)",
-   "topics": [
-    "hacktoberfest",
-    "lstm",
-    "machine-learning",
-    "ocr",
-    "ocr-engine",
-    "tesseract",
-    "tesseract-ocr"
-   ],
-   "category": "OCR Engines",
-   "momentum": 86,
-   "rank": 3
-  },
-  {
    "name": "docling",
    "full_name": "docling-project/docling",
    "slug": "docling-project-docling",
    "url": "https://github.com/docling-project/docling",
    "owner": "docling-project",
    "owner_avatar": "https://avatars.githubusercontent.com/u/188446108?v=4",
-   "stars": 68816,
-   "forks": 5068,
-   "open_issues": 1056,
+   "stars": 68871,
+   "forks": 5078,
+   "open_issues": 863,
    "language": "Python",
    "license": "MIT",
-   "pushed_at": "2026-10-13T16:26:12Z",
+   "pushed_at": "2026-10-14T12:48:43Z",
    "created_at": "2024-07-09T07:50:26Z",
    "description": "Get your documents ready for gen AI",
    "topics": [
@@ -160,6 +132,34 @@
    ],
    "category": "Document Parsing",
    "momentum": 86,
+   "rank": 3
+  },
+  {
+   "name": "tesseract",
+   "full_name": "tesseract-ocr/tesseract",
+   "slug": "tesseract-ocr-tesseract",
+   "url": "https://github.com/tesseract-ocr/tesseract",
+   "owner": "tesseract-ocr",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/8401422?v=4",
+   "stars": 76992,
+   "forks": 10838,
+   "open_issues": 498,
+   "language": "C++",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-10T06:01:54Z",
+   "created_at": "2014-08-12T18:04:59Z",
+   "description": "Tesseract Open Source OCR Engine (main repository)",
+   "topics": [
+    "hacktoberfest",
+    "lstm",
+    "machine-learning",
+    "ocr",
+    "ocr-engine",
+    "tesseract",
+    "tesseract-ocr"
+   ],
+   "category": "OCR Engines",
+   "momentum": 85,
    "rank": 4
   },
   {
@@ -169,8 +169,8 @@
    "url": "https://github.com/jev-chat/jev-chat-jarvis",
    "owner": "jev-chat",
    "owner_avatar": "https://avatars.githubusercontent.com/u/332283779?v=4",
-   "stars": 7711,
-   "forks": 1260,
+   "stars": 7740,
+   "forks": 1266,
    "open_issues": 28,
    "language": "Kotlin",
    "license": "MIT",
@@ -189,7 +189,7 @@
     "whatsapp"
    ],
    "category": "Document Parsing",
-   "momentum": 85,
+   "momentum": 84,
    "rank": 5
   },
   {
@@ -199,9 +199,9 @@
    "url": "https://github.com/PaddlePaddle/PaddleOCR",
    "owner": "PaddlePaddle",
    "owner_avatar": "https://avatars.githubusercontent.com/u/23534030?v=4",
-   "stars": 91033,
-   "forks": 11480,
-   "open_issues": 244,
+   "stars": 91101,
+   "forks": 11487,
+   "open_issues": 245,
    "language": "Python",
    "license": "Apache-2.0",
    "pushed_at": "2026-09-16T03:31:50Z",
@@ -233,7 +233,7 @@
    "url": "https://github.com/ocrmypdf/OCRmyPDF",
    "owner": "ocrmypdf",
    "owner_avatar": "https://avatars.githubusercontent.com/u/96028099?v=4",
-   "stars": 35012,
+   "stars": 35019,
    "forks": 2425,
    "open_issues": 63,
    "language": "Python",
@@ -259,12 +259,12 @@
    "url": "https://github.com/opendataloader-project/opendataloader-pdf",
    "owner": "opendataloader-project",
    "owner_avatar": "https://avatars.githubusercontent.com/u/211280852?v=4",
-   "stars": 29673,
-   "forks": 2820,
-   "open_issues": 99,
+   "stars": 29696,
+   "forks": 2822,
+   "open_issues": 98,
    "language": "Java",
    "license": "Apache-2.0",
-   "pushed_at": "2026-10-13T10:24:35Z",
+   "pushed_at": "2026-10-14T13:20:44Z",
    "created_at": "2025-05-13T05:48:02Z",
    "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
    "topics": [
@@ -300,8 +300,8 @@
    "url": "https://github.com/datalab-to/marker",
    "owner": "datalab-to",
    "owner_avatar": "https://avatars.githubusercontent.com/u/176631703?v=4",
-   "stars": 40426,
-   "forks": 2924,
+   "stars": 40435,
+   "forks": 2926,
    "open_issues": 478,
    "language": "Python",
    "license": "Apache-2.0",
@@ -320,8 +320,8 @@
    "url": "https://github.com/baidu/Unlimited-OCR",
    "owner": "baidu",
    "owner_avatar": "https://avatars.githubusercontent.com/u/13245940?v=4",
-   "stars": 27277,
-   "forks": 2863,
+   "stars": 27357,
+   "forks": 2873,
    "open_issues": 81,
    "language": "Python",
    "license": "MIT",
@@ -340,8 +340,8 @@
    "url": "https://github.com/firecrawl/pdf-inspector",
    "owner": "firecrawl",
    "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
-   "stars": 19647,
-   "forks": 1326,
+   "stars": 19652,
+   "forks": 1325,
    "open_issues": 243,
    "language": "Rust",
    "license": "MIT",
@@ -361,7 +361,7 @@
     "text-extraction"
    ],
    "category": "PDF Extraction",
-   "momentum": 79,
+   "momentum": 78,
    "rank": 11
   },
   {
@@ -371,12 +371,12 @@
    "url": "https://github.com/Unstructured-IO/unstructured",
    "owner": "Unstructured-IO",
    "owner_avatar": "https://avatars.githubusercontent.com/u/108372208?v=4",
-   "stars": 15563,
-   "forks": 1348,
-   "open_issues": 343,
+   "stars": 15564,
+   "forks": 1349,
+   "open_issues": 338,
    "language": "HTML",
    "license": "Apache-2.0",
-   "pushed_at": "2026-10-13T17:39:39Z",
+   "pushed_at": "2026-10-14T03:22:07Z",
    "created_at": "2022-09-26T21:53:41Z",
    "description": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding.",
    "topics": [
@@ -412,8 +412,8 @@
    "url": "https://github.com/LaoFeng-mouse/flyingmouse-format",
    "owner": "LaoFeng-mouse",
    "owner_avatar": "https://avatars.githubusercontent.com/u/273417284?v=4",
-   "stars": 6645,
-   "forks": 553,
+   "stars": 6666,
+   "forks": 555,
    "open_issues": 62,
    "language": "JavaScript",
    "license": "NOASSERTION",
@@ -443,9 +443,9 @@
    "url": "https://github.com/run-llama/liteparse",
    "owner": "run-llama",
    "owner_avatar": "https://avatars.githubusercontent.com/u/130722866?v=4",
-   "stars": 12843,
-   "forks": 880,
-   "open_issues": 38,
+   "stars": 12850,
+   "forks": 882,
+   "open_issues": 39,
    "language": "Rust",
    "license": "Apache-2.0",
    "pushed_at": "2026-10-12T22:09:49Z",
@@ -471,12 +471,12 @@
    "url": "https://github.com/pymupdf/PyMuPDF",
    "owner": "pymupdf",
    "owner_avatar": "https://avatars.githubusercontent.com/u/48152365?v=4",
-   "stars": 10896,
-   "forks": 811,
+   "stars": 10897,
+   "forks": 812,
    "open_issues": 75,
    "language": "Python",
    "license": "AGPL-3.0",
-   "pushed_at": "2026-10-13T14:12:22Z",
+   "pushed_at": "2026-10-14T13:28:46Z",
    "created_at": "2012-10-06T18:54:25Z",
    "description": "PyMuPDF is a high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.",
    "topics": [
@@ -501,55 +501,14 @@
    "rank": 15
   },
   {
-   "name": "X-AnyLabeling",
-   "full_name": "CVHub520/X-AnyLabeling",
-   "slug": "cvhub520-x-anylabeling",
-   "url": "https://github.com/CVHub520/X-AnyLabeling",
-   "owner": "CVHub520",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/72010077?v=4",
-   "stars": 10678,
-   "forks": 1178,
-   "open_issues": 6,
-   "language": "Python",
-   "license": "GPL-3.0",
-   "pushed_at": "2026-10-13T06:42:06Z",
-   "created_at": "2023-05-23T08:14:30Z",
-   "description": "X-AnyLabeling: A lightweight, efficient, and unified cross-platform desktop application for annotating text, image, video, and multimodal data, combining versatile built-in tools with state-of-the-art AI models and flexible multi-format export.",
-   "topics": [
-    "artificial-intelligence",
-    "clip",
-    "computer-vision",
-    "deep-learning",
-    "groundingdino",
-    "image-annotation-tool",
-    "image-classification",
-    "image-labeling-tool",
-    "image-matting",
-    "instance-segmentation",
-    "machine-learning",
-    "object-detection",
-    "ocr",
-    "onnxruntime",
-    "paddlepaddle",
-    "pose-estimation",
-    "rotated-object-detection",
-    "sam",
-    "vision-language-model",
-    "yolo"
-   ],
-   "category": "Document Parsing",
-   "momentum": 77,
-   "rank": 16
-  },
-  {
    "name": "unilm",
    "full_name": "microsoft/unilm",
    "slug": "microsoft-unilm",
    "url": "https://github.com/microsoft/unilm",
    "owner": "microsoft",
    "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
-   "stars": 22232,
-   "forks": 2704,
+   "stars": 22234,
+   "forks": 2712,
    "open_issues": 689,
    "language": "Python",
    "license": "MIT",
@@ -580,6 +539,47 @@
    ],
    "category": "Document Parsing",
    "momentum": 76,
+   "rank": 16
+  },
+  {
+   "name": "X-AnyLabeling",
+   "full_name": "CVHub520/X-AnyLabeling",
+   "slug": "cvhub520-x-anylabeling",
+   "url": "https://github.com/CVHub520/X-AnyLabeling",
+   "owner": "CVHub520",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/72010077?v=4",
+   "stars": 10691,
+   "forks": 1178,
+   "open_issues": 7,
+   "language": "Python",
+   "license": "GPL-3.0",
+   "pushed_at": "2026-10-13T06:42:06Z",
+   "created_at": "2023-05-23T08:14:30Z",
+   "description": "X-AnyLabeling: A lightweight, efficient, and unified cross-platform desktop application for annotating text, image, video, and multimodal data, combining versatile built-in tools with state-of-the-art AI models and flexible multi-format export.",
+   "topics": [
+    "artificial-intelligence",
+    "clip",
+    "computer-vision",
+    "deep-learning",
+    "groundingdino",
+    "image-annotation-tool",
+    "image-classification",
+    "image-labeling-tool",
+    "image-matting",
+    "instance-segmentation",
+    "machine-learning",
+    "object-detection",
+    "ocr",
+    "onnxruntime",
+    "paddlepaddle",
+    "pose-estimation",
+    "rotated-object-detection",
+    "sam",
+    "vision-language-model",
+    "yolo"
+   ],
+   "category": "Document Parsing",
+   "momentum": 76,
    "rank": 17
   },
   {
@@ -589,12 +589,12 @@
    "url": "https://github.com/RapidAI/RapidOCR",
    "owner": "RapidAI",
    "owner_avatar": "https://avatars.githubusercontent.com/u/87350760?v=4",
-   "stars": 8130,
+   "stars": 8135,
    "forks": 743,
    "open_issues": 26,
    "language": "Python",
    "license": "Apache-2.0",
-   "pushed_at": "2026-10-13T10:32:26Z",
+   "pushed_at": "2026-10-14T08:44:36Z",
    "created_at": "2021-01-04T08:02:09Z",
    "description": "📄 Awesome OCR multiple programing languages toolkits based on ONNX Runtime, OpenVINO, MNN, PaddlePaddle, TensorRT and PyTorch.",
    "topics": [
@@ -622,12 +622,12 @@
    "url": "https://github.com/anbeime/skill",
    "owner": "anbeime",
    "owner_avatar": "https://avatars.githubusercontent.com/u/52991404?v=4",
-   "stars": 7969,
-   "forks": 710,
+   "stars": 8042,
+   "forks": 717,
    "open_issues": 28,
    "language": "Python",
    "license": "",
-   "pushed_at": "2026-10-13T09:03:28Z",
+   "pushed_at": "2026-10-14T07:12:54Z",
    "created_at": "2026-02-02T09:12:57Z",
    "description": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently updated AI Agent skill library, featuring curated skill packs across document processing, content creation, programming, machine learning, automated workflows, and many more domains.",
    "topics": [
@@ -653,18 +653,42 @@
    "rank": 19
   },
   {
+   "name": "GLM-OCR",
+   "full_name": "zai-org/GLM-OCR",
+   "slug": "zai-org-glm-ocr",
+   "url": "https://github.com/zai-org/GLM-OCR",
+   "owner": "zai-org",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/223098841?v=4",
+   "stars": 7504,
+   "forks": 670,
+   "open_issues": 66,
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-14T01:46:03Z",
+   "created_at": "2026-02-02T12:59:43Z",
+   "description": "GLM-OCR: Accurate ×  Fast × Comprehensive",
+   "topics": [
+    "glm",
+    "image2text",
+    "ocr"
+   ],
+   "category": "OCR Engines",
+   "momentum": 75,
+   "rank": 20
+  },
+  {
    "name": "unstract",
    "full_name": "Zipstack/unstract",
    "slug": "zipstack-unstract",
    "url": "https://github.com/Zipstack/unstract",
    "owner": "Zipstack",
    "owner_avatar": "https://avatars.githubusercontent.com/u/89070934?v=4",
-   "stars": 7279,
+   "stars": 7283,
    "forks": 719,
    "open_issues": 101,
    "language": "Python",
    "license": "AGPL-3.0",
-   "pushed_at": "2026-10-13T17:00:12Z",
+   "pushed_at": "2026-10-14T11:57:06Z",
    "created_at": "2024-02-21T10:34:33Z",
    "description": "LLM-Driven Extraction of Unstructured Data — Built for API Deployments & ETL Pipeline Workflows",
    "topics": [
@@ -683,7 +707,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 75,
-   "rank": 20
+   "rank": 21
   },
   {
    "name": "surya",
@@ -692,8 +716,8 @@
    "url": "https://github.com/datalab-to/surya",
    "owner": "datalab-to",
    "owner_avatar": "https://avatars.githubusercontent.com/u/176631703?v=4",
-   "stars": 21490,
-   "forks": 1561,
+   "stars": 21492,
+   "forks": 1562,
    "open_issues": 198,
    "language": "Python",
    "license": "Apache-2.0",
@@ -703,7 +727,7 @@
    "topics": [],
    "category": "Table Extraction",
    "momentum": 74,
-   "rank": 21
+   "rank": 22
   },
   {
    "name": "doctr",
@@ -713,7 +737,7 @@
    "owner": "mindee",
    "owner_avatar": "https://avatars.githubusercontent.com/u/68231970?v=4",
    "stars": 6385,
-   "forks": 684,
+   "forks": 685,
    "open_issues": 20,
    "language": "Python",
    "license": "Apache-2.0",
@@ -733,7 +757,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 74,
-   "rank": 22
+   "rank": 23
   },
   {
    "name": "Hands-On-AI-Engineering",
@@ -742,8 +766,8 @@
    "url": "https://github.com/Sumanth077/Hands-On-AI-Engineering",
    "owner": "Sumanth077",
    "owner_avatar": "https://avatars.githubusercontent.com/u/66694715?v=4",
-   "stars": 3975,
-   "forks": 958,
+   "stars": 3979,
+   "forks": 959,
    "open_issues": 11,
    "language": "Python",
    "license": "",
@@ -764,7 +788,45 @@
    ],
    "category": "Collections",
    "momentum": 72,
-   "rank": 23
+   "rank": 24
+  },
+  {
+   "name": "OpenBidKit_Yibiao",
+   "full_name": "FB208/OpenBidKit_Yibiao",
+   "slug": "fb208-openbidkit-yibiao",
+   "url": "https://github.com/FB208/OpenBidKit_Yibiao",
+   "owner": "FB208",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/8197476?v=4",
+   "stars": 3144,
+   "forks": 803,
+   "open_issues": 48,
+   "language": "JavaScript",
+   "license": "AGPL-3.0",
+   "pushed_at": "2026-10-14T15:11:13Z",
+   "created_at": "2025-08-04T03:22:17Z",
+   "description": "开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用",
+   "topics": [
+    "ai",
+    "ai-writing",
+    "bid",
+    "bidding",
+    "document-ai",
+    "electron",
+    "llm",
+    "office-automation",
+    "proposal-generator",
+    "proposal-writing",
+    "rag",
+    "react",
+    "service",
+    "services",
+    "tender",
+    "tender-document",
+    "typescript"
+   ],
+   "category": "Document Parsing",
+   "momentum": 71,
+   "rank": 25
   },
   {
    "name": "modlens",
@@ -773,7 +835,7 @@
    "url": "https://github.com/liustack/modlens",
    "owner": "liustack",
    "owner_avatar": "https://avatars.githubusercontent.com/u/83945823?v=4",
-   "stars": 4237,
+   "stars": 4251,
    "forks": 130,
    "open_issues": 5,
    "language": "TypeScript",
@@ -804,46 +866,8 @@
     "vision-transformer"
    ],
    "category": "OCR Engines",
-   "momentum": 71,
-   "rank": 24
-  },
-  {
-   "name": "OpenBidKit_Yibiao",
-   "full_name": "FB208/OpenBidKit_Yibiao",
-   "slug": "fb208-openbidkit-yibiao",
-   "url": "https://github.com/FB208/OpenBidKit_Yibiao",
-   "owner": "FB208",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/8197476?v=4",
-   "stars": 3137,
-   "forks": 800,
-   "open_issues": 48,
-   "language": "JavaScript",
-   "license": "AGPL-3.0",
-   "pushed_at": "2026-10-13T14:45:34Z",
-   "created_at": "2025-08-04T03:22:17Z",
-   "description": "开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用",
-   "topics": [
-    "ai",
-    "ai-writing",
-    "bid",
-    "bidding",
-    "document-ai",
-    "electron",
-    "llm",
-    "office-automation",
-    "proposal-generator",
-    "proposal-writing",
-    "rag",
-    "react",
-    "service",
-    "services",
-    "tender",
-    "tender-document",
-    "typescript"
-   ],
-   "category": "Document Parsing",
-   "momentum": 71,
-   "rank": 25
+   "momentum": 70,
+   "rank": 26
   },
   {
    "name": "SnapOtter",
@@ -852,12 +876,12 @@
    "url": "https://github.com/snapotter-hq/SnapOtter",
    "owner": "snapotter-hq",
    "owner_avatar": "https://avatars.githubusercontent.com/u/278713115?v=4",
-   "stars": 2809,
-   "forks": 159,
-   "open_issues": 483,
+   "stars": 2812,
+   "forks": 161,
+   "open_issues": 436,
    "language": "TypeScript",
    "license": "AGPL-3.0",
-   "pushed_at": "2026-10-13T17:43:50Z",
+   "pushed_at": "2026-10-14T12:36:31Z",
    "created_at": "2026-03-29T15:33:21Z",
    "description": "Open-source, self-hosted file-processing tool. Convert, compress, OCR, transcribe & run local AI across image, video, audio, PDF & documents, via UI, REST API & pipelines. Your files never leave your network.",
    "topics": [
@@ -884,7 +908,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 70,
-   "rank": 26
+   "rank": 27
   },
   {
    "name": "PdfPig",
@@ -893,9 +917,9 @@
    "url": "https://github.com/UglyToad/PdfPig",
    "owner": "UglyToad",
    "owner_avatar": "https://avatars.githubusercontent.com/u/11859517?v=4",
-   "stars": 2578,
-   "forks": 337,
-   "open_issues": 32,
+   "stars": 2581,
+   "forks": 339,
+   "open_issues": 33,
    "language": "C#",
    "license": "Apache-2.0",
    "pushed_at": "2026-10-13T00:43:07Z",
@@ -919,7 +943,34 @@
    ],
    "category": "PDF Extraction",
    "momentum": 70,
-   "rank": 27
+   "rank": 28
+  },
+  {
+   "name": "indra",
+   "full_name": "datalab-to/indra",
+   "slug": "datalab-to-indra",
+   "url": "https://github.com/datalab-to/indra",
+   "owner": "datalab-to",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/176631703?v=4",
+   "stars": 165,
+   "forks": 10,
+   "open_issues": 1,
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-13T15:52:14Z",
+   "created_at": "2026-10-13T11:07:11Z",
+   "description": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown",
+   "topics": [
+    "ai",
+    "cpu",
+    "document-parsing",
+    "ocr",
+    "onnx",
+    "pdf"
+   ],
+   "category": "Layout & Structure",
+   "momentum": 69,
+   "rank": 29
   },
   {
    "name": "deepdoctection",
@@ -928,7 +979,7 @@
    "url": "https://github.com/deepdoctection/deepdoctection",
    "owner": "deepdoctection",
    "owner_avatar": "https://avatars.githubusercontent.com/u/93912194?v=4",
-   "stars": 3262,
+   "stars": 3264,
    "forks": 200,
    "open_issues": 10,
    "language": "Python",
@@ -955,35 +1006,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 66,
-   "rank": 28
-  },
-  {
-   "name": "markpdfdown",
-   "full_name": "MarkPDFdown/markpdfdown",
-   "slug": "markpdfdown-markpdfdown",
-   "url": "https://github.com/MarkPDFdown/markpdfdown",
-   "owner": "MarkPDFdown",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/204117714?v=4",
-   "stars": 2298,
-   "forks": 190,
-   "open_issues": 7,
-   "language": "Python",
-   "license": "Apache-2.0",
-   "pushed_at": "2026-09-23T01:35:52Z",
-   "created_at": "2025-03-14T09:02:36Z",
-   "description": "A high-quality PDF to Markdown tool based on large language model visual recognition. 一款基于大模型视觉识别的高质量PDF转Markdown工具",
-   "topics": [
-    "llm",
-    "markdown",
-    "pdf",
-    "pdf-converter",
-    "pdf-markdown",
-    "pdf2markdown",
-    "pdf2md"
-   ],
-   "category": "PDF Extraction",
-   "momentum": 66,
-   "rank": 29
+   "rank": 30
   },
   {
    "name": "py-idp",
@@ -992,8 +1015,8 @@
    "url": "https://github.com/rollroyces/py-idp",
    "owner": "rollroyces",
    "owner_avatar": "https://avatars.githubusercontent.com/u/92967809?v=4",
-   "stars": 218,
-   "forks": 31,
+   "stars": 223,
+   "forks": 32,
    "open_issues": 8,
    "language": "Python",
    "license": "NOASSERTION",
@@ -1018,31 +1041,65 @@
    ],
    "category": "OCR Engines",
    "momentum": 66,
-   "rank": 30
+   "rank": 31
   },
   {
-   "name": "pdfplumber",
-   "full_name": "jsvine/pdfplumber",
-   "slug": "jsvine-pdfplumber",
-   "url": "https://github.com/jsvine/pdfplumber",
-   "owner": "jsvine",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/534702?v=4",
-   "stars": 10810,
-   "forks": 931,
-   "open_issues": 117,
+   "name": "cjkfold",
+   "full_name": "cdcailf/cjkfold",
+   "slug": "cdcailf-cjkfold",
+   "url": "https://github.com/cdcailf/cjkfold",
+   "owner": "cdcailf",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/31536977?v=4",
+   "stars": 84,
+   "forks": 0,
+   "open_issues": 0,
    "language": "Python",
    "license": "MIT",
-   "pushed_at": "2026-08-06T00:46:50Z",
-   "created_at": "2015-08-24T03:14:48Z",
-   "description": "Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.",
+   "pushed_at": "2026-10-14T01:07:35Z",
+   "created_at": "2026-10-13T02:16:26Z",
+   "description": "Fold look-alike CJK glyphs (Kangxi radicals, CJK radical supplements) so text extracted from PDFs matches again.",
    "topics": [
+    "chinese",
+    "cjk",
+    "nfkc",
+    "nlp",
+    "pdf-extraction",
+    "rag",
+    "retrieval",
+    "text-normalization",
+    "unicode"
+   ],
+   "category": "Document Parsing",
+   "momentum": 66,
+   "rank": 32
+  },
+  {
+   "name": "markpdfdown",
+   "full_name": "MarkPDFdown/markpdfdown",
+   "slug": "markpdfdown-markpdfdown",
+   "url": "https://github.com/MarkPDFdown/markpdfdown",
+   "owner": "MarkPDFdown",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/204117714?v=4",
+   "stars": 2297,
+   "forks": 190,
+   "open_issues": 7,
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-09-23T01:35:52Z",
+   "created_at": "2025-03-14T09:02:36Z",
+   "description": "A high-quality PDF to Markdown tool based on large language model visual recognition. 一款基于大模型视觉识别的高质量PDF转Markdown工具",
+   "topics": [
+    "llm",
+    "markdown",
     "pdf",
-    "pdf-parsing",
-    "table-extraction"
+    "pdf-converter",
+    "pdf-markdown",
+    "pdf2markdown",
+    "pdf2md"
    ],
    "category": "PDF Extraction",
    "momentum": 65,
-   "rank": 31
+   "rank": 33
   },
   {
    "name": "yomitoku",
@@ -1051,7 +1108,7 @@
    "url": "https://github.com/kotaro-kinoshita/yomitoku",
    "owner": "kotaro-kinoshita",
    "owner_avatar": "https://avatars.githubusercontent.com/u/114294784?v=4",
-   "stars": 1622,
+   "stars": 1623,
    "forks": 60,
    "open_issues": 10,
    "language": "Python",
@@ -1068,7 +1125,110 @@
    ],
    "category": "Document Parsing",
    "momentum": 65,
-   "rank": 32
+   "rank": 34
+  },
+  {
+   "name": "pdf-document-layout-analysis",
+   "full_name": "huridocs/pdf-document-layout-analysis",
+   "slug": "huridocs-pdf-document-layout-analysis",
+   "url": "https://github.com/huridocs/pdf-document-layout-analysis",
+   "owner": "huridocs",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/1623940?v=4",
+   "stars": 1357,
+   "forks": 147,
+   "open_issues": 14,
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-06T09:42:01Z",
+   "created_at": "2024-05-06T09:36:50Z",
+   "description": "A Docker-powered service for PDF document layout analysis. This service provides a powerful and flexible PDF analysis service. The service allows for the segmentation and classification of different parts of PDF pages, identifying the elements such as texts, titles, pictures, tables and so on.",
+   "topics": [],
+   "category": "Layout & Structure",
+   "momentum": 65,
+   "rank": 35
+  },
+  {
+   "name": "kraken",
+   "full_name": "mittagessen/kraken",
+   "slug": "mittagessen-kraken",
+   "url": "https://github.com/mittagessen/kraken",
+   "owner": "mittagessen",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/3780295?v=4",
+   "stars": 1083,
+   "forks": 176,
+   "open_issues": 24,
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-12T08:53:30Z",
+   "created_at": "2015-05-19T09:24:38Z",
+   "description": "OCR engine for all the languages",
+   "topics": [
+    "alto-xml",
+    "handwritten-text-recognition",
+    "hocr",
+    "htr",
+    "layout-analysis",
+    "neural-networks",
+    "ocr",
+    "optical-character-recognition",
+    "page-xml"
+   ],
+   "category": "OCR Engines",
+   "momentum": 65,
+   "rank": 36
+  },
+  {
+   "name": "html-to-markdown",
+   "full_name": "xberg-io/html-to-markdown",
+   "slug": "xberg-io-html-to-markdown",
+   "url": "https://github.com/xberg-io/html-to-markdown",
+   "owner": "xberg-io",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/241328462?v=4",
+   "stars": 882,
+   "forks": 75,
+   "open_issues": 107,
+   "language": "HTML",
+   "license": "MIT",
+   "pushed_at": "2026-10-14T14:20:46Z",
+   "created_at": "2025-02-03T16:18:12Z",
+   "description": "High performance and CommonMark compliant HTML to Markdown converter. Maintained by the Kreuzberg team. Kreuzberg is a fast, polyglot document intelligence engine with a Rust core. It extracts structured data from 98+ document formats using streaming parsers and built-in OCR.",
+   "topics": [
+    "hocr",
+    "html",
+    "html-converter",
+    "markdown",
+    "markdown-converter",
+    "rag",
+    "text-extraction",
+    "text-processing"
+   ],
+   "category": "VLM & Understanding",
+   "momentum": 65,
+   "rank": 37
+  },
+  {
+   "name": "pdfplumber",
+   "full_name": "jsvine/pdfplumber",
+   "slug": "jsvine-pdfplumber",
+   "url": "https://github.com/jsvine/pdfplumber",
+   "owner": "jsvine",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/534702?v=4",
+   "stars": 10814,
+   "forks": 932,
+   "open_issues": 117,
+   "language": "Python",
+   "license": "MIT",
+   "pushed_at": "2026-08-06T00:46:50Z",
+   "created_at": "2015-08-24T03:14:48Z",
+   "description": "Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.",
+   "topics": [
+    "pdf",
+    "pdf-parsing",
+    "table-extraction"
+   ],
+   "category": "PDF Extraction",
+   "momentum": 64,
+   "rank": 38
   },
   {
    "name": "thepipe",
@@ -1077,7 +1237,7 @@
    "url": "https://github.com/emcf/thepipe",
    "owner": "emcf",
    "owner_avatar": "https://avatars.githubusercontent.com/u/11333708?v=4",
-   "stars": 1528,
+   "stars": 1529,
    "forks": 99,
    "open_issues": 16,
    "language": "Python",
@@ -1100,87 +1260,8 @@
     "vision-language-model"
    ],
    "category": "VLM & Understanding",
-   "momentum": 65,
-   "rank": 33
-  },
-  {
-   "name": "pdf-document-layout-analysis",
-   "full_name": "huridocs/pdf-document-layout-analysis",
-   "slug": "huridocs-pdf-document-layout-analysis",
-   "url": "https://github.com/huridocs/pdf-document-layout-analysis",
-   "owner": "huridocs",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/1623940?v=4",
-   "stars": 1359,
-   "forks": 147,
-   "open_issues": 14,
-   "language": "Python",
-   "license": "Apache-2.0",
-   "pushed_at": "2026-10-06T09:42:01Z",
-   "created_at": "2024-05-06T09:36:50Z",
-   "description": "A Docker-powered service for PDF document layout analysis. This service provides a powerful and flexible PDF analysis service. The service allows for the segmentation and classification of different parts of PDF pages, identifying the elements such as texts, titles, pictures, tables and so on.",
-   "topics": [],
-   "category": "Layout & Structure",
-   "momentum": 65,
-   "rank": 34
-  },
-  {
-   "name": "kraken",
-   "full_name": "mittagessen/kraken",
-   "slug": "mittagessen-kraken",
-   "url": "https://github.com/mittagessen/kraken",
-   "owner": "mittagessen",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/3780295?v=4",
-   "stars": 1082,
-   "forks": 175,
-   "open_issues": 23,
-   "language": "Python",
-   "license": "Apache-2.0",
-   "pushed_at": "2026-10-12T08:53:30Z",
-   "created_at": "2015-05-19T09:24:38Z",
-   "description": "OCR engine for all the languages",
-   "topics": [
-    "alto-xml",
-    "handwritten-text-recognition",
-    "hocr",
-    "htr",
-    "layout-analysis",
-    "neural-networks",
-    "ocr",
-    "optical-character-recognition",
-    "page-xml"
-   ],
-   "category": "OCR Engines",
-   "momentum": 65,
-   "rank": 35
-  },
-  {
-   "name": "html-to-markdown",
-   "full_name": "xberg-io/html-to-markdown",
-   "slug": "xberg-io-html-to-markdown",
-   "url": "https://github.com/xberg-io/html-to-markdown",
-   "owner": "xberg-io",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/241328462?v=4",
-   "stars": 881,
-   "forks": 75,
-   "open_issues": 90,
-   "language": "HTML",
-   "license": "MIT",
-   "pushed_at": "2026-10-13T17:25:38Z",
-   "created_at": "2025-02-03T16:18:12Z",
-   "description": "High performance and CommonMark compliant HTML to Markdown converter. Maintained by the Kreuzberg team. Kreuzberg is a fast, polyglot document intelligence engine with a Rust core. It extracts structured data from 98+ document formats using streaming parsers and built-in OCR.",
-   "topics": [
-    "hocr",
-    "html",
-    "html-converter",
-    "markdown",
-    "markdown-converter",
-    "rag",
-    "text-extraction",
-    "text-processing"
-   ],
-   "category": "VLM & Understanding",
-   "momentum": 65,
-   "rank": 36
+   "momentum": 64,
+   "rank": 39
   },
   {
    "name": "pdf_oxide",
@@ -1189,9 +1270,9 @@
    "url": "https://github.com/yfedoseev/pdf_oxide",
    "owner": "yfedoseev",
    "owner_avatar": "https://avatars.githubusercontent.com/u/1532172?v=4",
-   "stars": 1076,
+   "stars": 1077,
    "forks": 135,
-   "open_issues": 478,
+   "open_issues": 486,
    "language": "Rust",
    "license": "Apache-2.0",
    "pushed_at": "2026-10-06T12:43:47Z",
@@ -1219,61 +1300,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 64,
-   "rank": 37
-  },
-  {
-   "name": "ade-python",
-   "full_name": "landing-ai/ade-python",
-   "slug": "landing-ai-ade-python",
-   "url": "https://github.com/landing-ai/ade-python",
-   "owner": "landing-ai",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/34525670?v=4",
-   "stars": 1038,
-   "forks": 169,
-   "open_issues": 14,
-   "language": "Python",
-   "license": "Apache-2.0",
-   "pushed_at": "2026-10-02T21:03:40Z",
-   "created_at": "2025-09-18T07:03:08Z",
-   "description": "Python library for Agentic Document Extraction (ADE).",
-   "topics": [],
-   "category": "Document Parsing",
-   "momentum": 64,
-   "rank": 38
-  },
-  {
-   "name": "LaTeXSnipper",
-   "full_name": "SakuraMathcraft/LaTeXSnipper",
-   "slug": "sakuramathcraft-latexsnipper",
-   "url": "https://github.com/SakuraMathcraft/LaTeXSnipper",
-   "owner": "SakuraMathcraft",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/85953454?v=4",
-   "stars": 1030,
-   "forks": 53,
-   "open_issues": 1,
-   "language": "Python",
-   "license": "GPL-3.0",
-   "pushed_at": "2026-10-03T11:39:53Z",
-   "created_at": "2025-10-01T06:54:46Z",
-   "description": "Formula Recognition & Office Editing | Handwriting & PDF to LaTeX/Markdown | Secure API Integrations.",
-   "topics": [
-    "autoencoder",
-    "deep-learning",
-    "im2latex",
-    "image2text",
-    "latex-ocr",
-    "math-ocr",
-    "mathematics",
-    "ocr-python",
-    "onnxruntime",
-    "pdf-to-markdown",
-    "pdf2markdown",
-    "pytorch",
-    "transformer"
-   ],
-   "category": "OCR Engines",
-   "momentum": 64,
-   "rank": 39
+   "rank": 40
   },
   {
    "name": "groundx-on-prem",
@@ -1282,18 +1309,18 @@
    "url": "https://github.com/eyelevelai/groundx-on-prem",
    "owner": "eyelevelai",
    "owner_avatar": "https://avatars.githubusercontent.com/u/33876565?v=4",
-   "stars": 820,
+   "stars": 821,
    "forks": 89,
-   "open_issues": 12,
+   "open_issues": 13,
    "language": "Go Template",
    "license": "NOASSERTION",
-   "pushed_at": "2026-10-13T05:54:07Z",
+   "pushed_at": "2026-10-14T03:59:57Z",
    "created_at": "2024-08-20T18:36:20Z",
    "description": "A Kubernetes deployable instance of GroundX  for document parsing, storage, and search.",
    "topics": [],
    "category": "Document Parsing",
    "momentum": 64,
-   "rank": 40
+   "rank": 41
   },
   {
    "name": "pytr",
@@ -1302,9 +1329,9 @@
    "url": "https://github.com/pytr-org/pytr",
    "owner": "pytr-org",
    "owner_avatar": "https://avatars.githubusercontent.com/u/172885531?v=4",
-   "stars": 809,
-   "forks": 163,
-   "open_issues": 35,
+   "stars": 810,
+   "forks": 164,
+   "open_issues": 36,
    "language": "Python",
    "license": "MIT",
    "pushed_at": "2026-10-12T13:20:28Z",
@@ -1321,7 +1348,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 64,
-   "rank": 41
+   "rank": 42
   },
   {
    "name": "ExtractThinker",
@@ -1356,7 +1383,7 @@
    ],
    "category": "VLM & Understanding",
    "momentum": 63,
-   "rank": 42
+   "rank": 43
   },
   {
    "name": "TurboOCR",
@@ -1365,7 +1392,7 @@
    "url": "https://github.com/aiptimizer/TurboOCR",
    "owner": "aiptimizer",
    "owner_avatar": "https://avatars.githubusercontent.com/u/274521723?v=4",
-   "stars": 1131,
+   "stars": 1134,
    "forks": 113,
    "open_issues": 0,
    "language": "C++",
@@ -1394,43 +1421,61 @@
    ],
    "category": "Document Parsing",
    "momentum": 63,
-   "rank": 43
+   "rank": 44
   },
   {
-   "name": "carrel",
-   "full_name": "FengZhenfei/carrel",
-   "slug": "fengzhenfei-carrel",
-   "url": "https://github.com/FengZhenfei/carrel",
-   "owner": "FengZhenfei",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/216586635?v=4",
-   "stars": 72,
-   "forks": 2,
-   "open_issues": 1,
+   "name": "ade-python",
+   "full_name": "landing-ai/ade-python",
+   "slug": "landing-ai-ade-python",
+   "url": "https://github.com/landing-ai/ade-python",
+   "owner": "landing-ai",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/34525670?v=4",
+   "stars": 1038,
+   "forks": 169,
+   "open_issues": 14,
    "language": "Python",
-   "license": "MIT",
-   "pushed_at": "2026-10-08T14:08:44Z",
-   "created_at": "2026-09-28T11:13:02Z",
-   "description": "Ontology-Augmented Generation for AI agents.",
-   "topics": [
-    "agent-skills",
-    "ai-agents",
-    "chinese",
-    "claude-code-skill",
-    "codex-skill",
-    "document-parsing",
-    "knowledge-graph",
-    "knowledge-graphs",
-    "mineru",
-    "neo4j",
-    "ontology",
-    "opensearch",
-    "qdrant",
-    "rag",
-    "retrieval-augmented-generation"
-   ],
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-02T21:03:40Z",
+   "created_at": "2025-09-18T07:03:08Z",
+   "description": "Python library for Agentic Document Extraction (ADE).",
+   "topics": [],
    "category": "Document Parsing",
    "momentum": 63,
-   "rank": 44
+   "rank": 45
+  },
+  {
+   "name": "LaTeXSnipper",
+   "full_name": "SakuraMathcraft/LaTeXSnipper",
+   "slug": "sakuramathcraft-latexsnipper",
+   "url": "https://github.com/SakuraMathcraft/LaTeXSnipper",
+   "owner": "SakuraMathcraft",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/85953454?v=4",
+   "stars": 1032,
+   "forks": 53,
+   "open_issues": 1,
+   "language": "Python",
+   "license": "GPL-3.0",
+   "pushed_at": "2026-10-03T11:39:53Z",
+   "created_at": "2025-10-01T06:54:46Z",
+   "description": "Formula Recognition & Office Editing | Handwriting & PDF to LaTeX/Markdown | Secure API Integrations.",
+   "topics": [
+    "autoencoder",
+    "deep-learning",
+    "im2latex",
+    "image2text",
+    "latex-ocr",
+    "math-ocr",
+    "mathematics",
+    "ocr-python",
+    "onnxruntime",
+    "pdf-to-markdown",
+    "pdf2markdown",
+    "pytorch",
+    "transformer"
+   ],
+   "category": "OCR Engines",
+   "momentum": 63,
+   "rank": 46
   },
   {
    "name": "Pix2Text",
@@ -1463,7 +1508,82 @@
    ],
    "category": "Document Parsing",
    "momentum": 62,
-   "rank": 45
+   "rank": 47
+  },
+  {
+   "name": "carrel",
+   "full_name": "FengZhenfei/carrel",
+   "slug": "fengzhenfei-carrel",
+   "url": "https://github.com/FengZhenfei/carrel",
+   "owner": "FengZhenfei",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/216586635?v=4",
+   "stars": 60,
+   "forks": 2,
+   "open_issues": 1,
+   "language": "Python",
+   "license": "MIT",
+   "pushed_at": "2026-10-08T14:08:44Z",
+   "created_at": "2026-09-28T11:13:02Z",
+   "description": "Ontology-Augmented Generation for AI agents.",
+   "topics": [
+    "agent-skills",
+    "ai-agents",
+    "chinese",
+    "claude-code-skill",
+    "codex-skill",
+    "document-parsing",
+    "knowledge-graph",
+    "knowledge-graphs",
+    "mineru",
+    "neo4j",
+    "ontology",
+    "opensearch",
+    "qdrant",
+    "rag",
+    "retrieval-augmented-generation"
+   ],
+   "category": "Document Parsing",
+   "momentum": 62,
+   "rank": 48
+  },
+  {
+   "name": "InkDoc",
+   "full_name": "AbdoslamB/InkDoc",
+   "slug": "abdoslamb-inkdoc",
+   "url": "https://github.com/AbdoslamB/InkDoc",
+   "owner": "AbdoslamB",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/43893502?v=4",
+   "stars": 55,
+   "forks": 7,
+   "open_issues": 4,
+   "language": "Python",
+   "license": "MIT",
+   "pushed_at": "2026-10-14T05:58:22Z",
+   "created_at": "2026-09-27T01:28:04Z",
+   "description": "Turn any document into clean, AI-ready Markdown — locally on your machine. Desktop app for Windows, macOS & Linux powered by MarkItDown, Docling, GLM-OCR and Markit.",
+   "topics": [
+    "cross-platform",
+    "desktop-app",
+    "docling",
+    "document-conversion",
+    "docx-to-markdown",
+    "html-to-markdown",
+    "html-to-markdown-converter",
+    "linux",
+    "llm",
+    "macos",
+    "markdown",
+    "markitdown",
+    "ocr",
+    "pdf-to-markdown",
+    "python",
+    "rag",
+    "table-extraction",
+    "windows"
+   ],
+   "category": "OCR Engines",
+   "momentum": 62,
+   "rank": 49
   },
   {
    "name": "dedoc",
@@ -1502,7 +1622,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 61,
-   "rank": 46
+   "rank": 50
   },
   {
    "name": "MimirQ",
@@ -1511,8 +1631,8 @@
    "url": "https://github.com/skygazer42/MimirQ",
    "owner": "skygazer42",
    "owner_avatar": "https://avatars.githubusercontent.com/u/103022245?v=4",
-   "stars": 547,
-   "forks": 93,
+   "stars": 545,
+   "forks": 92,
    "open_issues": 5,
    "language": "Python",
    "license": "Apache-2.0",
@@ -1538,99 +1658,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 61,
-   "rank": 47
-  },
-  {
-   "name": "InkDoc",
-   "full_name": "AbdoslamB/InkDoc",
-   "slug": "abdoslamb-inkdoc",
-   "url": "https://github.com/AbdoslamB/InkDoc",
-   "owner": "AbdoslamB",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/43893502?v=4",
-   "stars": 54,
-   "forks": 7,
-   "open_issues": 5,
-   "language": "Python",
-   "license": "MIT",
-   "pushed_at": "2026-10-03T18:58:28Z",
-   "created_at": "2026-09-27T01:28:04Z",
-   "description": "Turn any document into clean, AI-ready Markdown — locally on your machine. Desktop app for Windows, macOS & Linux powered by MarkItDown, Docling, GLM-OCR and Markit.",
-   "topics": [
-    "cross-platform",
-    "desktop-app",
-    "docling",
-    "document-conversion",
-    "docx-to-markdown",
-    "html-to-markdown",
-    "html-to-markdown-converter",
-    "linux",
-    "llm",
-    "macos",
-    "markdown",
-    "markitdown",
-    "ocr",
-    "pdf-to-markdown",
-    "python",
-    "rag",
-    "table-extraction",
-    "windows"
-   ],
-   "category": "OCR Engines",
-   "momentum": 61,
-   "rank": 48
-  },
-  {
-   "name": "ade-cli",
-   "full_name": "landing-ai/ade-cli",
-   "slug": "landing-ai-ade-cli",
-   "url": "https://github.com/landing-ai/ade-cli",
-   "owner": "landing-ai",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/34525670?v=4",
-   "stars": 2421,
-   "forks": 257,
-   "open_issues": 11,
-   "language": "Python",
-   "license": "Apache-2.0",
-   "pushed_at": "2026-08-19T04:36:14Z",
-   "created_at": "2025-03-12T23:10:57Z",
-   "description": "The official CLI for Agentic Document Extraction (ADE) by LandingAI — parse documents and extract schema-shaped data from your terminal",
-   "topics": [
-    "agentic-document-extraction",
-    "cli",
-    "document-extraction",
-    "document-parsing",
-    "ocr",
-    "pdf"
-   ],
-   "category": "Document Parsing",
-   "momentum": 60,
-   "rank": 49
-  },
-  {
-   "name": "pdf2epub",
-   "full_name": "overcuriousity/pdf2epub",
-   "slug": "overcuriousity-pdf2epub",
-   "url": "https://github.com/overcuriousity/pdf2epub",
-   "owner": "overcuriousity",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/132259606?v=4",
-   "stars": 360,
-   "forks": 61,
-   "open_issues": 15,
-   "language": "Python",
-   "license": "MIT",
-   "pushed_at": "2026-10-09T05:18:53Z",
-   "created_at": "2024-11-04T18:55:40Z",
-   "description": "Convert PDF files to nicely structured Markdown and EPUB format with intelligent layout detection using AI.",
-   "topics": [
-    "ai",
-    "epub",
-    "markdown",
-    "markdown-converter",
-    "pdf-converter"
-   ],
-   "category": "Layout & Structure",
-   "momentum": 60,
-   "rank": 50
+   "rank": 51
   },
   {
    "name": "scribe.js",
@@ -1644,7 +1672,7 @@
    "open_issues": 26,
    "language": "JavaScript",
    "license": "AGPL-3.0",
-   "pushed_at": "2026-10-13T07:40:15Z",
+   "pushed_at": "2026-10-14T11:00:13Z",
    "created_at": "2024-08-15T06:41:32Z",
    "description": "JavaScript OCR and text extraction for images and PDFs.",
    "topics": [
@@ -1656,7 +1684,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 60,
-   "rank": 51
+   "rank": 52
   },
   {
    "name": "MuhammaraJS",
@@ -1667,10 +1695,10 @@
    "owner_avatar": "https://avatars.githubusercontent.com/u/741067?v=4",
    "stars": 308,
    "forks": 62,
-   "open_issues": 42,
+   "open_issues": 26,
    "language": "C",
    "license": "NOASSERTION",
-   "pushed_at": "2026-10-13T05:37:11Z",
+   "pushed_at": "2026-10-14T15:08:26Z",
    "created_at": "2020-05-04T23:06:35Z",
    "description": "Create, read, and modify PDFs in JavaScript. One C++ PDFWriter core shipped twice: a native Node.js/Electron addon with prebuilt binaries (@muhammara/native) and a browser-safe, byte-first WebAssembly package (@muhammara/wasm). Successor to HummusJS.",
    "topics": [
@@ -1697,7 +1725,168 @@
    ],
    "category": "Document Parsing",
    "momentum": 60,
-   "rank": 52
+   "rank": 53
+  },
+  {
+   "name": "MonkeyOCR",
+   "full_name": "Yuliang-Liu/MonkeyOCR",
+   "slug": "yuliang-liu-monkeyocr",
+   "url": "https://github.com/Yuliang-Liu/MonkeyOCR",
+   "owner": "Yuliang-Liu",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/34134635?v=4",
+   "stars": 6650,
+   "forks": 459,
+   "open_issues": 0,
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-07-20T13:41:34Z",
+   "created_at": "2025-06-03T06:25:31Z",
+   "description": "A lightweight LMM-based Document Parsing Model",
+   "topics": [],
+   "category": "Document Parsing",
+   "momentum": 59,
+   "rank": 54
+  },
+  {
+   "name": "ade-cli",
+   "full_name": "landing-ai/ade-cli",
+   "slug": "landing-ai-ade-cli",
+   "url": "https://github.com/landing-ai/ade-cli",
+   "owner": "landing-ai",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/34525670?v=4",
+   "stars": 2423,
+   "forks": 257,
+   "open_issues": 11,
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-08-19T04:36:14Z",
+   "created_at": "2025-03-12T23:10:57Z",
+   "description": "The official CLI for Agentic Document Extraction (ADE) by LandingAI — parse documents and extract schema-shaped data from your terminal",
+   "topics": [
+    "agentic-document-extraction",
+    "cli",
+    "document-extraction",
+    "document-parsing",
+    "ocr",
+    "pdf"
+   ],
+   "category": "Document Parsing",
+   "momentum": 59,
+   "rank": 55
+  },
+  {
+   "name": "eynollah",
+   "full_name": "qurator-spk/eynollah",
+   "slug": "qurator-spk-eynollah",
+   "url": "https://github.com/qurator-spk/eynollah",
+   "owner": "qurator-spk",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/53519095?v=4",
+   "stars": 414,
+   "forks": 37,
+   "open_issues": 23,
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-10-04T18:49:12Z",
+   "created_at": "2020-11-20T11:47:50Z",
+   "description": "Document Layout Analysis",
+   "topics": [
+    "binarization",
+    "document-layout-analysis",
+    "ocr",
+    "segmentation",
+    "textline-detection"
+   ],
+   "category": "Layout & Structure",
+   "momentum": 59,
+   "rank": 56
+  },
+  {
+   "name": "parsel",
+   "full_name": "shipfastlabs/parsel",
+   "slug": "shipfastlabs-parsel",
+   "url": "https://github.com/shipfastlabs/parsel",
+   "owner": "shipfastlabs",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/197790885?v=4",
+   "stars": 364,
+   "forks": 10,
+   "open_issues": 0,
+   "language": "PHP",
+   "license": "MIT",
+   "pushed_at": "2026-10-04T07:17:40Z",
+   "created_at": "2026-05-29T14:48:28Z",
+   "description": "A fast, helpful, and open-source document parser for PHP",
+   "topics": [
+    "docs",
+    "ocr",
+    "pdf",
+    "text-extarction"
+   ],
+   "category": "Document Parsing",
+   "momentum": 59,
+   "rank": 57
+  },
+  {
+   "name": "pdf2epub",
+   "full_name": "overcuriousity/pdf2epub",
+   "slug": "overcuriousity-pdf2epub",
+   "url": "https://github.com/overcuriousity/pdf2epub",
+   "owner": "overcuriousity",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/132259606?v=4",
+   "stars": 361,
+   "forks": 61,
+   "open_issues": 15,
+   "language": "Python",
+   "license": "MIT",
+   "pushed_at": "2026-10-09T05:18:53Z",
+   "created_at": "2024-11-04T18:55:40Z",
+   "description": "Convert PDF files to nicely structured Markdown and EPUB format with intelligent layout detection using AI.",
+   "topics": [
+    "ai",
+    "epub",
+    "markdown",
+    "markdown-converter",
+    "pdf-converter"
+   ],
+   "category": "Layout & Structure",
+   "momentum": 59,
+   "rank": 58
+  },
+  {
+   "name": "docling-Studio",
+   "full_name": "scub-france/docling-Studio",
+   "slug": "scub-france-docling-studio",
+   "url": "https://github.com/scub-france/docling-Studio",
+   "owner": "scub-france",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/37899273?v=4",
+   "stars": 263,
+   "forks": 28,
+   "open_issues": 44,
+   "language": "Python",
+   "license": "MIT",
+   "pushed_at": "2026-10-13T21:37:51Z",
+   "created_at": "2025-05-13T13:18:56Z",
+   "description": "Visual document analysis studio powered by Docling — configure the extraction pipeline, inspect text, tables and bounding boxes in the browser, then chunk, embed and index into OpenSearch and Neo4j.",
+   "topics": [
+    "chunking",
+    "docling",
+    "document-ai",
+    "document-parsing",
+    "embeddings",
+    "fastapi",
+    "knowledge-graph",
+    "neo4j",
+    "ocr",
+    "opensearch",
+    "pdf-extraction",
+    "rag",
+    "self-hosted",
+    "table-extraction",
+    "vector-search",
+    "vue"
+   ],
+   "category": "Document Parsing",
+   "momentum": 59,
+   "rank": 59
   },
   {
    "name": "hr-onboarding-agent",
@@ -1732,79 +1921,8 @@
     "workflow-automation"
    ],
    "category": "OCR Engines",
-   "momentum": 60,
-   "rank": 53
-  },
-  {
-   "name": "MonkeyOCR",
-   "full_name": "Yuliang-Liu/MonkeyOCR",
-   "slug": "yuliang-liu-monkeyocr",
-   "url": "https://github.com/Yuliang-Liu/MonkeyOCR",
-   "owner": "Yuliang-Liu",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/34134635?v=4",
-   "stars": 6651,
-   "forks": 459,
-   "open_issues": 0,
-   "language": "Python",
-   "license": "Apache-2.0",
-   "pushed_at": "2026-07-20T13:41:34Z",
-   "created_at": "2025-06-03T06:25:31Z",
-   "description": "A lightweight LMM-based Document Parsing Model",
-   "topics": [],
-   "category": "Document Parsing",
    "momentum": 59,
-   "rank": 54
-  },
-  {
-   "name": "eynollah",
-   "full_name": "qurator-spk/eynollah",
-   "slug": "qurator-spk-eynollah",
-   "url": "https://github.com/qurator-spk/eynollah",
-   "owner": "qurator-spk",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/53519095?v=4",
-   "stars": 414,
-   "forks": 37,
-   "open_issues": 23,
-   "language": "Python",
-   "license": "Apache-2.0",
-   "pushed_at": "2026-10-04T18:49:12Z",
-   "created_at": "2020-11-20T11:47:50Z",
-   "description": "Document Layout Analysis",
-   "topics": [
-    "binarization",
-    "document-layout-analysis",
-    "ocr",
-    "segmentation",
-    "textline-detection"
-   ],
-   "category": "Layout & Structure",
-   "momentum": 59,
-   "rank": 55
-  },
-  {
-   "name": "parsel",
-   "full_name": "shipfastlabs/parsel",
-   "slug": "shipfastlabs-parsel",
-   "url": "https://github.com/shipfastlabs/parsel",
-   "owner": "shipfastlabs",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/197790885?v=4",
-   "stars": 364,
-   "forks": 10,
-   "open_issues": 0,
-   "language": "PHP",
-   "license": "MIT",
-   "pushed_at": "2026-10-04T07:17:40Z",
-   "created_at": "2026-05-29T14:48:28Z",
-   "description": "A fast, helpful, and open-source document parser for PHP",
-   "topics": [
-    "docs",
-    "ocr",
-    "pdf",
-    "text-extarction"
-   ],
-   "category": "Document Parsing",
-   "momentum": 59,
-   "rank": 56
+   "rank": 60
   },
   {
    "name": "chandra",
@@ -1813,9 +1931,9 @@
    "url": "https://github.com/datalab-to/chandra",
    "owner": "datalab-to",
    "owner_avatar": "https://avatars.githubusercontent.com/u/176631703?v=4",
-   "stars": 12494,
-   "forks": 1256,
-   "open_issues": 62,
+   "stars": 12498,
+   "forks": 1258,
+   "open_issues": 63,
    "language": "Python",
    "license": "Apache-2.0",
    "pushed_at": "2026-06-26T10:26:47Z",
@@ -1827,7 +1945,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 58,
-   "rank": 57
+   "rank": 61
   },
   {
    "name": "contextgem",
@@ -1836,8 +1954,8 @@
    "url": "https://github.com/shcherbak-ai/contextgem",
    "owner": "shcherbak-ai",
    "owner_avatar": "https://avatars.githubusercontent.com/u/173106990?v=4",
-   "stars": 2008,
-   "forks": 186,
+   "stars": 2009,
+   "forks": 185,
    "open_issues": 1,
    "language": "Python",
    "license": "Apache-2.0",
@@ -1864,7 +1982,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 58,
-   "rank": 58
+   "rank": 62
   },
   {
    "name": "signaturepdf",
@@ -1904,7 +2022,52 @@
    ],
    "category": "PDF Extraction",
    "momentum": 58,
-   "rank": 59
+   "rank": 63
+  },
+  {
+   "name": "INF-MLLM",
+   "full_name": "infly-ai/INF-MLLM",
+   "slug": "infly-ai-inf-mllm",
+   "url": "https://github.com/infly-ai/INF-MLLM",
+   "owner": "infly-ai",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/152353735?v=4",
+   "stars": 256,
+   "forks": 28,
+   "open_issues": 25,
+   "language": "Python",
+   "license": "",
+   "pushed_at": "2026-10-10T11:07:39Z",
+   "created_at": "2023-12-06T08:12:46Z",
+   "description": "INF Tech's open-source MLLMs for SOTA visual-language understanding and advanced document intelligence.",
+   "topics": [
+    "document-intelligence",
+    "mllm",
+    "multimodal-rl",
+    "vlm"
+   ],
+   "category": "VLM & Understanding",
+   "momentum": 58,
+   "rank": 64
+  },
+  {
+   "name": "LAREX",
+   "full_name": "OCR4all/LAREX",
+   "slug": "ocr4all-larex",
+   "url": "https://github.com/OCR4all/LAREX",
+   "owner": "OCR4all",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/46958183?v=4",
+   "stars": 201,
+   "forks": 32,
+   "open_issues": 38,
+   "language": "Java",
+   "license": "MIT",
+   "pushed_at": "2026-10-14T10:07:58Z",
+   "created_at": "2017-01-03T15:33:39Z",
+   "description": "A semi-automatic open-source tool for Layout Analysis and Region EXtraction on early printed books.",
+   "topics": [],
+   "category": "Layout & Structure",
+   "momentum": 58,
+   "rank": 65
   },
   {
    "name": "doc7",
@@ -1913,7 +2076,7 @@
    "url": "https://github.com/magicrew/doc7",
    "owner": "magicrew",
    "owner_avatar": "https://avatars.githubusercontent.com/u/266043650?v=4",
-   "stars": 814,
+   "stars": 723,
    "forks": 38,
    "open_issues": 1,
    "language": "Go",
@@ -1932,53 +2095,8 @@
     "vision-language-model"
    ],
    "category": "Document Parsing",
-   "momentum": 58,
-   "rank": 60
-  },
-  {
-   "name": "INF-MLLM",
-   "full_name": "infly-ai/INF-MLLM",
-   "slug": "infly-ai-inf-mllm",
-   "url": "https://github.com/infly-ai/INF-MLLM",
-   "owner": "infly-ai",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/152353735?v=4",
-   "stars": 257,
-   "forks": 28,
-   "open_issues": 25,
-   "language": "Python",
-   "license": "",
-   "pushed_at": "2026-10-10T11:07:39Z",
-   "created_at": "2023-12-06T08:12:46Z",
-   "description": "INF Tech's open-source MLLMs for SOTA visual-language understanding and advanced document intelligence.",
-   "topics": [
-    "document-intelligence",
-    "mllm",
-    "multimodal-rl",
-    "vlm"
-   ],
-   "category": "VLM & Understanding",
-   "momentum": 58,
-   "rank": 61
-  },
-  {
-   "name": "LAREX",
-   "full_name": "OCR4all/LAREX",
-   "slug": "ocr4all-larex",
-   "url": "https://github.com/OCR4all/LAREX",
-   "owner": "OCR4all",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/46958183?v=4",
-   "stars": 201,
-   "forks": 32,
-   "open_issues": 38,
-   "language": "Java",
-   "license": "MIT",
-   "pushed_at": "2026-10-13T13:53:11Z",
-   "created_at": "2017-01-03T15:33:39Z",
-   "description": "A semi-automatic open-source tool for Layout Analysis and Region EXtraction on early printed books.",
-   "topics": [],
-   "category": "Layout & Structure",
-   "momentum": 58,
-   "rank": 62
+   "momentum": 57,
+   "rank": 66
   },
   {
    "name": "ExtractPDF4J",
@@ -2011,7 +2129,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 57,
-   "rank": 63
+   "rank": 67
   },
   {
    "name": "pawwork",
@@ -2052,7 +2170,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 57,
-   "rank": 64
+   "rank": 68
   },
   {
    "name": "oxidizePdf",
@@ -2063,10 +2181,10 @@
    "owner_avatar": "https://avatars.githubusercontent.com/u/168825386?v=4",
    "stars": 192,
    "forks": 27,
-   "open_issues": 41,
+   "open_issues": 40,
    "language": "Rust",
    "license": "MIT",
-   "pushed_at": "2026-10-13T17:45:52Z",
+   "pushed_at": "2026-10-14T15:16:51Z",
    "created_at": "2025-07-07T20:26:20Z",
    "description": "Pure Rust PDF library for AI/RAG: structure-aware chunking, no ML, no C deps.",
    "topics": [
@@ -2093,7 +2211,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 57,
-   "rank": 65
+   "rank": 69
   },
   {
    "name": "oar-ocr",
@@ -2104,16 +2222,16 @@
    "owner_avatar": "https://avatars.githubusercontent.com/u/17264618?v=4",
    "stars": 184,
    "forks": 30,
-   "open_issues": 2,
+   "open_issues": 3,
    "language": "Rust",
    "license": "Apache-2.0",
-   "pushed_at": "2026-10-13T16:35:11Z",
+   "pushed_at": "2026-10-14T15:29:02Z",
    "created_at": "2025-07-31T06:51:21Z",
    "description": "A native Rust toolkit for OCR, document layout analysis, and vision-language document understanding.",
    "topics": [],
    "category": "Layout & Structure",
    "momentum": 57,
-   "rank": 66
+   "rank": 70
   },
   {
    "name": "tesseract.js",
@@ -2123,7 +2241,7 @@
    "owner": "naptha",
    "owner_avatar": "https://avatars.githubusercontent.com/u/7720173?v=4",
    "stars": 38760,
-   "forks": 2397,
+   "forks": 2399,
    "open_issues": 56,
    "language": "JavaScript",
    "license": "Apache-2.0",
@@ -2139,68 +2257,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 56,
-   "rank": 67
-  },
-  {
-   "name": "unpdf",
-   "full_name": "unjs/unpdf",
-   "slug": "unjs-unpdf",
-   "url": "https://github.com/unjs/unpdf",
-   "owner": "unjs",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/80154025?v=4",
-   "stars": 1243,
-   "forks": 47,
-   "open_issues": 1,
-   "language": "TypeScript",
-   "license": "MIT",
-   "pushed_at": "2026-08-14T10:42:44Z",
-   "created_at": "2023-08-11T21:01:06Z",
-   "description": "📄 PDF extraction and rendering across all JavaScript runtimes",
-   "topics": [
-    "pdf",
-    "pdfjs",
-    "serverless"
-   ],
-   "category": "PDF Extraction",
-   "momentum": 56,
-   "rank": 68
-  },
-  {
-   "name": "docling-Studio",
-   "full_name": "scub-france/docling-Studio",
-   "slug": "scub-france-docling-studio",
-   "url": "https://github.com/scub-france/docling-Studio",
-   "owner": "scub-france",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/37899273?v=4",
-   "stars": 263,
-   "forks": 28,
-   "open_issues": 44,
-   "language": "Python",
-   "license": "MIT",
-   "pushed_at": "2026-09-28T15:49:54Z",
-   "created_at": "2025-05-13T13:18:56Z",
-   "description": "Visual document analysis studio powered by Docling — configure the extraction pipeline, inspect text, tables and bounding boxes in the browser, then chunk, embed and index into OpenSearch and Neo4j.",
-   "topics": [
-    "chunking",
-    "docling",
-    "document-ai",
-    "document-parsing",
-    "embeddings",
-    "fastapi",
-    "knowledge-graph",
-    "neo4j",
-    "ocr",
-    "opensearch",
-    "pdf-extraction",
-    "rag",
-    "self-hosted",
-    "table-extraction",
-    "vector-search",
-    "vue"
-   ],
-   "category": "Document Parsing",
-   "momentum": 56,
-   "rank": 69
+   "rank": 71
   },
   {
    "name": "papero-pdf-text-extractor",
@@ -2227,7 +2284,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 56,
-   "rank": 70
+   "rank": 72
   },
   {
    "name": "aiworkdeck",
@@ -2236,12 +2293,12 @@
    "url": "https://github.com/AI-WorkDeck/aiworkdeck",
    "owner": "AI-WorkDeck",
    "owner_avatar": "https://avatars.githubusercontent.com/u/340410259?v=4",
-   "stars": 151,
-   "forks": 14,
-   "open_issues": 22,
+   "stars": 159,
+   "forks": 16,
+   "open_issues": 21,
    "language": "Java",
    "license": "AGPL-3.0",
-   "pushed_at": "2026-10-13T14:17:06Z",
+   "pushed_at": "2026-10-14T06:45:42Z",
    "created_at": "2026-01-21T11:27:27Z",
    "description": "Open-source workspace for professional document AI: reviewable agent edits, source-linked work, three-way document merges, and an extensible plugin runtime. Starting with legal work.",
    "topics": [
@@ -2268,7 +2325,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 56,
-   "rank": 71
+   "rank": 73
   },
   {
    "name": "docling-api",
@@ -2277,7 +2334,7 @@
    "url": "https://github.com/drmingler/docling-api",
    "owner": "drmingler",
    "owner_avatar": "https://avatars.githubusercontent.com/u/56904252?v=4",
-   "stars": 1691,
+   "stars": 1690,
    "forks": 425,
    "open_issues": 9,
    "language": "Python",
@@ -2298,7 +2355,60 @@
    ],
    "category": "Table Extraction",
    "momentum": 55,
-   "rank": 72
+   "rank": 74
+  },
+  {
+   "name": "unpdf",
+   "full_name": "unjs/unpdf",
+   "slug": "unjs-unpdf",
+   "url": "https://github.com/unjs/unpdf",
+   "owner": "unjs",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/80154025?v=4",
+   "stars": 1243,
+   "forks": 47,
+   "open_issues": 1,
+   "language": "TypeScript",
+   "license": "MIT",
+   "pushed_at": "2026-08-14T10:42:44Z",
+   "created_at": "2023-08-11T21:01:06Z",
+   "description": "📄 PDF extraction and rendering across all JavaScript runtimes",
+   "topics": [
+    "pdf",
+    "pdfjs",
+    "serverless"
+   ],
+   "category": "PDF Extraction",
+   "momentum": 55,
+   "rank": 75
+  },
+  {
+   "name": "zpdf",
+   "full_name": "Lulzx/zpdf",
+   "slug": "lulzx-zpdf",
+   "url": "https://github.com/Lulzx/zpdf",
+   "owner": "Lulzx",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/22330483?v=4",
+   "stars": 920,
+   "forks": 37,
+   "open_issues": 0,
+   "language": "Zig",
+   "license": "CC0-1.0",
+   "pushed_at": "2026-08-13T15:28:24Z",
+   "created_at": "2025-12-30T18:09:29Z",
+   "description": "Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration.",
+   "topics": [
+    "high-performance",
+    "parser",
+    "pdf",
+    "simd",
+    "text-extraction",
+    "zero-copy",
+    "zero-dependency",
+    "zig"
+   ],
+   "category": "PDF Extraction",
+   "momentum": 54,
+   "rank": 76
   },
   {
    "name": "pdftools",
@@ -2327,8 +2437,8 @@
     "text-extraction"
    ],
    "category": "PDF Extraction",
-   "momentum": 55,
-   "rank": 73
+   "momentum": 54,
+   "rank": 77
   },
   {
    "name": "VisRAG",
@@ -2337,7 +2447,7 @@
    "url": "https://github.com/OpenBMB/VisRAG",
    "owner": "OpenBMB",
    "owner_avatar": "https://avatars.githubusercontent.com/u/89920203?v=4",
-   "stars": 982,
+   "stars": 983,
    "forks": 80,
    "open_issues": 2,
    "language": "Python",
@@ -2356,37 +2466,8 @@
     "vision-language-model"
    ],
    "category": "Document Parsing",
-   "momentum": 54,
-   "rank": 74
-  },
-  {
-   "name": "zpdf",
-   "full_name": "Lulzx/zpdf",
-   "slug": "lulzx-zpdf",
-   "url": "https://github.com/Lulzx/zpdf",
-   "owner": "Lulzx",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/22330483?v=4",
-   "stars": 921,
-   "forks": 37,
-   "open_issues": 0,
-   "language": "Zig",
-   "license": "CC0-1.0",
-   "pushed_at": "2026-08-13T15:28:24Z",
-   "created_at": "2025-12-30T18:09:29Z",
-   "description": "Zero-copy PDF text extraction library written in Zig. High-performance, memory-mapped parsing with SIMD acceleration.",
-   "topics": [
-    "high-performance",
-    "parser",
-    "pdf",
-    "simd",
-    "text-extraction",
-    "zero-copy",
-    "zero-dependency",
-    "zig"
-   ],
-   "category": "PDF Extraction",
-   "momentum": 54,
-   "rank": 75
+   "momentum": 53,
+   "rank": 78
   },
   {
    "name": "marie-ai",
@@ -2423,8 +2504,36 @@
     "table-recognition"
    ],
    "category": "OCR Engines",
-   "momentum": 54,
-   "rank": 76
+   "momentum": 53,
+   "rank": 79
+  },
+  {
+   "name": "Umi-OCR",
+   "full_name": "hiroi-sora/Umi-OCR",
+   "slug": "hiroi-sora-umi-ocr",
+   "url": "https://github.com/hiroi-sora/Umi-OCR",
+   "owner": "hiroi-sora",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/56373419?v=4",
+   "stars": 47902,
+   "forks": 4675,
+   "open_issues": 365,
+   "language": "Python",
+   "license": "MIT",
+   "pushed_at": "2025-11-20T14:58:13Z",
+   "created_at": "2022-03-28T04:01:46Z",
+   "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
+   "topics": [
+    "ocr",
+    "ocr-python",
+    "paddleocr",
+    "qml",
+    "qt",
+    "screenshot",
+    "umi-ocr"
+   ],
+   "category": "OCR Engines",
+   "momentum": 52,
+   "rank": 80
   },
   {
    "name": "pdf-to-markdown",
@@ -2455,36 +2564,8 @@
     "text-extraction"
    ],
    "category": "PDF Extraction",
-   "momentum": 53,
-   "rank": 77
-  },
-  {
-   "name": "Umi-OCR",
-   "full_name": "hiroi-sora/Umi-OCR",
-   "slug": "hiroi-sora-umi-ocr",
-   "url": "https://github.com/hiroi-sora/Umi-OCR",
-   "owner": "hiroi-sora",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/56373419?v=4",
-   "stars": 47868,
-   "forks": 4673,
-   "open_issues": 364,
-   "language": "Python",
-   "license": "MIT",
-   "pushed_at": "2025-11-20T14:58:13Z",
-   "created_at": "2022-03-28T04:01:46Z",
-   "description": "OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。",
-   "topics": [
-    "ocr",
-    "ocr-python",
-    "paddleocr",
-    "qml",
-    "qt",
-    "screenshot",
-    "umi-ocr"
-   ],
-   "category": "OCR Engines",
    "momentum": 52,
-   "rank": 78
+   "rank": 81
   },
   {
    "name": "chineseocr_lite",
@@ -2493,7 +2574,7 @@
    "url": "https://github.com/DayBreak-u/chineseocr_lite",
    "owner": "DayBreak-u",
    "owner_avatar": "https://avatars.githubusercontent.com/u/42023607?v=4",
-   "stars": 12350,
+   "stars": 12349,
    "forks": 2272,
    "open_issues": 262,
    "language": "C++",
@@ -2508,7 +2589,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 51,
-   "rank": 79
+   "rank": 82
   },
   {
    "name": "parsemypdf",
@@ -2547,7 +2628,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 51,
-   "rank": 80
+   "rank": 83
   },
   {
    "name": "document-SKILLs",
@@ -2578,7 +2659,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 51,
-   "rank": 81
+   "rank": 84
   },
   {
    "name": "ARGUS",
@@ -2598,7 +2679,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 51,
-   "rank": 82
+   "rank": 85
   },
   {
    "name": "parsehawk",
@@ -2607,7 +2688,7 @@
    "url": "https://github.com/parsehawk/parsehawk",
    "owner": "parsehawk",
    "owner_avatar": "https://avatars.githubusercontent.com/u/296494813?v=4",
-   "stars": 68,
+   "stars": 69,
    "forks": 10,
    "open_issues": 62,
    "language": "Python",
@@ -2636,7 +2717,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 51,
-   "rank": 83
+   "rank": 86
   },
   {
    "name": "EasyOCR",
@@ -2645,7 +2726,7 @@
    "url": "https://github.com/JaidedAI/EasyOCR",
    "owner": "JaidedAI",
    "owner_avatar": "https://avatars.githubusercontent.com/u/61448029?v=4",
-   "stars": 30064,
+   "stars": 30065,
    "forks": 3614,
    "open_issues": 533,
    "language": "Python",
@@ -2672,7 +2753,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 50,
-   "rank": 84
+   "rank": 87
   },
   {
    "name": "ColiVara",
@@ -2692,7 +2773,7 @@
    "topics": [],
    "category": "OCR Engines",
    "momentum": 50,
-   "rank": 85
+   "rank": 88
   },
   {
    "name": "laravel-ocr",
@@ -2718,7 +2799,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 50,
-   "rank": 86
+   "rank": 89
   },
   {
    "name": "paddleocr-local",
@@ -2727,7 +2808,7 @@
    "url": "https://github.com/CHEN010325/paddleocr-local",
    "owner": "CHEN010325",
    "owner_avatar": "https://avatars.githubusercontent.com/u/143087175?v=4",
-   "stars": 136,
+   "stars": 137,
    "forks": 32,
    "open_issues": 0,
    "language": "Python",
@@ -2751,38 +2832,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 50,
-   "rank": 87
-  },
-  {
-   "name": "scan-to-practice",
-   "full_name": "parz0val0/scan-to-practice",
-   "slug": "parz0val0-scan-to-practice",
-   "url": "https://github.com/parz0val0/scan-to-practice",
-   "owner": "parz0val0",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/296262244?v=4",
-   "stars": 110,
-   "forks": 3,
-   "open_issues": 0,
-   "language": "",
-   "license": "MIT",
-   "pushed_at": "2026-08-12T10:07:01Z",
-   "created_at": "2026-08-09T04:54:09Z",
-   "description": "Scan-to-Practice: a field-tested AI skill and methodology for turning scanned learning materials into structured practice products.",
-   "topics": [
-    "ai-skill",
-    "computer-vision",
-    "data-pipeline",
-    "document-ai",
-    "education",
-    "electron",
-    "knowledge-base",
-    "ocr",
-    "product-design",
-    "quality-assurance"
-   ],
-   "category": "Document Parsing",
-   "momentum": 50,
-   "rank": 88
+   "rank": 90
   },
   {
    "name": "Flash-MinerU",
@@ -2813,7 +2863,151 @@
    ],
    "category": "PDF Extraction",
    "momentum": 50,
-   "rank": 89
+   "rank": 91
+  },
+  {
+   "name": "DeepSeek-OCR",
+   "full_name": "deepseek-ai/DeepSeek-OCR",
+   "slug": "deepseek-ai-deepseek-ocr",
+   "url": "https://github.com/deepseek-ai/DeepSeek-OCR",
+   "owner": "deepseek-ai",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
+   "stars": 24011,
+   "forks": 2205,
+   "open_issues": 287,
+   "language": "Python",
+   "license": "MIT",
+   "pushed_at": "2026-01-27T03:45:14Z",
+   "created_at": "2025-10-17T06:14:27Z",
+   "description": "Contexts Optical Compression",
+   "topics": [],
+   "category": "OCR Engines",
+   "momentum": 49,
+   "rank": 92
+  },
+  {
+   "name": "RapidDoc",
+   "full_name": "RapidAI/RapidDoc",
+   "slug": "rapidai-rapiddoc",
+   "url": "https://github.com/RapidAI/RapidDoc",
+   "owner": "RapidAI",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/87350760?v=4",
+   "stars": 233,
+   "forks": 41,
+   "open_issues": 24,
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-08-23T12:18:22Z",
+   "created_at": "2025-08-23T19:51:12Z",
+   "description": "A high-performance, open-source PDF data extraction tool.   一站式开源高性能数据提取工具，将复杂 PDF 文档转换为 Markdown 和 JSON 格式，使用onnx模型。",
+   "topics": [
+    "ocr",
+    "onnx",
+    "parser",
+    "pdf",
+    "pdf-converter",
+    "pdf-parser",
+    "python"
+   ],
+   "category": "PDF Extraction",
+   "momentum": 49,
+   "rank": 93
+  },
+  {
+   "name": "eSearch-OCR",
+   "full_name": "xushengfeng/eSearch-OCR",
+   "slug": "xushengfeng-esearch-ocr",
+   "url": "https://github.com/xushengfeng/eSearch-OCR",
+   "owner": "xushengfeng",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/28475549?v=4",
+   "stars": 133,
+   "forks": 14,
+   "open_issues": 1,
+   "language": "TypeScript",
+   "license": "Apache-2.0",
+   "pushed_at": "2026-09-06T14:39:01Z",
+   "created_at": "2021-12-18T19:08:38Z",
+   "description": "基于paddleOCR的js库",
+   "topics": [
+    "layout-analysis",
+    "nodejs",
+    "ocr",
+    "onnx",
+    "paddleocr"
+   ],
+   "category": "OCR Engines",
+   "momentum": 49,
+   "rank": 94
+  },
+  {
+   "name": "scan-to-practice",
+   "full_name": "parz0val0/scan-to-practice",
+   "slug": "parz0val0-scan-to-practice",
+   "url": "https://github.com/parz0val0/scan-to-practice",
+   "owner": "parz0val0",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/296262244?v=4",
+   "stars": 110,
+   "forks": 3,
+   "open_issues": 0,
+   "language": "",
+   "license": "MIT",
+   "pushed_at": "2026-08-12T10:07:01Z",
+   "created_at": "2026-08-09T04:54:09Z",
+   "description": "Scan-to-Practice: a field-tested AI skill and methodology for turning scanned learning materials into structured practice products.",
+   "topics": [
+    "ai-skill",
+    "computer-vision",
+    "data-pipeline",
+    "document-ai",
+    "education",
+    "electron",
+    "knowledge-base",
+    "ocr",
+    "product-design",
+    "quality-assurance"
+   ],
+   "category": "Document Parsing",
+   "momentum": 49,
+   "rank": 95
+  },
+  {
+   "name": "DocMeld",
+   "full_name": "agentii-ai/DocMeld",
+   "slug": "agentii-ai-docmeld",
+   "url": "https://github.com/agentii-ai/DocMeld",
+   "owner": "agentii-ai",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/162101367?v=4",
+   "stars": 102,
+   "forks": 9,
+   "open_issues": 4,
+   "language": "Python",
+   "license": "",
+   "pushed_at": "2026-09-15T05:14:42Z",
+   "created_at": "2026-03-12T10:27:11Z",
+   "description": "Lightweight Doc-to-agent-ready knowledge pipeline. Three-stage Bronze→Silver→Gold architecture extracts structured elements, page content, and   AI-enriched metadata from research papers and books. Generate PRDs, workflows, topic clusters, and Claude Code skills from PDFs. No OCR required.",
+   "topics": [
+    "agent-use-ready",
+    "ai-agents",
+    "claude-code",
+    "claude-skills",
+    "doc-converter",
+    "docling",
+    "document-ai",
+    "document-processing",
+    "harness-engineering",
+    "knowledge-pipeline",
+    "llm",
+    "ocr",
+    "pdf-converter",
+    "pdf-parser",
+    "pdf-to-md",
+    "rag",
+    "research-papers",
+    "workflow"
+   ],
+   "category": "OCR Engines",
+   "momentum": 49,
+   "rank": 96
   },
   {
    "name": "opencode-parser",
@@ -2853,121 +3047,8 @@
     "zip"
    ],
    "category": "PDF Extraction",
-   "momentum": 50,
-   "rank": 90
-  },
-  {
-   "name": "DeepSeek-OCR",
-   "full_name": "deepseek-ai/DeepSeek-OCR",
-   "slug": "deepseek-ai-deepseek-ocr",
-   "url": "https://github.com/deepseek-ai/DeepSeek-OCR",
-   "owner": "deepseek-ai",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
-   "stars": 24010,
-   "forks": 2206,
-   "open_issues": 287,
-   "language": "Python",
-   "license": "MIT",
-   "pushed_at": "2026-01-27T03:45:14Z",
-   "created_at": "2025-10-17T06:14:27Z",
-   "description": "Contexts Optical Compression",
-   "topics": [],
-   "category": "OCR Engines",
    "momentum": 49,
-   "rank": 91
-  },
-  {
-   "name": "RapidDoc",
-   "full_name": "RapidAI/RapidDoc",
-   "slug": "rapidai-rapiddoc",
-   "url": "https://github.com/RapidAI/RapidDoc",
-   "owner": "RapidAI",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/87350760?v=4",
-   "stars": 233,
-   "forks": 41,
-   "open_issues": 24,
-   "language": "Python",
-   "license": "Apache-2.0",
-   "pushed_at": "2026-08-23T12:18:22Z",
-   "created_at": "2025-08-23T19:51:12Z",
-   "description": "A high-performance, open-source PDF data extraction tool.   一站式开源高性能数据提取工具，将复杂 PDF 文档转换为 Markdown 和 JSON 格式，使用onnx模型。",
-   "topics": [
-    "ocr",
-    "onnx",
-    "parser",
-    "pdf",
-    "pdf-converter",
-    "pdf-parser",
-    "python"
-   ],
-   "category": "PDF Extraction",
-   "momentum": 49,
-   "rank": 92
-  },
-  {
-   "name": "eSearch-OCR",
-   "full_name": "xushengfeng/eSearch-OCR",
-   "slug": "xushengfeng-esearch-ocr",
-   "url": "https://github.com/xushengfeng/eSearch-OCR",
-   "owner": "xushengfeng",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/28475549?v=4",
-   "stars": 133,
-   "forks": 14,
-   "open_issues": 1,
-   "language": "TypeScript",
-   "license": "Apache-2.0",
-   "pushed_at": "2026-09-06T14:39:01Z",
-   "created_at": "2021-12-18T19:08:38Z",
-   "description": "基于paddleOCR的js库",
-   "topics": [
-    "layout-analysis",
-    "nodejs",
-    "ocr",
-    "onnx",
-    "paddleocr"
-   ],
-   "category": "OCR Engines",
-   "momentum": 49,
-   "rank": 93
-  },
-  {
-   "name": "DocMeld",
-   "full_name": "agentii-ai/DocMeld",
-   "slug": "agentii-ai-docmeld",
-   "url": "https://github.com/agentii-ai/DocMeld",
-   "owner": "agentii-ai",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/162101367?v=4",
-   "stars": 102,
-   "forks": 9,
-   "open_issues": 4,
-   "language": "Python",
-   "license": "",
-   "pushed_at": "2026-09-15T05:14:42Z",
-   "created_at": "2026-03-12T10:27:11Z",
-   "description": "Lightweight Doc-to-agent-ready knowledge pipeline. Three-stage Bronze→Silver→Gold architecture extracts structured elements, page content, and   AI-enriched metadata from research papers and books. Generate PRDs, workflows, topic clusters, and Claude Code skills from PDFs. No OCR required.",
-   "topics": [
-    "agent-use-ready",
-    "ai-agents",
-    "claude-code",
-    "claude-skills",
-    "doc-converter",
-    "docling",
-    "document-ai",
-    "document-processing",
-    "harness-engineering",
-    "knowledge-pipeline",
-    "llm",
-    "ocr",
-    "pdf-converter",
-    "pdf-parser",
-    "pdf-to-md",
-    "rag",
-    "research-papers",
-    "workflow"
-   ],
-   "category": "OCR Engines",
-   "momentum": 49,
-   "rank": 94
+   "rank": 97
   },
   {
    "name": "img2table",
@@ -2992,7 +3073,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 48,
-   "rank": 95
+   "rank": 98
   },
   {
    "name": "gmft",
@@ -3012,7 +3093,7 @@
    "topics": [],
    "category": "Table Extraction",
    "momentum": 48,
-   "rank": 96
+   "rank": 99
   },
   {
    "name": "OCR-buddy",
@@ -3053,7 +3134,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 48,
-   "rank": 97
+   "rank": 100
   },
   {
    "name": "LaTeX-OCR",
@@ -3062,7 +3143,7 @@
    "url": "https://github.com/lukas-blecher/LaTeX-OCR",
    "owner": "lukas-blecher",
    "owner_avatar": "https://avatars.githubusercontent.com/u/55287601?v=4",
-   "stars": 16587,
+   "stars": 16590,
    "forks": 1311,
    "open_issues": 158,
    "language": "Python",
@@ -3091,7 +3172,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 47,
-   "rank": 98
+   "rank": 101
   },
   {
    "name": "ddddocr",
@@ -3100,7 +3181,7 @@
    "url": "https://github.com/sml2h3/ddddocr",
    "owner": "sml2h3",
    "owner_avatar": "https://avatars.githubusercontent.com/u/17084976?v=4",
-   "stars": 14832,
+   "stars": 14834,
    "forks": 2351,
    "open_issues": 123,
    "language": "Python",
@@ -3115,7 +3196,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 46,
-   "rank": 99
+   "rank": 102
   },
   {
    "name": "llama_cloud_services",
@@ -3152,7 +3233,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 46,
-   "rank": 100
+   "rank": 103
   },
   {
    "name": "OnnxOCR",
@@ -3182,7 +3263,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 46,
-   "rank": 101
+   "rank": 104
   },
   {
    "name": "CnSTD",
@@ -3211,7 +3292,7 @@
    ],
    "category": "Layout & Structure",
    "momentum": 46,
-   "rank": 102
+   "rank": 105
   },
   {
    "name": "zerox",
@@ -3234,7 +3315,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 45,
-   "rank": 103
+   "rank": 106
   },
   {
    "name": "gxpdf",
@@ -3265,7 +3346,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 45,
-   "rank": 104
+   "rank": 107
   },
   {
    "name": "nougat",
@@ -3285,7 +3366,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 44,
-   "rank": 105
+   "rank": 108
   },
   {
    "name": "Bob",
@@ -3294,8 +3375,8 @@
    "url": "https://github.com/ripperhe/Bob",
    "owner": "ripperhe",
    "owner_avatar": "https://avatars.githubusercontent.com/u/13943595?v=4",
-   "stars": 9746,
-   "forks": 517,
+   "stars": 9747,
+   "forks": 518,
    "open_issues": 108,
    "language": "",
    "license": "",
@@ -3323,7 +3404,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 44,
-   "rank": 106
+   "rank": 109
   },
   {
    "name": "video-subtitle-extractor",
@@ -3332,9 +3413,9 @@
    "url": "https://github.com/YaoFANGUK/video-subtitle-extractor",
    "owner": "YaoFANGUK",
    "owner_avatar": "https://avatars.githubusercontent.com/u/50165320?v=4",
-   "stars": 9589,
-   "forks": 975,
-   "open_issues": 269,
+   "stars": 9594,
+   "forks": 976,
+   "open_issues": 268,
    "language": "Python",
    "license": "Apache-2.0",
    "pushed_at": "2026-04-09T15:27:37Z",
@@ -3352,7 +3433,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 44,
-   "rank": 107
+   "rank": 110
   },
   {
    "name": "dots.ocr",
@@ -3361,7 +3442,7 @@
    "url": "https://github.com/studio-dots-ai/dots.ocr",
    "owner": "studio-dots-ai",
    "owner_avatar": "https://avatars.githubusercontent.com/u/211634691?v=4",
-   "stars": 9173,
+   "stars": 9172,
    "forks": 807,
    "open_issues": 146,
    "language": "Python",
@@ -3372,7 +3453,7 @@
    "topics": [],
    "category": "Layout & Structure",
    "momentum": 44,
-   "rank": 108
+   "rank": 111
   },
   {
    "name": "Dolphin",
@@ -3381,8 +3462,8 @@
    "url": "https://github.com/bytedance/Dolphin",
    "owner": "bytedance",
    "owner_avatar": "https://avatars.githubusercontent.com/u/4158466?v=4",
-   "stars": 9064,
-   "forks": 776,
+   "stars": 9065,
+   "forks": 775,
    "open_issues": 78,
    "language": "Python",
    "license": "NOASSERTION",
@@ -3402,31 +3483,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 44,
-   "rank": 109
-  },
-  {
-   "name": "GLM-OCR",
-   "full_name": "zai-org/GLM-OCR",
-   "slug": "zai-org-glm-ocr",
-   "url": "https://github.com/zai-org/GLM-OCR",
-   "owner": "zai-org",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/223098841?v=4",
-   "stars": 7502,
-   "forks": 671,
-   "open_issues": 67,
-   "language": "Python",
-   "license": "Apache-2.0",
-   "pushed_at": "2026-04-21T08:52:11Z",
-   "created_at": "2026-02-02T12:59:43Z",
-   "description": "GLM-OCR: Accurate ×  Fast × Comprehensive",
-   "topics": [
-    "glm",
-    "image2text",
-    "ocr"
-   ],
-   "category": "OCR Engines",
-   "momentum": 44,
-   "rank": 110
+   "rank": 112
   },
   {
    "name": "mupdf.js",
@@ -3454,7 +3511,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 44,
-   "rank": 111
+   "rank": 113
   },
   {
    "name": "PubLayNet",
@@ -3484,7 +3541,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 44,
-   "rank": 112
+   "rank": 114
   },
   {
    "name": "docslight",
@@ -3523,39 +3580,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 44,
-   "rank": 113
-  },
-  {
-   "name": "ai-assistant-demo",
-   "full_name": "PSPDFKit/ai-assistant-demo",
-   "slug": "pspdfkit-ai-assistant-demo",
-   "url": "https://github.com/PSPDFKit/ai-assistant-demo",
-   "owner": "PSPDFKit",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/1527679?v=4",
-   "stars": 68,
-   "forks": 6,
-   "open_issues": 0,
-   "language": "JavaScript",
-   "license": "",
-   "pushed_at": "2026-08-25T12:17:18Z",
-   "created_at": "2024-09-19T08:34:47Z",
-   "description": "AI Document Assistant for PSPDFKit Demo showcases how to interact with PDFs using natural language commands powered by AI, integrated with PSPDFKit for Web.",
-   "topics": [
-    "ai",
-    "ai-assistant",
-    "chat",
-    "document-ai",
-    "document-processing",
-    "llm",
-    "natural-language",
-    "nutrient",
-    "pdf",
-    "pspdfkit",
-    "web-sdk"
-   ],
-   "category": "Document Parsing",
-   "momentum": 44,
-   "rank": 114
+   "rank": 115
   },
   {
    "name": "GOT-OCR2.0",
@@ -3564,7 +3589,7 @@
    "url": "https://github.com/Ucas-HaoranWei/GOT-OCR2.0",
    "owner": "Ucas-HaoranWei",
    "owner_avatar": "https://avatars.githubusercontent.com/u/50487563?v=4",
-   "stars": 8223,
+   "stars": 8222,
    "forks": 712,
    "open_issues": 231,
    "language": "Python",
@@ -3575,7 +3600,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 43,
-   "rank": 115
+   "rank": 116
   },
   {
    "name": "omniparse",
@@ -3584,7 +3609,7 @@
    "url": "https://github.com/adithya-s-k/omniparse",
    "owner": "adithya-s-k",
    "owner_avatar": "https://avatars.githubusercontent.com/u/27956426?v=4",
-   "stars": 7930,
+   "stars": 7929,
    "forks": 675,
    "open_issues": 75,
    "language": "Python",
@@ -3604,7 +3629,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 43,
-   "rank": 116
+   "rank": 117
   },
   {
    "name": "paperless",
@@ -3630,7 +3655,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 43,
-   "rank": 117
+   "rank": 118
   },
   {
    "name": "ailab",
@@ -3669,7 +3694,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 43,
-   "rank": 118
+   "rank": 119
   },
   {
    "name": "tessdata",
@@ -3678,7 +3703,7 @@
    "url": "https://github.com/tesseract-ocr/tessdata",
    "owner": "tesseract-ocr",
    "owner_avatar": "https://avatars.githubusercontent.com/u/8401422?v=4",
-   "stars": 7677,
+   "stars": 7678,
    "forks": 2432,
    "open_issues": 61,
    "language": "",
@@ -3692,7 +3717,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 43,
-   "rank": 119
+   "rank": 120
   },
   {
    "name": "donut",
@@ -3701,7 +3726,7 @@
    "url": "https://github.com/clovaai/donut",
    "owner": "clovaai",
    "owner_avatar": "https://avatars.githubusercontent.com/u/48815312?v=4",
-   "stars": 6928,
+   "stars": 6926,
    "forks": 564,
    "open_issues": 211,
    "language": "Python",
@@ -3719,7 +3744,39 @@
    ],
    "category": "VLM & Understanding",
    "momentum": 43,
-   "rank": 120
+   "rank": 121
+  },
+  {
+   "name": "ai-assistant-demo",
+   "full_name": "PSPDFKit/ai-assistant-demo",
+   "slug": "pspdfkit-ai-assistant-demo",
+   "url": "https://github.com/PSPDFKit/ai-assistant-demo",
+   "owner": "PSPDFKit",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/1527679?v=4",
+   "stars": 68,
+   "forks": 6,
+   "open_issues": 0,
+   "language": "JavaScript",
+   "license": "",
+   "pushed_at": "2026-08-25T12:17:18Z",
+   "created_at": "2024-09-19T08:34:47Z",
+   "description": "AI Document Assistant for PSPDFKit Demo showcases how to interact with PDFs using natural language commands powered by AI, integrated with PSPDFKit for Web.",
+   "topics": [
+    "ai",
+    "ai-assistant",
+    "chat",
+    "document-ai",
+    "document-processing",
+    "llm",
+    "natural-language",
+    "nutrient",
+    "pdf",
+    "pspdfkit",
+    "web-sdk"
+   ],
+   "category": "Document Parsing",
+   "momentum": 43,
+   "rank": 122
   },
   {
    "name": "chineseocr",
@@ -3748,7 +3805,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 42,
-   "rank": 121
+   "rank": 123
   },
   {
    "name": "layout-parser",
@@ -3757,7 +3814,7 @@
    "url": "https://github.com/Layout-Parser/layout-parser",
    "owner": "Layout-Parser",
    "owner_avatar": "https://avatars.githubusercontent.com/u/66751426?v=4",
-   "stars": 5777,
+   "stars": 5776,
    "forks": 530,
    "open_issues": 120,
    "language": "Python",
@@ -3779,7 +3836,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 42,
-   "rank": 122
+   "rank": 124
   },
   {
    "name": "MinerU-Diffusion",
@@ -3788,7 +3845,7 @@
    "url": "https://github.com/opendatalab/MinerU-Diffusion",
    "owner": "opendatalab",
    "owner_avatar": "https://avatars.githubusercontent.com/u/97503431?v=4",
-   "stars": 623,
+   "stars": 619,
    "forks": 42,
    "open_issues": 9,
    "language": "Python",
@@ -3816,7 +3873,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 42,
-   "rank": 123
+   "rank": 125
   },
   {
    "name": "vision-agent",
@@ -3825,7 +3882,7 @@
    "url": "https://github.com/landing-ai/vision-agent",
    "owner": "landing-ai",
    "owner_avatar": "https://avatars.githubusercontent.com/u/34525670?v=4",
-   "stars": 5303,
+   "stars": 5301,
    "forks": 599,
    "open_issues": 13,
    "language": "Python",
@@ -3836,7 +3893,7 @@
    "topics": [],
    "category": "Document Parsing",
    "momentum": 41,
-   "rank": 124
+   "rank": 126
   },
   {
    "name": "SwiftOCR",
@@ -3866,7 +3923,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 41,
-   "rank": 125
+   "rank": 127
   },
   {
    "name": "Folio-OCR",
@@ -3901,7 +3958,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 41,
-   "rank": 126
+   "rank": 128
   },
   {
    "name": "Tesseract-OCR-iOS",
@@ -3910,8 +3967,8 @@
    "url": "https://github.com/gali8/Tesseract-OCR-iOS",
    "owner": "gali8",
    "owner_avatar": "https://avatars.githubusercontent.com/u/851499?v=4",
-   "stars": 4213,
-   "forks": 932,
+   "stars": 4211,
+   "forks": 931,
    "open_issues": 120,
    "language": "C",
    "license": "MIT",
@@ -3921,7 +3978,7 @@
    "topics": [],
    "category": "OCR Engines",
    "momentum": 40,
-   "rank": 127
+   "rank": 129
   },
   {
    "name": "camelot",
@@ -3946,7 +4003,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 40,
-   "rank": 128
+   "rank": 130
   },
   {
    "name": "Documents-Parsing-Lab",
@@ -3972,7 +4029,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 40,
-   "rank": 129
+   "rank": 131
   },
   {
    "name": "docslight",
@@ -4010,7 +4067,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 40,
-   "rank": 130
+   "rank": 132
   },
   {
    "name": "text-extract-api",
@@ -4040,7 +4097,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 39,
-   "rank": 131
+   "rank": 133
   },
   {
    "name": "document-ai-samples",
@@ -4067,7 +4124,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 39,
-   "rank": 132
+   "rank": 134
   },
   {
    "name": "rag-tender",
@@ -4103,7 +4160,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 39,
-   "rank": 133
+   "rank": 135
   },
   {
    "name": "table-transformer",
@@ -4128,7 +4185,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 38,
-   "rank": 134
+   "rank": 136
   },
   {
    "name": "mPLUG-DocOwl",
@@ -4155,7 +4212,7 @@
    ],
    "category": "VLM & Understanding",
    "momentum": 38,
-   "rank": 135
+   "rank": 137
   },
   {
    "name": "docext",
@@ -4164,7 +4221,7 @@
    "url": "https://github.com/NanoNets/docext",
    "owner": "NanoNets",
    "owner_avatar": "https://avatars.githubusercontent.com/u/30330951?v=4",
-   "stars": 2084,
+   "stars": 2083,
    "forks": 158,
    "open_issues": 22,
    "language": "Python",
@@ -4196,7 +4253,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 37,
-   "rank": 136
+   "rank": 138
   },
   {
    "name": "semtools",
@@ -4225,7 +4282,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 36,
-   "rank": 137
+   "rank": 139
   },
   {
    "name": "AdvancedLiterateMachinery",
@@ -4266,7 +4323,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 36,
-   "rank": 138
+   "rank": 140
   },
   {
    "name": "pdf-to-markdown",
@@ -4276,7 +4333,7 @@
    "owner": "jzillmann",
    "owner_avatar": "https://avatars.githubusercontent.com/u/148472?v=4",
    "stars": 1656,
-   "forks": 302,
+   "forks": 303,
    "open_issues": 45,
    "language": "JavaScript",
    "license": "MIT",
@@ -4289,7 +4346,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 36,
-   "rank": 139
+   "rank": 141
   },
   {
    "name": "docstrange",
@@ -4323,7 +4380,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 35,
-   "rank": 140
+   "rank": 142
   },
   {
    "name": "documind",
@@ -4357,7 +4414,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 35,
-   "rank": 141
+   "rank": 143
   },
   {
    "name": "e2m",
@@ -4384,7 +4441,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 35,
-   "rank": 142
+   "rank": 144
   },
   {
    "name": "rlama",
@@ -4404,7 +4461,7 @@
    "topics": [],
    "category": "Document Parsing",
    "momentum": 34,
-   "rank": 143
+   "rank": 145
   },
   {
    "name": "marker-api",
@@ -4433,7 +4490,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 33,
-   "rank": 144
+   "rank": 146
   },
   {
    "name": "spacy-layout",
@@ -4464,7 +4521,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 33,
-   "rank": 145
+   "rank": 147
   },
   {
    "name": "api-llm-ocr",
@@ -4493,7 +4550,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 33,
-   "rank": 146
+   "rank": 148
   },
   {
    "name": "JiaJiaOCR",
@@ -4520,7 +4577,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 32,
-   "rank": 147
+   "rank": 149
   },
   {
    "name": "DocumentLayoutAnalysis",
@@ -4558,7 +4615,7 @@
    ],
    "category": "Layout & Structure",
    "momentum": 31,
-   "rank": 148
+   "rank": 150
   },
   {
    "name": "PICK-pytorch",
@@ -4585,7 +4642,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 31,
-   "rank": 149
+   "rank": 151
   },
   {
    "name": "DeepSeek-OCR-Web",
@@ -4605,7 +4662,7 @@
    "topics": [],
    "category": "OCR Engines",
    "momentum": 31,
-   "rank": 150
+   "rank": 152
   },
   {
    "name": "NexusRAG",
@@ -4642,7 +4699,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 31,
-   "rank": 151
+   "rank": 153
   },
   {
    "name": "DocLayNet",
@@ -4662,7 +4719,7 @@
    "topics": [],
    "category": "Layout & Structure",
    "momentum": 30,
-   "rank": 152
+   "rank": 154
   },
   {
    "name": "remarks",
@@ -4697,7 +4754,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 29,
-   "rank": 153
+   "rank": 155
   },
   {
    "name": "LiLT",
@@ -4725,7 +4782,7 @@
    ],
    "category": "VLM & Understanding",
    "momentum": 29,
-   "rank": 154
+   "rank": 156
   },
   {
    "name": "pdf-parse",
@@ -4734,7 +4791,7 @@
    "url": "https://github.com/mehmet-kozan/pdf-parse",
    "owner": "mehmet-kozan",
    "owner_avatar": "https://avatars.githubusercontent.com/u/598159?v=4",
-   "stars": 222,
+   "stars": 224,
    "forks": 20,
    "open_issues": 29,
    "language": "TypeScript",
@@ -4764,7 +4821,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 29,
-   "rank": 155
+   "rank": 157
   },
   {
    "name": "tabula-sharp",
@@ -4803,47 +4860,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 29,
-   "rank": 156
-  },
-  {
-   "name": "Flamehaven-Filesearch",
-   "full_name": "flamehaven01/Flamehaven-Filesearch",
-   "slug": "flamehaven01-flamehaven-filesearch",
-   "url": "https://github.com/flamehaven01/Flamehaven-Filesearch",
-   "owner": "flamehaven01",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/242357858?v=4",
-   "stars": 109,
-   "forks": 14,
-   "open_issues": 0,
-   "language": "Python",
-   "license": "MIT",
-   "pushed_at": "2026-05-19T17:55:18Z",
-   "created_at": "2025-11-11T16:58:05Z",
-   "description": "Self-hosted RAG search engine — 34 formats, BM25+hybrid search, multi-LLM (Gemini/OpenAI/Claude/Ollama), FastAPI + Docker, production-ready in 3 min",
-   "topics": [
-    "bm25",
-    "crewai",
-    "docker",
-    "document-parsing",
-    "document-search",
-    "fastapi",
-    "haystack",
-    "hybrid-search",
-    "knowledge-base",
-    "langchain",
-    "llamaindex",
-    "llm",
-    "ollama",
-    "open-source",
-    "python",
-    "rag",
-    "self-hosted",
-    "semantic-search",
-    "vector-search"
-   ],
-   "category": "Document Parsing",
-   "momentum": 29,
-   "rank": 157
+   "rank": 158
   },
   {
    "name": "rowfill",
@@ -4882,7 +4899,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 28,
-   "rank": 158
+   "rank": 159
   },
   {
    "name": "dots.mocr",
@@ -4902,7 +4919,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 28,
-   "rank": 159
+   "rank": 160
   },
   {
    "name": "MDocAgent",
@@ -4922,7 +4939,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 28,
-   "rank": 160
+   "rank": 161
   },
   {
    "name": "pd3f",
@@ -4954,7 +4971,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 28,
-   "rank": 161
+   "rank": 162
   },
   {
    "name": "TableNet",
@@ -4974,7 +4991,7 @@
    "topics": [],
    "category": "Table Extraction",
    "momentum": 28,
-   "rank": 162
+   "rank": 163
   },
   {
    "name": "agent-fetch",
@@ -5012,7 +5029,47 @@
    ],
    "category": "Document Parsing",
    "momentum": 28,
-   "rank": 163
+   "rank": 164
+  },
+  {
+   "name": "Flamehaven-Filesearch",
+   "full_name": "flamehaven01/Flamehaven-Filesearch",
+   "slug": "flamehaven01-flamehaven-filesearch",
+   "url": "https://github.com/flamehaven01/Flamehaven-Filesearch",
+   "owner": "flamehaven01",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/242357858?v=4",
+   "stars": 109,
+   "forks": 14,
+   "open_issues": 0,
+   "language": "Python",
+   "license": "MIT",
+   "pushed_at": "2026-05-19T17:55:18Z",
+   "created_at": "2025-11-11T16:58:05Z",
+   "description": "Self-hosted RAG search engine — 34 formats, BM25+hybrid search, multi-LLM (Gemini/OpenAI/Claude/Ollama), FastAPI + Docker, production-ready in 3 min",
+   "topics": [
+    "bm25",
+    "crewai",
+    "docker",
+    "document-parsing",
+    "document-search",
+    "fastapi",
+    "haystack",
+    "hybrid-search",
+    "knowledge-base",
+    "langchain",
+    "llamaindex",
+    "llm",
+    "ollama",
+    "open-source",
+    "python",
+    "rag",
+    "self-hosted",
+    "semantic-search",
+    "vector-search"
+   ],
+   "category": "Document Parsing",
+   "momentum": 28,
+   "rank": 165
   },
   {
    "name": "CDLA",
@@ -5032,7 +5089,7 @@
    "topics": [],
    "category": "Layout & Structure",
    "momentum": 27,
-   "rank": 164
+   "rank": 166
   },
   {
    "name": "docformer",
@@ -5052,7 +5109,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 27,
-   "rank": 165
+   "rank": 167
   },
   {
    "name": "ExtractTable-py",
@@ -5079,7 +5136,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 27,
-   "rank": 166
+   "rank": 168
   },
   {
    "name": "RapidLayout",
@@ -5105,7 +5162,7 @@
    ],
    "category": "Layout & Structure",
    "momentum": 27,
-   "rank": 167
+   "rank": 169
   },
   {
    "name": "identitydocuments",
@@ -5132,7 +5189,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 27,
-   "rank": 168
+   "rank": 170
   },
   {
    "name": "uniflow",
@@ -5156,7 +5213,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 26,
-   "rank": 169
+   "rank": 171
   },
   {
    "name": "layout-model-training",
@@ -5176,7 +5233,7 @@
    "topics": [],
    "category": "Layout & Structure",
    "momentum": 26,
-   "rank": 170
+   "rank": 172
   },
   {
    "name": "pdf-narrator",
@@ -5209,7 +5266,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 26,
-   "rank": 171
+   "rank": 173
   },
   {
    "name": "Document-AI-Recommendations",
@@ -5235,7 +5292,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 26,
-   "rank": 172
+   "rank": 174
   },
   {
    "name": "RapidDocEx",
@@ -5258,7 +5315,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 26,
-   "rank": 173
+   "rank": 175
   },
   {
    "name": "german-ocr",
@@ -5293,7 +5350,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 26,
-   "rank": 174
+   "rank": 176
   },
   {
    "name": "Fox",
@@ -5313,7 +5370,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 25,
-   "rank": 175
+   "rank": 177
   },
   {
    "name": "DeepLayout",
@@ -5333,7 +5390,7 @@
    "topics": [],
    "category": "Layout & Structure",
    "momentum": 25,
-   "rank": 176
+   "rank": 178
   },
   {
    "name": "Tabulo",
@@ -5370,7 +5427,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 25,
-   "rank": 177
+   "rank": 179
   },
   {
    "name": "P2PaLA",
@@ -5401,7 +5458,7 @@
    ],
    "category": "Layout & Structure",
    "momentum": 25,
-   "rank": 178
+   "rank": 180
   },
   {
    "name": "gpt-summarizer",
@@ -5421,7 +5478,7 @@
    "topics": [],
    "category": "PDF Extraction",
    "momentum": 25,
-   "rank": 179
+   "rank": 181
   },
   {
    "name": "document-parsers-list",
@@ -5451,7 +5508,7 @@
    ],
    "category": "Collections",
    "momentum": 25,
-   "rank": 180
+   "rank": 182
   },
   {
    "name": "Hyper-Table-OCR",
@@ -5477,7 +5534,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 25,
-   "rank": 181
+   "rank": 183
   },
   {
    "name": "docxtractr",
@@ -5504,7 +5561,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 25,
-   "rank": 182
+   "rank": 184
   },
   {
    "name": "PDFConverter",
@@ -5536,7 +5593,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 25,
-   "rank": 183
+   "rank": 185
   },
   {
    "name": "chug",
@@ -5565,7 +5622,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 25,
-   "rank": 184
+   "rank": 186
   },
   {
    "name": "Table-Detection-using-Deep-learning",
@@ -5585,7 +5642,7 @@
    "topics": [],
    "category": "Table Extraction",
    "momentum": 25,
-   "rank": 185
+   "rank": 187
   },
   {
    "name": "knwler",
@@ -5608,7 +5665,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 25,
-   "rank": 186
+   "rank": 188
   },
   {
    "name": "InstructDoc",
@@ -5628,7 +5685,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 25,
-   "rank": 187
+   "rank": 189
   },
   {
    "name": "OpenKP",
@@ -5648,7 +5705,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 24,
-   "rank": 188
+   "rank": 190
   },
   {
    "name": "MMLongBench-Doc",
@@ -5668,7 +5725,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 24,
-   "rank": 189
+   "rank": 191
   },
   {
    "name": "DocLLM",
@@ -5688,7 +5745,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 24,
-   "rank": 190
+   "rank": 192
   },
   {
    "name": "doc2graph",
@@ -5718,7 +5775,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 24,
-   "rank": 191
+   "rank": 193
   },
   {
    "name": "gds2Para",
@@ -5748,7 +5805,7 @@
    ],
    "category": "Layout & Structure",
    "momentum": 24,
-   "rank": 192
+   "rank": 194
   },
   {
    "name": "TokenFD",
@@ -5768,7 +5825,7 @@
    "topics": [],
    "category": "VLM & Understanding",
    "momentum": 24,
-   "rank": 193
+   "rank": 195
   },
   {
    "name": "PDFs-TextExtract",
@@ -5801,7 +5858,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 24,
-   "rank": 194
+   "rank": 196
   },
   {
    "name": "seq2seq-layout-analysis",
@@ -5821,7 +5878,7 @@
    "topics": [],
    "category": "Layout & Structure",
    "momentum": 24,
-   "rank": 195
+   "rank": 197
   },
   {
    "name": "ocr-python",
@@ -5858,7 +5915,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 23,
-   "rank": 196
+   "rank": 198
   },
   {
    "name": "document-layout-analysis",
@@ -5878,7 +5935,7 @@
    "topics": [],
    "category": "Layout & Structure",
    "momentum": 23,
-   "rank": 197
+   "rank": 199
   },
   {
    "name": "CCKS2019-Task5",
@@ -5907,7 +5964,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 23,
-   "rank": 198
+   "rank": 200
   },
   {
    "name": "ultimateCreditCard-SDK",
@@ -5948,7 +6005,7 @@
    ],
    "category": "Layout & Structure",
    "momentum": 23,
-   "rank": 199
+   "rank": 201
   },
   {
    "name": "webvicob",
@@ -5973,7 +6030,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 23,
-   "rank": 200
+   "rank": 202
   },
   {
    "name": "SlideVQA",
@@ -5999,7 +6056,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 23,
-   "rank": 201
+   "rank": 203
   },
   {
    "name": "amazon-textract-transformer-pipeline",
@@ -6024,7 +6081,7 @@
    ],
    "category": "VLM & Understanding",
    "momentum": 23,
-   "rank": 202
+   "rank": 204
   },
   {
    "name": "table-transformer",
@@ -6054,7 +6111,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 22,
-   "rank": 203
+   "rank": 205
   },
   {
    "name": "rhubarb",
@@ -6080,7 +6137,7 @@
    ],
    "category": "VLM & Understanding",
    "momentum": 22,
-   "rank": 204
+   "rank": 206
   },
   {
    "name": "science-result-extractor",
@@ -6108,7 +6165,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 22,
-   "rank": 205
+   "rank": 207
   },
   {
    "name": "ocrsegment",
@@ -6128,7 +6185,7 @@
    "topics": [],
    "category": "Layout & Structure",
    "momentum": 22,
-   "rank": 206
+   "rank": 208
   },
   {
    "name": "engineering-drawing-extractor",
@@ -6158,7 +6215,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 22,
-   "rank": 207
+   "rank": 209
   },
   {
    "name": "Checkbox-Detection",
@@ -6186,7 +6243,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 22,
-   "rank": 208
+   "rank": 210
   },
   {
    "name": "Snappy",
@@ -6226,7 +6283,7 @@
    ],
    "category": "VLM & Understanding",
    "momentum": 22,
-   "rank": 209
+   "rank": 211
   },
   {
    "name": "TreeStructure",
@@ -6246,30 +6303,7 @@
    "topics": [],
    "category": "Table Extraction",
    "momentum": 22,
-   "rank": 210
-  },
-  {
-   "name": "Layout2Graph",
-   "full_name": "NormXU/Layout2Graph",
-   "slug": "normxu-layout2graph",
-   "url": "https://github.com/NormXU/Layout2Graph",
-   "owner": "NormXU",
-   "owner_avatar": "https://avatars.githubusercontent.com/u/33339685?v=4",
-   "stars": 82,
-   "forks": 12,
-   "open_issues": 4,
-   "language": "Python",
-   "license": "Apache-2.0",
-   "pushed_at": "2023-10-14T08:48:01Z",
-   "created_at": "2022-12-23T06:02:46Z",
-   "description": "An official implementation of paper \"Paragraph2Graph: A Language-independent GNN-based framework for layout analysis\"",
-   "topics": [
-    "gnn-framework",
-    "layout-analysis"
-   ],
-   "category": "Layout & Structure",
-   "momentum": 21,
-   "rank": 211
+   "rank": 212
   },
   {
    "name": "Churro",
@@ -6278,7 +6312,7 @@
    "url": "https://github.com/stanford-oval/Churro",
    "owner": "stanford-oval",
    "owner_avatar": "https://avatars.githubusercontent.com/u/13667124?v=4",
-   "stars": 81,
+   "stars": 82,
    "forks": 5,
    "open_issues": 5,
    "language": "Python",
@@ -6301,7 +6335,30 @@
    ],
    "category": "OCR Engines",
    "momentum": 21,
-   "rank": 212
+   "rank": 213
+  },
+  {
+   "name": "Layout2Graph",
+   "full_name": "NormXU/Layout2Graph",
+   "slug": "normxu-layout2graph",
+   "url": "https://github.com/NormXU/Layout2Graph",
+   "owner": "NormXU",
+   "owner_avatar": "https://avatars.githubusercontent.com/u/33339685?v=4",
+   "stars": 82,
+   "forks": 12,
+   "open_issues": 4,
+   "language": "Python",
+   "license": "Apache-2.0",
+   "pushed_at": "2023-10-14T08:48:01Z",
+   "created_at": "2022-12-23T06:02:46Z",
+   "description": "An official implementation of paper \"Paragraph2Graph: A Language-independent GNN-based framework for layout analysis\"",
+   "topics": [
+    "gnn-framework",
+    "layout-analysis"
+   ],
+   "category": "Layout & Structure",
+   "momentum": 21,
+   "rank": 214
   },
   {
    "name": "Document_layout_analysis",
@@ -6321,7 +6378,7 @@
    "topics": [],
    "category": "Layout & Structure",
    "momentum": 21,
-   "rank": 213
+   "rank": 215
   },
   {
    "name": "nanoindex",
@@ -6357,7 +6414,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 21,
-   "rank": 214
+   "rank": 216
   },
   {
    "name": "Visual-ERM",
@@ -6366,7 +6423,7 @@
    "url": "https://github.com/InternLM/Visual-ERM",
    "owner": "InternLM",
    "owner_avatar": "https://avatars.githubusercontent.com/u/135356492?v=4",
-   "stars": 69,
+   "stars": 68,
    "forks": 0,
    "open_issues": 0,
    "language": "Python",
@@ -6387,7 +6444,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 20,
-   "rank": 215
+   "rank": 217
   },
   {
    "name": "VDocRAG",
@@ -6413,7 +6470,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 20,
-   "rank": 216
+   "rank": 218
   },
   {
    "name": "parsee-pdf-reader",
@@ -6437,7 +6494,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 20,
-   "rank": 217
+   "rank": 219
   },
   {
    "name": "pdf_table",
@@ -6466,7 +6523,7 @@
    ],
    "category": "Table Extraction",
    "momentum": 20,
-   "rank": 218
+   "rank": 220
   },
   {
    "name": "TableExtraction",
@@ -6491,7 +6548,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 20,
-   "rank": 219
+   "rank": 221
   },
   {
    "name": "DocSegTr",
@@ -6518,7 +6575,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 20,
-   "rank": 220
+   "rank": 222
   },
   {
    "name": "papercast",
@@ -6553,7 +6610,7 @@
    ],
    "category": "PDF Extraction",
    "momentum": 19,
-   "rank": 221
+   "rank": 223
   },
   {
    "name": "detectron2-publaynet",
@@ -6593,7 +6650,7 @@
    ],
    "category": "Layout & Structure",
    "momentum": 19,
-   "rank": 222
+   "rank": 224
   },
   {
    "name": "SelfDocSeg",
@@ -6618,7 +6675,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 18,
-   "rank": 223
+   "rank": 225
   },
   {
    "name": "TableExtractor-Advanced-PDF-Table-Extraction",
@@ -6644,7 +6701,7 @@
    ],
    "category": "OCR Engines",
    "momentum": 18,
-   "rank": 224
+   "rank": 226
   },
   {
    "name": "nordrassil",
@@ -6674,7 +6731,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 18,
-   "rank": 225
+   "rank": 227
   },
   {
    "name": "img2txt",
@@ -6702,7 +6759,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 18,
-   "rank": 226
+   "rank": 228
   },
   {
    "name": "Go5-Project",
@@ -6727,7 +6784,7 @@
    ],
    "category": "Document Parsing",
    "momentum": 18,
-   "rank": 227
+   "rank": 229
   }
  ]
 }
