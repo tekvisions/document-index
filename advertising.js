@@ -25,6 +25,7 @@
   }});
   const script = document.createElement('script');
   script.async = true; script.crossOrigin = 'anonymous';
+  script.setAttribute('data-privacy-treatments','disablePersonalization');
   script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + publisher;
   document.head.appendChild(script);
   const region = document.querySelector('[data-portfolio-ad]');
