@@ -3,20 +3,20 @@
 > The living index of document-AI tooling — OCR, PDF extraction, document parsing, layout
 > & structure, table extraction and vision-language understanding — ranked daily by GitHub momentum.
 
-Updated: 2026-10-30T12:51:51.279459+00:00
+Updated: 2026-10-30T12:58:01.726109+00:00
 Tools indexed: 235
 
 ## Top document-AI tools by momentum
 
 - [storytold/pdfcraft](https://github.com/storytold/pdfcraft) — momentum 89, ⭐18721 — PDF Extraction — PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust
 - [opendatalab/MinerU](https://github.com/opendatalab/MinerU) — momentum 86, ⭐82807 — Document Parsing — Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic
-- [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) — momentum 86, ⭐77243 — OCR Engines — Tesseract Open Source OCR Engine (main repository)
+- [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) — momentum 86, ⭐77244 — OCR Engines — Tesseract Open Source OCR Engine (main repository)
 - [docling-project/docling](https://github.com/docling-project/docling) — momentum 86, ⭐69861 — Document Parsing — Get your documents ready for gen AI
 - [datalab-to/marker](https://github.com/datalab-to/marker) — momentum 83, ⭐40707 — PDF Extraction — Convert PDF to markdown + JSON quickly with high accuracy
 - [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) — momentum 82, ⭐30120 — PDF Extraction — PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.
 - [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) — momentum 82, ⭐8181 — Document Parsing — The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and draft
 - [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF) — momentum 81, ⭐35199 — OCR Engines — OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched
-- [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) — momentum 81, ⭐29856 — OCR Engines — Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
+- [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) — momentum 81, ⭐29858 — OCR Engines — Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.
 - [datalab-to/surya](https://github.com/datalab-to/surya) — momentum 80, ⭐21558 — Table Extraction — OCR, layout analysis, reading order, table recognition in 90+ languages
 - [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) — momentum 79, ⭐91988 — OCR Engines — Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit
 - [SoMarkAI/OXR](https://github.com/SoMarkAI/OXR) — momentum 79, ⭐2621 — Document Parsing — An open-source document parsing model with SOTA accuracy and speed, using an RSI loop during post-tr
@@ -34,7 +34,7 @@ Tools indexed: 235
 - [jsvine/pdfplumber](https://github.com/jsvine/pdfplumber) — momentum 74, ⭐10855 — PDF Extraction — Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extrac
 - [mindee/doctr](https://github.com/mindee/doctr) — momentum 74, ⭐6403 — OCR Engines — docTR (Document Text Recognition) - a seamless, high-performing & accessible library for OCR-related
 - [microsoft/unilm](https://github.com/microsoft/unilm) — momentum 73, ⭐22234 — Document Parsing — Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities
-- [zai-org/GLM-OCR](https://github.com/zai-org/GLM-OCR) — momentum 72, ⭐7558 — OCR Engines — GLM-OCR: Accurate ×  Fast × Comprehensive
+- [zai-org/GLM-OCR](https://github.com/zai-org/GLM-OCR) — momentum 72, ⭐7559 — OCR Engines — GLM-OCR: Accurate ×  Fast × Comprehensive
 - [Sumanth077/Hands-On-AI-Engineering](https://github.com/Sumanth077/Hands-On-AI-Engineering) — momentum 72, ⭐4067 — Collections — A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI
 - [FengZhenfei/carrel](https://github.com/FengZhenfei/carrel) — momentum 72, ⭐639 — Document Parsing — Ontology-Augmented Generation for AI agents.
 - [liustack/modlens](https://github.com/liustack/modlens) — momentum 71, ⭐4645 — OCR Engines — The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent

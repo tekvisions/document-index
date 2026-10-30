@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T12:51:51.279459+00:00",
+ "generated_at": "2026-10-30T12:58:01.726109+00:00",
  "count": 235,
  "categories": [
   {
@@ -105,7 +105,7 @@
    "url": "https://github.com/tesseract-ocr/tesseract",
    "owner": "tesseract-ocr",
    "owner_avatar": "https://avatars.githubusercontent.com/u/8401422?v=4",
-   "stars": 77243,
+   "stars": 77244,
    "forks": 10877,
    "open_issues": 493,
    "language": "C++",
@@ -286,7 +286,7 @@
    "url": "https://github.com/baidu/Unlimited-OCR",
    "owner": "baidu",
    "owner_avatar": "https://avatars.githubusercontent.com/u/13245940?v=4",
-   "stars": 29856,
+   "stars": 29858,
    "forks": 3180,
    "open_issues": 93,
    "language": "Python",
@@ -844,7 +844,7 @@
    "url": "https://github.com/zai-org/GLM-OCR",
    "owner": "zai-org",
    "owner_avatar": "https://avatars.githubusercontent.com/u/223098841?v=4",
-   "stars": 7558,
+   "stars": 7559,
    "forks": 675,
    "open_issues": 67,
    "language": "Python",
