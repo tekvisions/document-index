@@ -5,14 +5,16 @@ import {readFileSync} from 'node:fs';
 const code=readFileSync(new URL('../advertising.js',import.meta.url),'utf8');
 function fixture(overrides={}) {
  const dataset={host:'indexes.kymatalabs.com',approved:'true',consentReady:'true',slot:'6939405217',...overrides.dataset};
- const appended=[],elements=[],observers=[];
+ const appended=[],elements=[],observers=[],sizeObservers=[];
+ let width=overrides.width ?? 800;
  const region={hidden:true,style:{},append(...els){elements.push(...els)}};
  const button={hidden:true,addEventListener(name,fn){this[name]=fn}};
- const document={currentScript:{dataset},head:{appendChild:s=>appended.push(s)},querySelector:s=>s==='[data-ad-privacy]'?button:region,createElement(tag){return {tag,style:{},attributes:{},setAttribute(k,v){this.attributes[k]=v},getBoundingClientRect(){return {width:800}}}}};
+ const document={currentScript:{dataset},head:{appendChild:s=>appended.push(s)},querySelector:s=>s==='[data-ad-privacy]'?button:region,createElement(tag){return {tag,style:{},attributes:{},setAttribute(k,v){this.attributes[k]=v},getBoundingClientRect(){return {width}}}}};
  const window={};if(!overrides.noObserver)window.IntersectionObserver=class{constructor(fn){this.fn=fn;observers.push(this)}observe(){}disconnect(){this.disconnected=true}};
+ if(!overrides.noResizeObserver)window.ResizeObserver=class{constructor(fn){this.fn=fn;sizeObservers.push(this)}observe(){}disconnect(){this.disconnected=true}};
  const location={hostname:'indexes.kymatalabs.com',pathname:'/',search:'',hash:'',...overrides.location};
- vm.runInNewContext(code,{window,document,location,URLSearchParams,IntersectionObserver:window.IntersectionObserver});
- return{window,region,button,appended,elements,observers,location};
+ vm.runInNewContext(code,{window,document,location,URLSearchParams,IntersectionObserver:window.IntersectionObserver,ResizeObserver:window.ResizeObserver});
+ return{window,region,button,appended,elements,observers,sizeObservers,location,setWidth(value){width=value}};
 }
 test('all release gates fail closed without loading Google or exposing an empty placement',()=>{
  for(const options of [{dataset:{approved:'false'}},{dataset:{consentReady:'false'}},{dataset:{slot:''}},{location:{hostname:'preview.vercel.app'}},{location:{pathname:'/privacy.html'}},{location:{search:'?q=private+search'}},{location:{search:'?email=someone@example.com'}}]){
@@ -33,3 +35,18 @@ test('only exact debug pairs permit messaging and never manual units',()=>{
  for(const location of [{search:'?fc=private'},{search:'?fctype=gdpr'},{search:'?fc=alwaysshow&fctype=private'},{search:'?fc=alwaysshow&fc=alwaysshow&fctype=gdpr'},{search:'?utm_id=private'},{hash:'#private'}])assert.equal(fixture({location}).appended.length,0);
 });
 test('delayed viewport callbacks recheck a changed private URL',()=>{const f=fixture();f.location.search='?q=private';f.observers[0].fn([{isIntersecting:true}]);assert.equal(f.window.adsbygoogle,undefined)});
+test('a visible zero-width placement requests once after its layout becomes available',()=>{
+ const f=fixture({width:0});f.observers[0].fn([{isIntersecting:true}]);assert.equal(f.window.adsbygoogle,undefined);
+ f.setWidth(800);for(const ob of f.sizeObservers)ob.fn();
+ assert.equal(f.window.adsbygoogle?.length,1,'a layout change must retry the already-visible placement');
+ for(const ob of f.sizeObservers)ob.fn();f.observers[0].fn([{isIntersecting:true}]);assert.equal(f.window.adsbygoogle.length,1);
+});
+test('layout retry still rejects a newly private URL',()=>{
+ const f=fixture({width:0});f.observers[0].fn([{isIntersecting:true}]);f.location.search='?q=private';f.setWidth(800);
+ for(const ob of f.sizeObservers)ob.fn();assert.equal(f.window.adsbygoogle,undefined);
+});
+test('layout changes outside the viewport wait until the placement is visible',()=>{
+ const f=fixture({width:0});f.observers[0].fn([{isIntersecting:true}]);f.observers[0].fn([{isIntersecting:false}]);f.setWidth(800);
+ for(const ob of f.sizeObservers)ob.fn();assert.equal(f.window.adsbygoogle,undefined);
+ f.observers[0].fn([{isIntersecting:true}]);assert.equal(f.window.adsbygoogle.length,1);
+});

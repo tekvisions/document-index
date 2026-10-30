@@ -49,17 +49,28 @@
   unit.setAttribute('data-ad-format','auto'); unit.setAttribute('data-full-width-responsive','true');
   unit.setAttribute('data-restrict-data-processing','1');
   region.append(label,unit);
-  let queued = false;
+  let queued = false, visible = !('IntersectionObserver' in window);
+  let viewportObserver = null, sizeObserver = null;
   const request = () => {
-    if (queued || !publicContext() || unit.getBoundingClientRect().width <= 0) return;
-    try { (window.adsbygoogle = window.adsbygoogle || []).push({}); queued = true; }
+    if (queued || !visible || !publicContext() || unit.getBoundingClientRect().width <= 0) return;
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({}); queued = true;
+      viewportObserver?.disconnect(); sizeObserver?.disconnect();
+    }
     catch { /* Ad blocking must not break the directory. */ }
   };
+  // A visible slot can still be zero-width during layout. Retry when its size
+  // becomes available, retaining visibility, URL and single-request checks.
+  if ('ResizeObserver' in window) {
+    sizeObserver = new ResizeObserver(request);
+    sizeObserver.observe(unit);
+  }
   // Request only when the below-content placement approaches the viewport.
   if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver(entries => {
-      if (entries.some(entry => entry.isIntersecting)) { request(); if (queued) observer.disconnect(); }
+    viewportObserver = new IntersectionObserver(entries => {
+      visible = entries.some(entry => entry.isIntersecting);
+      request();
     }, {rootMargin:'200px'});
-    observer.observe(region);
+    viewportObserver.observe(region);
   } else request();
 })();
