@@ -8,7 +8,9 @@ MISSION='Kymata Labs makes open-source AI tools, models and infrastructure easie
 
 def apply(root):
     from atlas_design import SITES
-    root=Path(root)
+    root=Path(root).absolute()
+    for path in [root,*root.parents,*[root/n for n in ['data.json','public.assets','index.html','capabilities.json','llms.txt','ai.txt']]]:
+        if path.is_symlink():raise ValueError('Discovery paths cannot use symlinks')
     site=next((s for s in SITES if s['repo']==root.name),None)
     if not site:return
     origin=site['url'].rstrip('/')
