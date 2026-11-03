@@ -1,0 +1,59 @@
+{
+  "host": "document.kymatalabs.com",
+  "reviewed_on": "2026-11-03",
+  "title": "Choose document AI tools using representative documents",
+  "answer": "Begin with the input: a searchable PDF, a scanned page, a layout-heavy document or a table extraction task. The same repository can cover several stages, so verify the particular operation rather than relying on its category alone.",
+  "choices": [
+    {
+      "categories": [
+        "OCR Engines",
+        "PDF Extraction"
+      ],
+      "task": "Recover text",
+      "guidance": "Test native-text and scanned inputs separately. Check languages, rotation, page quality and whether the output preserves the text you actually need."
+    },
+    {
+      "categories": [
+        "Layout & Structure",
+        "Table Extraction",
+        "Document Parsing"
+      ],
+      "task": "Recover usable structure",
+      "guidance": "Specify reading order, headings, cells, merged tables and output schema. Compare extracted fields with a manually checked document sample."
+    },
+    {
+      "categories": [
+        "VLM & Understanding"
+      ],
+      "task": "Interpret document content",
+      "guidance": "Define questions and required evidence locations. Verify both answer correctness and whether the output identifies the supporting page or region."
+    }
+  ],
+  "checks": [
+    "Record file formats, document languages, runtime/model version and hardware.",
+    "Include difficult and failed documents; report extraction errors by field or page.",
+    "Verify license, local/cloud processing and data-handling requirements in primary documentation."
+  ],
+  "unknowns": "Supported formats, OCR accuracy, table fidelity, latency and resource requirements are not independently benchmarked by this index.",
+  "related": [
+    {
+      "url": "https://rag.kymatalabs.com/",
+      "label": "rag"
+    },
+    {
+      "url": "https://dataset.kymatalabs.com/",
+      "label": "dataset"
+    },
+    {
+      "url": "https://eval.kymatalabs.com/",
+      "label": "eval"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Published collection and scoring rules",
+      "url": "https://github.com/tekvisions/document-index/blob/b806da6306ad41cb7d7c3766bb2a5e5c46ad7f51/build_data.py",
+      "reviewed_on": "2026-11-03"
+    }
+  ]
+}

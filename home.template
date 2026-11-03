@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Document Index — document-AI, OCR & extraction tools, ranked by momentum</title>
+<meta name="description" content="A living index of document-AI tooling — OCR engines, PDF extraction, document parsing, layout & structure analysis, table extraction and vision-language understanding — ranked from dated source snapshots by momentum from live GitHub signals.">
+<link rel="canonical" href="https://document.kymatalabs.com/">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="document ai, ocr, pdf extraction, document parsing, pdf to markdown, layout analysis, table extraction, document understanding, tesseract, paddleocr, docling, mineru, surya, unstructured">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://document.kymatalabs.com/">
+<meta property="og:title" content="The Document Index — document-AI, OCR & extraction tools, ranked by momentum">
+<meta property="og:description" content="A living index of OCR, PDF extraction, document parsing, layout, tables & VLM understanding, ranked from dated source snapshots from live GitHub signals.">
+<meta property="og:image" content="https://document.kymatalabs.com/og.png">
+<meta property="og:site_name" content="The Document Index">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Document Index — the document-AI stack">
+<meta name="twitter:description" content="A living index of document-AI & extraction tooling, ranked from dated source snapshots by momentum.">
+<meta name="twitter:image" content="https://document.kymatalabs.com/og.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="The Document Index" href="/rss.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+<script type="application/ld+json">
+{ "@context": "https://schema.org", "@type": "WebSite", "name": "The Document Index",
+  "url": "https://document.kymatalabs.com/",
+  "description": "A living index of document-AI tooling — OCR, PDF extraction, parsing, layout, tables & understanding, ranked by momentum from live GitHub signals.",
+  "publisher": { "@type": "Organization", "name": "Kymata Labs LLC", "url": "https://www.kymatalabs.com" },
+  "isPartOf": { "@type": "WebSite", "name": "The Living Indexes", "url": "https://indexes.kymatalabs.com/" } }
+</script>
+
+<script>var t;try{t=localStorage.getItem('dsx-theme')}catch(e){}if(t)document.documentElement.setAttribute('data-theme',t);</script>
+<!-- catalog:schema:start -->
+<!-- catalog:schema:end -->
+<link rel="alternate" type="application/json" href="/data.json" title="Current catalog snapshot">
+<script defer src="/guidance.js"></script>
+</head>
+<body>
+<div class="kstrip"><div class="wrap">
+  <a href="https://www.kymatalabs.com" target="_blank" rel="noopener"><span class="dot"></span>Kymata Labs</a>
+  <span class="sep">/</span>
+  <a href="https://indexes.kymatalabs.com" target="_blank" rel="noopener">The Living Indexes</a>
+
+</div></div>
+
+<header><div class="wrap head-row">
+  <div class="brand"><a href="/"><span class="node"><i></i><i></i><i></i></span><span class="disp">Document <em>Index</em></span></a></div>
+  <div class="head-actions">
+    <a href="/rss.xml">RSS</a><a href="/llms.txt">llms.txt</a><a href="/ai.txt">ai.txt</a>
+    <a href="https://github.com/tekvisions" target="_blank" rel="noopener">GitHub</a>
+    <button class="theme-btn" id="theme" aria-label="Toggle theme">◐</button>
+  </div>
+</div></header>
+
+<main>
+  <section class="hero"><div class="wrap">
+    <div class="kicker">Recomputed daily from live GitHub signals</div>
+    <h1>Turn document processing into <span class="amp disp">structured data</span>.</h1>
+    <p class="lede">A living index of document-AI tooling — OCR, PDF extraction, document parsing, layout &amp; table analysis, and vision-language understanding — the tools that read a page so your pipeline doesn't have to — ranked by momentum, not marketing.</p>
+    <div class="stats">
+      <div class="stat"><div class="num disp" id="s-count">233</div><div class="lbl">tools indexed</div></div>
+      <div class="stat"><div class="num disp" id="s-cats">7</div><div class="lbl">categories</div></div>
+      <div class="stat"><div class="num disp" id="s-top">89</div><div class="lbl">top momentum</div></div>
+    </div>
+  </div></section>
+
+  <section class="toolbar"><div class="wrap">
+    <div class="search-row">
+      <label class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="q" type="search" placeholder="search OCR, parsers, owners…" autocomplete="off" spellcheck="false" aria-label="Search the catalog">
+      </label>
+      <div class="sort" id="sort">
+        <button data-sort="momentum" class="active">Momentum</button>
+        <button data-sort="stars">Stars</button>
+        <button data-sort="new">Newest</button>
+      </div>
+    </div>
+    <div class="chips" id="chips"></div>
+  </div></section>
+
+  <div class="wrap">
+    <div class="meta-line" id="metaline">233 records · snapshot 2026-11-02</div>
+    <div class="grid" id="grid"><!-- catalog:entries:start -->
+<!-- catalog:entries:end --></div><!-- catalog:pagination:start -->
+<!-- catalog:pagination:end -->
+  </div>
+
+  <!-- catalog:about:start -->
+<!-- catalog:about:end -->
+</main>
+<aside data-portfolio-ad="after-content" aria-label="Advertisement" hidden></aside>
+
+<footer><div class="wrap foot-row">
+  <div>
+    <div class="blurb">A dated catalog of upstream activity signals. Rankings help discovery; they are not independent tests of quality, adoption or suitability. See the methodology and selection guidance.</div>
+    <div class="updated" id="foot-updated"></div>
+  </div>
+  <div class="links">
+    <div class="grouphead">The network</div>
+    <a href="https://www.kymatalabs.com" target="_blank" rel="noopener">Kymata Labs ↗</a>
+    <a href="https://indexes.kymatalabs.com" target="_blank" rel="noopener">↗ The Living Indexes</a>
+    <a href="https://www.kymatalabs.com/live" target="_blank" rel="noopener">Built by tekvisions →</a>
+  </div>
+  <div class="links">
+    <div class="grouphead">This index</div>
+    <a href="/sitemap.xml">Sitemap</a><a href="/rss.xml">RSS feed</a>
+    <a href="/llms.txt">llms.txt</a><a href="/ai.txt">ai.txt</a>
+  </div>
+</div><p class="wrap"><a href="/privacy.html">Privacy and advertising</a> · <button type="button" data-ad-privacy hidden>Advertising privacy choices</button></p>
+</footer>
+
+<script src="/app.js"></script>
+<script defer src="/advertising.js" data-host="document.kymatalabs.com" data-approved="false" data-consent-ready="false" data-slot="6939405217"></script>
+</body>
+</html>

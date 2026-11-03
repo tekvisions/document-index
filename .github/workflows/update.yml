@@ -34,11 +34,26 @@ jobs:
         run: |
           python gen_details.py
           python gen_og.py
+      - name: Render and verify the public catalog snapshot
+        run: |
+          python url_lifecycle.py --render-retained
+          python sanitize_detail_schema.py
+          python render_home.py
+          python url_lifecycle.py --verify
+          python -m unittest discover -s tests -p test_discoverability.py
+          python -m unittest discover -s tests -p test_indexnow_receipts.py
+          python -m unittest discover -s tests -p test_selection_guidance.py
+          node --test tests/guidance.test.mjs
+          python -m unittest discover -s tests -p test_public_assets.py
+          python -m unittest discover -s tests -p test_site_quality.py
+          python -m unittest discover -s tests -p test_indexnow_backoff.py
+          python public_assets.py --seal
+
       - name: Commit if changed
         run: |
           git config user.name  "document-index-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data.json sitemap.xml rss.xml robots.txt llms.txt og.png p/
+          git add index.html sitemap.xml llms.txt data.json sitemap.xml rss.xml robots.txt llms.txt og.png p/
           if ! git diff --cached --quiet; then
             git commit -m "data: daily document-index refresh ($(date -u +%Y-%m-%d))"
             git push
