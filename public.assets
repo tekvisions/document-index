@@ -19,7 +19,9 @@
     "style.css",
     "fleet.css",
     "fleet.js",
-    "vercel.json"
+    "vercel.json",
+    "atlas.css",
+    "atlas.js"
   ],
   "legacy_source_paths": [
     "p/24eme-signaturepdf/index.html",

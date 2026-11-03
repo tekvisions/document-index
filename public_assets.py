@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parent
 SAFE_DETAIL = re.compile(r'(p|s|m|a)/[a-z0-9]+(?:-[a-z0-9]+)*/index\.html')
 SAFE_PAGE = re.compile(r'catalog/[2-9][0-9]*/index\.html|catalog/1[0-9]+/index\.html')
 SAFE_BADGE = re.compile(r'badge/[a-z0-9]+(?:-[a-z0-9]+)*\.svg')
-ALLOWED_ROOT = {'fleet.css', 'fleet.js', 'catalog.json', 'index.html', 'privacy.html', 'app.js', 'guidance.js', 'advertising.js', 'style.css',
+ALLOWED_ROOT = {'atlas.css', 'atlas.js', 'fleet.css', 'fleet.js', 'catalog.json', 'index.html', 'privacy.html', 'app.js', 'guidance.js', 'advertising.js', 'style.css',
                 'data.json', 'feed.json', 'rss.xml', 'sitemap.xml', 'favicon.svg', 'og.png',
                 'og-20261030.png', 'robots.txt', 'llms.txt', 'ai.txt', 'ads.txt', 'vercel.json'}
 

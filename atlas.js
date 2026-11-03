@@ -1,0 +1,17 @@
+/* Atlas interaction layer: native links remain available without JavaScript. */
+(function(){
+  'use strict';
+  var doc=document,root=doc.documentElement;
+  function closeMenus(except){doc.querySelectorAll('.atlas-network[open]').forEach(function(menu){if(menu!==except)menu.open=false;});}
+  doc.addEventListener('click',function(event){if(!event.target.closest('.atlas-network'))closeMenus();});
+  doc.addEventListener('keydown',function(event){if(event.key==='Escape'){var menu=doc.querySelector('.atlas-network[open]');if(menu){menu.open=false;menu.querySelector('summary').focus();}}});
+  var paused=false;try{paused=localStorage.getItem('kymata-atlas-motion')==='paused';}catch(e){}
+  function motion(value){paused=value;root.classList.toggle('atlas-motion-paused',value);doc.querySelectorAll('.atlas-motion').forEach(function(button){button.setAttribute('aria-pressed',String(value));button.textContent=value?'Play motion':'Pause motion';});}
+  motion(paused);doc.querySelectorAll('.atlas-motion').forEach(function(button){button.addEventListener('click',function(){motion(!paused);try{localStorage.setItem('kymata-atlas-motion',paused?'paused':'playing');}catch(e){}});});
+  doc.addEventListener('visibilitychange',function(){root.classList.toggle('atlas-tab-hidden',doc.hidden);});
+  var input=doc.getElementById('atlas-hub-q'),discipline='All';
+  function filter(){if(!input)return;var q=input.value.toLowerCase().trim(),total=0;doc.querySelectorAll('.atlas-topic-group').forEach(function(group){var shown=0;group.querySelectorAll('.atlas-hub-card').forEach(function(card){var keep=(discipline==='All'||discipline===group.getAttribute('data-atlas-group'))&&card.textContent.toLowerCase().indexOf(q)!==-1;card.hidden=!keep;if(keep)shown++;});group.hidden=shown===0;total+=shown;});var empty=doc.getElementById('atlas-hub-empty');if(empty)empty.hidden=total!==0;}
+  if(input){input.disabled=false;input.addEventListener('input',filter);doc.querySelectorAll('[data-atlas-filter]').forEach(function(button){button.disabled=false;button.addEventListener('click',function(){discipline=button.getAttribute('data-atlas-filter');doc.querySelectorAll('[data-atlas-filter]').forEach(function(b){b.setAttribute('aria-pressed',String(b===button));});filter();});});}
+  doc.addEventListener('keydown',function(event){if(event.key==='/'&&!event.ctrlKey&&!event.metaKey&&!event.altKey&&!/INPUT|TEXTAREA|SELECT/.test(doc.activeElement.tagName)&&!doc.activeElement.isContentEditable){var target=input||doc.querySelector('input[type="search"]:not(:disabled)');if(target){event.preventDefault();target.focus();}}});
+  window.KymataAtlas={updateHub:function(data){(data.indexes||[]).forEach(function(row){var card=doc.querySelector('[data-atlas-key="'+String(row.key).replace(/[^a-z0-9-]/g,'')+'"]');if(!card)return;var count=card.querySelector('[data-atlas-count]'),stamp=card.querySelector('[data-atlas-snapshot]');if(count)count.textContent=typeof row.count==='number'?row.count.toLocaleString()+' snapshot records':'Count unavailable';if(stamp)stamp.textContent=row.generated_at?String(row.generated_at).slice(0,10):'Unknown date';var notes=card.querySelector('.atlas-summary-notes');if(notes){notes.textContent='';['review_note','coverage_note'].forEach(function(key){if(row[key]){var p=doc.createElement('p');p.className='summary-note';p.textContent=String(row[key]);notes.appendChild(p);}});}});filter();}};
+})();

@@ -109,6 +109,8 @@ def apply(root):
     for path in paths:
         if path.is_file():
             text=path.read_text();result=enhance(text,stamp,path.parent!=root and path.parent.parent.name!='catalog',activity.get(path.parent.name),stats if path==root/'index.html' else None)
+            import atlas_design
+            result=atlas_design.enhance(result,root,path)
             if text!=result:updates[path]=result
     if 'servers' in data:
         fields=('name','title','description','category','health','is_new','rank','rank_delta','registries','transport','updated_days','slug')
