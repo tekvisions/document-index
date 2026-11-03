@@ -18,7 +18,8 @@
     "sitemap.xml",
     "style.css",
     "fleet.css",
-    "fleet.js"
+    "fleet.js",
+    "vercel.json"
   ],
   "legacy_source_paths": [
     "p/24eme-signaturepdf/index.html",
