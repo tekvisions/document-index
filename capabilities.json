@@ -1,0 +1,57 @@
+{
+  "format": "kymata-index-capabilities",
+  "version": 1,
+  "name": "The Document Index",
+  "canonical_url": "https://document.kymatalabs.com/",
+  "publisher": {
+    "name": "Kymata Labs LLC",
+    "url": "https://www.kymatalabs.com/"
+  },
+  "mission": "Kymata Labs makes open-source AI tools, models and infrastructure easier to understand through focused, source-backed indexes. We publish dated source signals, explain ranking methods and limitations, and separate advertising from ranking and inclusion.",
+  "scope": "Explore document parsing, extraction, OCR and knowledge workflows.",
+  "snapshot": {
+    "collected_at": "2026-11-02T20:31:02.095371+00:00",
+    "records_in_saved_snapshot": 233,
+    "coverage": "focused source selection; not an exhaustive census of the ecosystem"
+  },
+  "capabilities": [
+    {
+      "id": "browse",
+      "description": "Browse dated catalog records and published detail pages"
+    },
+    {
+      "id": "local_search",
+      "description": "Search the catalog locally in the browser; raw search text is not sent by these controls."
+    },
+    {
+      "id": "filter",
+      "description": "Use the available catalog category filters and sorting controls"
+    },
+    {
+      "id": "source_context",
+      "description": "Read source references, snapshot dates, methodology, selection guidance and evidence limits."
+    }
+  ],
+  "resources": {
+    "home": "https://document.kymatalabs.com/",
+    "human_methodology": "https://document.kymatalabs.com/#catalog-methodology",
+    "selection_guidance": "https://document.kymatalabs.com/#catalog-guidance",
+    "source_snapshot": "https://document.kymatalabs.com/data.json",
+    "sitemap": "https://document.kymatalabs.com/sitemap.xml",
+    "llms": "https://document.kymatalabs.com/llms.txt",
+    "ai_guidance": "https://document.kymatalabs.com/ai.txt",
+    "source_repository": "https://github.com/tekvisions/document-index",
+    "network": "https://indexes.kymatalabs.com/",
+    "rss.xml": "https://document.kymatalabs.com/rss.xml"
+  },
+  "limitations": [
+    "Snapshot signals are not proof of quality, safety, license suitability or fitness for a project. Verify upstream sources before adoption.",
+    "Search and filters are browser controls; this description does not advertise a remote search API or an MCP endpoint.",
+    "Crawl permission and machine-readable descriptions do not guarantee crawling, indexing, ranking or AI citation."
+  ],
+  "measurement": {
+    "search_input": "browser-local; no raw search strings in the staged analytics design",
+    "ga4_status": "not verified or enabled by this discovery manifest"
+  },
+  "policy": "robots.txt is the crawl policy. ai.txt, llms.txt and this custom capabilities document are descriptive guidance, not access controls."
+}

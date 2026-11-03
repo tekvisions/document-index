@@ -124,3 +124,6 @@ def apply(root):
         reviewed={**data,'indexes':[curate(row) for row in data['indexes']], 'meaning':'Reviewed presentation of dated upstream summaries; counts are not a current full-fleet census.'}
         updates[root/'catalog.json']=json.dumps(reviewed,ensure_ascii=False,separators=(',',':'))+'\n'
     for path,result in updates.items():path.write_text(result)
+    import discovery
+    discovery.apply(root)
+
