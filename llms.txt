@@ -2,7 +2,7 @@
 
 > The Document Index: a source-backed catalog published by Kymata Labs.
 
-Snapshot collected: 2026-11-04T18:14:36.889789+00:00
+Snapshot collected: 2026-11-05T18:16:56.710188+00:00
 Current catalog records: 234
 
 ## Sources and interpretation
@@ -29,18 +29,18 @@ Momentum blends log-scaled GitHub stars (55%), push recency decaying over 180 da
 - [jev-chat/jev-chat-jarvis](https://document.kymatalabs.com/p/jev-chat-jev-chat-jarvis/) — Document Parsing
 - [datalab-to/marker](https://document.kymatalabs.com/p/datalab-to-marker/) — PDF Extraction
 - [opendataloader-project/opendataloader-pdf](https://document.kymatalabs.com/p/opendataloader-project-opendataloader-pdf/) — PDF Extraction
-- [ocrmypdf/OCRmyPDF](https://document.kymatalabs.com/p/ocrmypdf-ocrmypdf/) — OCR Engines
 - [baidu/Unlimited-OCR](https://document.kymatalabs.com/p/baidu-unlimited-ocr/) — OCR Engines
+- [ocrmypdf/OCRmyPDF](https://document.kymatalabs.com/p/ocrmypdf-ocrmypdf/) — OCR Engines
 - [datalab-to/surya](https://document.kymatalabs.com/p/datalab-to-surya/) — Table Extraction
 - [SoMarkAI/OXR](https://document.kymatalabs.com/p/somarkai-oxr/) — Document Parsing
 - [PaddlePaddle/PaddleOCR](https://document.kymatalabs.com/p/paddlepaddle-paddleocr/) — OCR Engines
 - [Unstructured-IO/unstructured](https://document.kymatalabs.com/p/unstructured-io-unstructured/) — Document Parsing
-- [run-llama/liteparse](https://document.kymatalabs.com/p/run-llama-liteparse/) — Document Parsing
-- [LaoFeng-mouse/flyingmouse-format](https://document.kymatalabs.com/p/laofeng-mouse-flyingmouse-format/) — OCR Engines
 - [datalab-to/indra](https://document.kymatalabs.com/p/datalab-to-indra/) — OCR Engines
 - [firecrawl/pdf-inspector](https://document.kymatalabs.com/p/firecrawl-pdf-inspector/) — PDF Extraction
+- [run-llama/liteparse](https://document.kymatalabs.com/p/run-llama-liteparse/) — Document Parsing
 - [pymupdf/PyMuPDF](https://document.kymatalabs.com/p/pymupdf-pymupdf/) — PDF Extraction
 - [CVHub520/X-AnyLabeling](https://document.kymatalabs.com/p/cvhub520-x-anylabeling/) — Document Parsing
+- [LaoFeng-mouse/flyingmouse-format](https://document.kymatalabs.com/p/laofeng-mouse-flyingmouse-format/) — OCR Engines
 - [xberg-io/xberg](https://document.kymatalabs.com/p/xberg-io-xberg/) — OCR Engines
 - [anbeime/skill](https://document.kymatalabs.com/p/anbeime-skill/) — Collections
 - [datalab-to/chandra](https://document.kymatalabs.com/p/datalab-to-chandra/) — OCR Engines
@@ -51,17 +51,17 @@ Momentum blends log-scaled GitHub stars (55%), push recency decaying over 180 da
 - [FengZhenfei/carrel](https://document.kymatalabs.com/p/fengzhenfei-carrel/) — Document Parsing
 - [microsoft/unilm](https://document.kymatalabs.com/p/microsoft-unilm/) — Document Parsing
 - [zai-org/GLM-OCR](https://document.kymatalabs.com/p/zai-org-glm-ocr/) — OCR Engines
-- [liustack/modlens](https://document.kymatalabs.com/p/liustack-modlens/) — OCR Engines
 - [FB208/OpenBidKit_Yibiao](https://document.kymatalabs.com/p/fb208-openbidkit-yibiao/) — Document Parsing
+- [liustack/modlens](https://document.kymatalabs.com/p/liustack-modlens/) — OCR Engines
 - [snapotter-hq/SnapOtter](https://document.kymatalabs.com/p/snapotter-hq-snapotter/) — OCR Engines
 - [UglyToad/PdfPig](https://document.kymatalabs.com/p/uglytoad-pdfpig/) — PDF Extraction
-- [landing-ai/ade-cli](https://document.kymatalabs.com/p/landing-ai-ade-cli/) — Document Parsing
 - [deepdoctection/deepdoctection](https://document.kymatalabs.com/p/deepdoctection-deepdoctection/) — Document Parsing
+- [landing-ai/ade-cli](https://document.kymatalabs.com/p/landing-ai-ade-cli/) — Document Parsing
 - [kotaro-kinoshita/yomitoku](https://document.kymatalabs.com/p/kotaro-kinoshita-yomitoku/) — Document Parsing
 - [shcherbak-ai/contextgem](https://document.kymatalabs.com/p/shcherbak-ai-contextgem/) — Document Parsing
-- [huridocs/pdf-document-layout-analysis](https://document.kymatalabs.com/p/huridocs-pdf-document-layout-analysis/) — Layout & Structure
 - [unjs/unpdf](https://document.kymatalabs.com/p/unjs-unpdf/) — PDF Extraction
-- [IceWhaleTech/filens](https://document.kymatalabs.com/p/icewhaletech-filens/) — OCR Engines
+- [huridocs/pdf-document-layout-analysis](https://document.kymatalabs.com/p/huridocs-pdf-document-layout-analysis/) — Layout & Structure
+- [yfedoseev/pdf_oxide](https://document.kymatalabs.com/p/yfedoseev-pdf-oxide/) — PDF Extraction
 
 <!-- Kymata discovery capabilities -->
 ## Mission and scope
