@@ -239,7 +239,34 @@
     "https://document.kymatalabs.com/p/mathigatti-img2txt/",
     "https://document.kymatalabs.com/p/phamquiluan-go5-project/"
   ],
-  "retained_references": [],
+  "retained_references": [
+    {
+      "slug": "icewhaletech-filens",
+      "entity": "IceWhaleTech/filens",
+      "canonical_url": "https://document.kymatalabs.com/p/icewhaletech-filens/",
+      "repository": "https://github.com/IceWhaleTech/filens",
+      "summary": "The saved 5 November 2026 catalog described filens as a browser-local file preview and conversion tool with OCR, structured text and layout extraction. The publisher repository was unavailable during the 6 November review; current capabilities and maintenance are unconfirmed.",
+      "selection_context": "Use this dated page to trace the previous catalog entry and its original publisher identifier.",
+      "limitations": "The upstream GitHub API returned 404. That response does not establish whether the repository moved, became private or was removed. Current installation instructions, licensing, compatibility and maintenance could not be verified. No runtime or performance test is claimed.",
+      "last_catalog_snapshot": "2026-11-05T18:16:56.710188+00:00",
+      "reviewed_on": "2026-11-06",
+      "source_status": "historical_unavailable",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "a7a9cf40897dd624bae1d561ad65c89ab60a7b19",
+      "decision": "Retain the existing published URL as a dated historical reference; keep the URL release guard intact.",
+      "primary_sources": [
+        {
+          "url": "https://github.com/IceWhaleTech/filens",
+          "title": "Historical publisher repository — unavailable when checked on 6 November 2026",
+          "observed_http_status": 404
+        },
+        {
+          "url": "https://github.com/tekvisions/document-index/blob/a7a9cf40897dd624bae1d561ad65c89ab60a7b19/data.json",
+          "title": "Saved catalog snapshot containing the historical publisher description"
+        }
+      ]
+    }
+  ],
   "retirements": [],
   "planned_release_urls": [],
   "baseline_maintenance": "This captured baseline and proposed additions are explicit release inputs, not a rolling publication log. After each authorized release, refresh the protected baseline from verified published sitemaps before reviewing the next snapshot; keep capture provenance separate."

@@ -53,25 +53,35 @@ def render_retained(root=ROOT):
             source = urlparse(source_url)
             if source.scheme != 'https' or not source.hostname or source.username or source.password:
                 raise ValueError('Retained reference requires explicit HTTPS primary sources')
+        source_status = entry.get('source_status', 'available')
+        if source_status not in {'available', 'historical_unavailable'}:
+            raise ValueError('Unsupported retained source status')
+        historical = source_status == 'historical_unavailable'
+        schema_type = entry.get('schema_type', 'CreativeWork' if historical else 'SoftwareSourceCode')
+        if schema_type not in {'CreativeWork', 'SoftwareSourceCode'} or (historical and schema_type != 'CreativeWork'):
+            raise ValueError('Unsupported retained reference schema type')
+        review_label = 'Publisher availability checked' if historical else 'Primary documentation reviewed'
+        sources_heading = 'Sources and provenance' if historical else 'Primary sources'
         description = entry['summary']
-        schema = {'@context': 'https://schema.org', '@type': 'SoftwareSourceCode',
-                  'name': entry['entity'], 'url': canonical, 'codeRepository': entry['repository'],
+        schema = {'@context': 'https://schema.org', '@type': schema_type,
+                  'name': entry['entity'], 'url': canonical,
                   'description': description}
+        schema['sameAs' if schema_type == 'CreativeWork' else 'codeRepository'] = entry['repository']
         sources = ''.join('<li><a href="' + esc(s['url']) + '">' + esc(s['title']) + '</a></li>' for s in entry['primary_sources'])
         body = (f'<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
-                f'<title>{esc(entry["entity"])} — retained reference | The Diffusion Index</title>'
+                f'<title>{esc(entry["entity"])} — retained reference | The Document Index</title>'
                 f'<meta name="description" content="{esc(description)}"><link rel="canonical" href="{canonical}">'
                 '<link rel="stylesheet" href="/style.css"><link rel="icon" href="/favicon.svg">'
                 f'<script type="application/ld+json">{html_json.dumps(schema, ensure_ascii=False)}</script></head>'
-                '<body><main class="wrap detail"><p><a href="/">The Diffusion Index</a> · <a href="/#catalog-guidance">Selection guide</a></p>'
+                '<body><main class="wrap detail"><p><a href="/">The Document Index</a> · <a href="/#catalog-guidance">Selection guide</a></p>'
                 f'<h1>{esc(entry["entity"])}</h1><p><strong>Retained reference — outside the current ranked discovery snapshot.</strong></p>'
                 f'<p>{esc(description)}</p><h2>When to use this reference</h2><p>{esc(entry["selection_context"])}</p>'
                 '<h2>What the status means</h2><p>This URL was already published and is kept for its documented subject. '
                 'Leaving a search/discovery window does not establish that a project is obsolete. This page does not assign a current rank, momentum score or freshness certification.</p>'
                 f'<p>Last observed in the catalog snapshot: <time datetime="{esc(entry["last_catalog_snapshot"])}">{esc(entry["last_catalog_snapshot"])}</time>. '
-                f'Primary documentation reviewed: <time datetime="{esc(entry["reviewed_on"])}">{esc(entry["reviewed_on"])}</time>. '
+                f'{review_label}: <time datetime="{esc(entry["reviewed_on"])}">{esc(entry["reviewed_on"])}</time>. '
                 'Those dates describe different checks; no runtime benchmark or installation test is claimed.</p>'
-                f'<h2>Limits to verify</h2><p>{esc(entry["limitations"])}</p><h2>Primary sources</h2><ul>{sources}</ul>'
+                f'<h2>Limits to verify</h2><p>{esc(entry["limitations"])}</p><h2>{sources_heading}</h2><ul>{sources}</ul>'
                 '<p><a href="/">Browse the current ranked catalog</a> · <a href="https://indexes.kymatalabs.com/">The Living Indexes</a></p>'
                 '</main><footer><div class="wrap"><a href="/privacy.html">Privacy and advertising</a></div></footer></body></html>\n')
         target = root / parsed.path.lstrip('/') / 'index.html'

@@ -107,3 +107,72 @@ class PublicAssetBoundaryTests(unittest.TestCase):
 
 
 if __name__ == '__main__': unittest.main()
+
+
+class HistoricalReferenceTests(unittest.TestCase):
+    def fixture(self, directory, production=False):
+        import url_lifecycle
+        root = Path(directory).resolve()
+        rules = json.loads((ROOT / 'url.lifecycle').read_text())
+        entry = json.loads((ROOT / 'tests/fixtures/filens-reference.json').read_text())
+        if not production:
+            rules['retained_references'] = [entry]
+        protected = set(rules['captured_public_urls']) | set(rules.get('planned_release_urls', []))
+        (root / 'url.lifecycle').write_text(json.dumps(rules))
+        (root / 'data.json').write_text('{"items":[]}')
+        (root / 'sitemap.xml').write_text('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + ''.join('<url><loc>' + u + '</loc></url>' for u in sorted(protected - {entry['canonical_url']})) + '</urlset>')
+        return root, rules, entry
+
+    def test_reported_protected_route_is_retained_and_other_removals_still_block(self):
+        import url_lifecycle
+        with tempfile.TemporaryDirectory() as directory:
+            root, rules, entry = self.fixture(directory, production=True)
+            with self.assertRaisesRegex(ValueError, 'retention/retirement'):
+                url_lifecycle.verify(root)
+            url_lifecycle.render_retained(root)
+            self.assertIn(entry['canonical_url'], url_lifecycle.urls(root))
+            self.assertEqual(url_lifecycle.verify(root)['explicitly_retired'], [])
+            rules['captured_public_urls'].append('https://' + rules['host'] + '/p/unreviewed-removal/')
+            (root / 'url.lifecycle').write_text(json.dumps(rules))
+            with self.assertRaisesRegex(ValueError, 'retention/retirement'):
+                url_lifecycle.verify(root)
+
+    def test_unavailable_source_is_historical_not_claimed_reviewed_documentation(self):
+        import re, url_lifecycle
+        with tempfile.TemporaryDirectory() as directory:
+            root, rules, entry = self.fixture(directory)
+            url_lifecycle.render_retained(root)
+            body = (root / 'p/icewhaletech-filens/index.html').read_text()
+            self.assertIn('retained reference | The Document Index', body)
+            self.assertNotIn('The Diffusion Index', body)
+            self.assertIn('Publisher availability checked:', body)
+            self.assertNotIn('Primary documentation reviewed:', body)
+            self.assertIn('Sources and provenance', body)
+            self.assertIn('Retained reference — outside the current ranked discovery snapshot.', body)
+            self.assertIn('href="' + entry['canonical_url'] + '"', body)
+            schema = json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>', body, re.S)[1])
+            self.assertEqual(schema['@type'], 'CreativeWork')
+            self.assertEqual(schema['sameAs'], entry['repository'])
+            self.assertNotIn('codeRepository', schema)
+            self.assertNotIn('aggregateRating', body)
+
+    def test_current_catalog_reentry_preserves_generator_output(self):
+        import url_lifecycle
+        with tempfile.TemporaryDirectory() as directory:
+            root, rules, entry = self.fixture(directory)
+            path = root / 'p/icewhaletech-filens/index.html'; path.parent.mkdir(parents=True)
+            path.write_text('current ranked generator output')
+            (root / 'data.json').write_text(json.dumps({'items':[{'slug':entry['slug']}]}))
+            self.assertEqual(url_lifecycle.render_retained(root), 0)
+            self.assertEqual(path.read_text(), 'current ranked generator output')
+
+    def test_unreviewed_source_status_and_schema_are_rejected(self):
+        import url_lifecycle
+        for key, value in [('source_status', 'guessed'), ('schema_type', 'Organization')]:
+            with self.subTest(key=key), tempfile.TemporaryDirectory() as directory:
+                root, rules, entry = self.fixture(directory)
+                rules['retained_references'][0][key] = value
+                (root / 'url.lifecycle').write_text(json.dumps(rules))
+                with self.assertRaises(ValueError):
+                    url_lifecycle.render_retained(root)
+                self.assertFalse((root / 'p').exists())
