@@ -2,8 +2,8 @@
 
 > The Document Index: a source-backed catalog published by Kymata Labs.
 
-Snapshot collected: 2026-11-05T18:16:56.710188+00:00
-Current catalog records: 234
+Snapshot collected: 2026-11-06T18:13:38.504114+00:00
+Current catalog records: 233
 
 ## Sources and interpretation
 
@@ -24,23 +24,23 @@ Momentum blends log-scaled GitHub stars (55%), push recency decaying over 180 da
 
 - [storytold/pdfcraft](https://document.kymatalabs.com/p/storytold-pdfcraft/) — PDF Extraction
 - [opendatalab/MinerU](https://document.kymatalabs.com/p/opendatalab-mineru/) — Document Parsing
-- [tesseract-ocr/tesseract](https://document.kymatalabs.com/p/tesseract-ocr-tesseract/) — OCR Engines
 - [docling-project/docling](https://document.kymatalabs.com/p/docling-project-docling/) — Document Parsing
+- [tesseract-ocr/tesseract](https://document.kymatalabs.com/p/tesseract-ocr-tesseract/) — OCR Engines
 - [jev-chat/jev-chat-jarvis](https://document.kymatalabs.com/p/jev-chat-jev-chat-jarvis/) — Document Parsing
 - [datalab-to/marker](https://document.kymatalabs.com/p/datalab-to-marker/) — PDF Extraction
 - [opendataloader-project/opendataloader-pdf](https://document.kymatalabs.com/p/opendataloader-project-opendataloader-pdf/) — PDF Extraction
 - [baidu/Unlimited-OCR](https://document.kymatalabs.com/p/baidu-unlimited-ocr/) — OCR Engines
+- [SoMarkAI/OXR](https://document.kymatalabs.com/p/somarkai-oxr/) — Document Parsing
 - [ocrmypdf/OCRmyPDF](https://document.kymatalabs.com/p/ocrmypdf-ocrmypdf/) — OCR Engines
 - [datalab-to/surya](https://document.kymatalabs.com/p/datalab-to-surya/) — Table Extraction
-- [SoMarkAI/OXR](https://document.kymatalabs.com/p/somarkai-oxr/) — Document Parsing
 - [PaddlePaddle/PaddleOCR](https://document.kymatalabs.com/p/paddlepaddle-paddleocr/) — OCR Engines
 - [Unstructured-IO/unstructured](https://document.kymatalabs.com/p/unstructured-io-unstructured/) — Document Parsing
+- [run-llama/liteparse](https://document.kymatalabs.com/p/run-llama-liteparse/) — Document Parsing
 - [datalab-to/indra](https://document.kymatalabs.com/p/datalab-to-indra/) — OCR Engines
 - [firecrawl/pdf-inspector](https://document.kymatalabs.com/p/firecrawl-pdf-inspector/) — PDF Extraction
-- [run-llama/liteparse](https://document.kymatalabs.com/p/run-llama-liteparse/) — Document Parsing
 - [pymupdf/PyMuPDF](https://document.kymatalabs.com/p/pymupdf-pymupdf/) — PDF Extraction
-- [CVHub520/X-AnyLabeling](https://document.kymatalabs.com/p/cvhub520-x-anylabeling/) — Document Parsing
 - [LaoFeng-mouse/flyingmouse-format](https://document.kymatalabs.com/p/laofeng-mouse-flyingmouse-format/) — OCR Engines
+- [CVHub520/X-AnyLabeling](https://document.kymatalabs.com/p/cvhub520-x-anylabeling/) — Document Parsing
 - [xberg-io/xberg](https://document.kymatalabs.com/p/xberg-io-xberg/) — OCR Engines
 - [anbeime/skill](https://document.kymatalabs.com/p/anbeime-skill/) — Collections
 - [datalab-to/chandra](https://document.kymatalabs.com/p/datalab-to-chandra/) — OCR Engines
