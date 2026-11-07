@@ -265,6 +265,32 @@
           "title": "Saved catalog snapshot containing the historical publisher description"
         }
       ]
+    },
+    {
+      "slug": "ibm-science-result-extractor",
+      "entity": "IBM/science-result-extractor",
+      "canonical_url": "https://document.kymatalabs.com/p/ibm-science-result-extractor/",
+      "repository": "https://github.com/IBM/science-result-extractor",
+      "summary": "The saved 6 November 2026 catalog classified IBM/science-result-extractor under Document Parsing and recorded information-extraction, scientific-papers and table-extraction topics. Its saved description was blank. The publisher repository was unavailable during the 7 November availability check; current functionality and maintenance are unconfirmed.",
+      "selection_context": "Use this dated reference to trace the previously indexed repository identifier and its historical catalog classification.",
+      "limitations": "GitHub repository metadata returned HTTP 404. This does not establish whether the repository moved, became private or was removed. Current documentation, installation, licensing, compatibility and extraction quality could not be verified; no runtime test or benchmark is claimed.",
+      "last_catalog_snapshot": "2026-11-06T18:13:38.504114+00:00",
+      "reviewed_on": "2026-11-07",
+      "source_status": "historical_unavailable",
+      "schema_type": "CreativeWork",
+      "last_successful_source_commit": "a8639012bd173190be2587e891087aadae65a682",
+      "decision": "Preserve the existing published URL as a dated historical reference; retain all release safeguards.",
+      "primary_sources": [
+        {
+          "url": "https://github.com/IBM/science-result-extractor",
+          "title": "Historical publisher repository — unavailable when checked on 7 November 2026",
+          "observed_http_status": 404
+        },
+        {
+          "url": "https://github.com/tekvisions/document-index/blob/a8639012bd173190be2587e891087aadae65a682/data.json",
+          "title": "Saved 6 November catalog metadata; description blank"
+        }
+      ]
     }
   ],
   "retirements": [],

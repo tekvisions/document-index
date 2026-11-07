@@ -176,3 +176,55 @@ class HistoricalReferenceTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     url_lifecycle.render_retained(root)
                 self.assertFalse((root / 'p').exists())
+
+
+class IBMHistoricalReferenceTests(unittest.TestCase):
+    def fixture(self, directory):
+        root = Path(directory).resolve()
+        rules = json.loads((ROOT / 'url.lifecycle').read_text())
+        entry = json.loads((ROOT / 'tests/fixtures/ibm-reference-20261107.json').read_text())
+        protected = set(rules['captured_public_urls']) | set(rules.get('planned_release_urls', []))
+        (root / 'url.lifecycle').write_text(json.dumps(rules))
+        (root / 'data.json').write_text('{"items":[]}')
+        (root / 'sitemap.xml').write_text('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + ''.join('<url><loc>' + u + '</loc></url>' for u in sorted(protected - {entry['canonical_url']})) + '</urlset>')
+        return root, rules, entry
+
+    def test_actual_missing_ibm_route_is_preserved_with_honest_provenance(self):
+        import re, url_lifecycle
+        with tempfile.TemporaryDirectory() as directory:
+            root, rules, entry = self.fixture(directory)
+            with self.assertRaisesRegex(ValueError, 'retention/retirement'):
+                url_lifecycle.verify(root)
+            url_lifecycle.render_retained(root)
+            self.assertIn(entry['canonical_url'], url_lifecycle.urls(root))
+            self.assertEqual(url_lifecycle.verify(root)['explicitly_retired'], [])
+            body = (root / 'p/ibm-science-result-extractor/index.html').read_text()
+            self.assertIn('Publisher availability checked:', body)
+            self.assertNotIn('Primary documentation reviewed:', body)
+            self.assertIn('2026-11-06T18:13:38.504114+00:00', body)
+            self.assertIn('2026-11-07', body)
+            self.assertIn('saved description was blank', body)
+            schema = json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>', body, re.S)[1])
+            self.assertEqual(schema['@type'], 'CreativeWork')
+            self.assertEqual(schema['url'], 'https://document.kymatalabs.com/p/ibm-science-result-extractor/')
+            self.assertNotIn('aggregateRating', body)
+
+    def test_unreviewed_route_removal_still_blocks_after_ibm_retention(self):
+        import url_lifecycle
+        with tempfile.TemporaryDirectory() as directory:
+            root, rules, entry = self.fixture(directory)
+            rules['captured_public_urls'].append('https://document.kymatalabs.com/p/not-reviewed/')
+            (root / 'url.lifecycle').write_text(json.dumps(rules))
+            url_lifecycle.render_retained(root)
+            with self.assertRaisesRegex(ValueError, 'retention/retirement'):
+                url_lifecycle.verify(root)
+
+    def test_current_ibm_reentry_is_owned_by_ranked_generator(self):
+        import url_lifecycle
+        with tempfile.TemporaryDirectory() as directory:
+            root, rules, entry = self.fixture(directory)
+            path = root / 'p/ibm-science-result-extractor/index.html'
+            path.parent.mkdir(parents=True); path.write_text('current ranked page')
+            (root / 'data.json').write_text(json.dumps({'items':[{'slug':entry['slug']}]}))
+            url_lifecycle.render_retained(root)
+            self.assertEqual(path.read_text(), 'current ranked page')
