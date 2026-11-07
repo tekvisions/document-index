@@ -2,8 +2,8 @@
 
 > The Document Index: a source-backed catalog published by Kymata Labs.
 
-Snapshot collected: 2026-11-06T18:13:38.504114+00:00
-Current catalog records: 233
+Snapshot collected: 2026-11-07T19:21:21.201824+00:00
+Current catalog records: 232
 
 ## Sources and interpretation
 
@@ -27,19 +27,19 @@ Momentum blends log-scaled GitHub stars (55%), push recency decaying over 180 da
 - [docling-project/docling](https://document.kymatalabs.com/p/docling-project-docling/) — Document Parsing
 - [tesseract-ocr/tesseract](https://document.kymatalabs.com/p/tesseract-ocr-tesseract/) — OCR Engines
 - [jev-chat/jev-chat-jarvis](https://document.kymatalabs.com/p/jev-chat-jev-chat-jarvis/) — Document Parsing
-- [datalab-to/marker](https://document.kymatalabs.com/p/datalab-to-marker/) — PDF Extraction
-- [opendataloader-project/opendataloader-pdf](https://document.kymatalabs.com/p/opendataloader-project-opendataloader-pdf/) — PDF Extraction
-- [baidu/Unlimited-OCR](https://document.kymatalabs.com/p/baidu-unlimited-ocr/) — OCR Engines
-- [SoMarkAI/OXR](https://document.kymatalabs.com/p/somarkai-oxr/) — Document Parsing
 - [ocrmypdf/OCRmyPDF](https://document.kymatalabs.com/p/ocrmypdf-ocrmypdf/) — OCR Engines
-- [datalab-to/surya](https://document.kymatalabs.com/p/datalab-to-surya/) — Table Extraction
+- [datalab-to/marker](https://document.kymatalabs.com/p/datalab-to-marker/) — PDF Extraction
+- [baidu/Unlimited-OCR](https://document.kymatalabs.com/p/baidu-unlimited-ocr/) — OCR Engines
+- [opendataloader-project/opendataloader-pdf](https://document.kymatalabs.com/p/opendataloader-project-opendataloader-pdf/) — PDF Extraction
+- [SoMarkAI/OXR](https://document.kymatalabs.com/p/somarkai-oxr/) — Document Parsing
 - [PaddlePaddle/PaddleOCR](https://document.kymatalabs.com/p/paddlepaddle-paddleocr/) — OCR Engines
+- [datalab-to/surya](https://document.kymatalabs.com/p/datalab-to-surya/) — Table Extraction
 - [Unstructured-IO/unstructured](https://document.kymatalabs.com/p/unstructured-io-unstructured/) — Document Parsing
 - [run-llama/liteparse](https://document.kymatalabs.com/p/run-llama-liteparse/) — Document Parsing
-- [datalab-to/indra](https://document.kymatalabs.com/p/datalab-to-indra/) — OCR Engines
 - [firecrawl/pdf-inspector](https://document.kymatalabs.com/p/firecrawl-pdf-inspector/) — PDF Extraction
 - [pymupdf/PyMuPDF](https://document.kymatalabs.com/p/pymupdf-pymupdf/) — PDF Extraction
 - [LaoFeng-mouse/flyingmouse-format](https://document.kymatalabs.com/p/laofeng-mouse-flyingmouse-format/) — OCR Engines
+- [datalab-to/indra](https://document.kymatalabs.com/p/datalab-to-indra/) — OCR Engines
 - [CVHub520/X-AnyLabeling](https://document.kymatalabs.com/p/cvhub520-x-anylabeling/) — Document Parsing
 - [xberg-io/xberg](https://document.kymatalabs.com/p/xberg-io-xberg/) — OCR Engines
 - [anbeime/skill](https://document.kymatalabs.com/p/anbeime-skill/) — Collections
@@ -47,12 +47,13 @@ Momentum blends log-scaled GitHub stars (55%), push recency decaying over 180 da
 - [RapidAI/RapidOCR](https://document.kymatalabs.com/p/rapidai-rapidocr/) — Collections
 - [Zipstack/unstract](https://document.kymatalabs.com/p/zipstack-unstract/) — Document Parsing
 - [mindee/doctr](https://document.kymatalabs.com/p/mindee-doctr/) — OCR Engines
-- [jsvine/pdfplumber](https://document.kymatalabs.com/p/jsvine-pdfplumber/) — PDF Extraction
-- [FengZhenfei/carrel](https://document.kymatalabs.com/p/fengzhenfei-carrel/) — Document Parsing
+- [liustack/modlens](https://document.kymatalabs.com/p/liustack-modlens/) — OCR Engines
 - [microsoft/unilm](https://document.kymatalabs.com/p/microsoft-unilm/) — Document Parsing
+- [jsvine/pdfplumber](https://document.kymatalabs.com/p/jsvine-pdfplumber/) — PDF Extraction
+- [run-llama/llama_cloud_services](https://document.kymatalabs.com/p/run-llama-llama-cloud-services/) — Document Parsing
+- [FengZhenfei/carrel](https://document.kymatalabs.com/p/fengzhenfei-carrel/) — Document Parsing
 - [zai-org/GLM-OCR](https://document.kymatalabs.com/p/zai-org-glm-ocr/) — OCR Engines
 - [FB208/OpenBidKit_Yibiao](https://document.kymatalabs.com/p/fb208-openbidkit-yibiao/) — Document Parsing
-- [liustack/modlens](https://document.kymatalabs.com/p/liustack-modlens/) — OCR Engines
 - [snapotter-hq/SnapOtter](https://document.kymatalabs.com/p/snapotter-hq-snapotter/) — OCR Engines
 - [UglyToad/PdfPig](https://document.kymatalabs.com/p/uglytoad-pdfpig/) — PDF Extraction
 - [deepdoctection/deepdoctection](https://document.kymatalabs.com/p/deepdoctection-deepdoctection/) — Document Parsing
@@ -61,7 +62,6 @@ Momentum blends log-scaled GitHub stars (55%), push recency decaying over 180 da
 - [shcherbak-ai/contextgem](https://document.kymatalabs.com/p/shcherbak-ai-contextgem/) — Document Parsing
 - [unjs/unpdf](https://document.kymatalabs.com/p/unjs-unpdf/) — PDF Extraction
 - [huridocs/pdf-document-layout-analysis](https://document.kymatalabs.com/p/huridocs-pdf-document-layout-analysis/) — Layout & Structure
-- [yfedoseev/pdf_oxide](https://document.kymatalabs.com/p/yfedoseev-pdf-oxide/) — PDF Extraction
 
 <!-- Kymata discovery capabilities -->
 ## Mission and scope
