@@ -291,6 +291,227 @@
           "title": "Saved 6 November catalog metadata; description blank"
         }
       ]
+    },
+    {
+      "slug": "gali8-tesseract-ocr-ios",
+      "entity": "gali8/Tesseract-OCR-iOS",
+      "canonical_url": "https://document.kymatalabs.com/p/gali8-tesseract-ocr-ios/",
+      "repository": "https://github.com/gali8/Tesseract-OCR-iOS",
+      "summary": "Publisher description of gali8/Tesseract-OCR-iOS: Tesseract OCR iOS is a Framework for iOS7+, compiled also for armv7s and arm64. The saved 2026-11-08 catalog classified it under OCR Engines.",
+      "selection_context": "Use this dated reference to locate the publisher documentation for OCR Engines work, then compare it with the current ranked catalog before choosing a tool.",
+      "limitations": "Dated publisher-documentation check, not an independent runtime, security or performance test. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "last_catalog_snapshot": "2026-11-08T16:47:44.280718+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "SoftwareSourceCode",
+      "last_successful_source_commit": "16eabbc6ba4820b483acd910d8bdab478a675527",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://github.com/gali8/Tesseract-OCR-iOS/blob/master/README.md",
+          "title": "Publisher README",
+          "evidence_sha256": "934031c7e21f2cc45995ab1f02dcf4c7404b69db37d58d1b6a4be69c90bb51b1",
+          "blob_sha": "04fee97064a2ec8c2148e42895b61a1325bb65c6"
+        }
+      ]
+    },
+    {
+      "slug": "infly-ai-inf-mllm",
+      "entity": "infly-ai/INF-MLLM",
+      "canonical_url": "https://document.kymatalabs.com/p/infly-ai-inf-mllm/",
+      "repository": "https://github.com/inftech-ai/INF-MLLM",
+      "summary": "Publisher description of infly-ai/INF-MLLM: INF Tech's open-source MLLMs for SOTA visual-language understanding and advanced document intelligence. The saved 2026-11-08 catalog classified it under VLM & Understanding.",
+      "selection_context": "Use this dated reference to locate the publisher documentation for VLM & Understanding work, then compare it with the current ranked catalog before choosing a tool.",
+      "limitations": "Dated publisher-documentation check, not an independent runtime, security or performance test. No current rank or momentum score is assigned. Verify current availability, license and requirements. GitHub now resolves infly-ai/INF-MLLM to inftech-ai/INF-MLLM. Confirm the current scope under that name.",
+      "last_catalog_snapshot": "2026-11-08T16:47:44.280718+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "SoftwareSourceCode",
+      "last_successful_source_commit": "16eabbc6ba4820b483acd910d8bdab478a675527",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "previous_repository": "https://github.com/infly-ai/INF-MLLM",
+      "primary_sources": [
+        {
+          "url": "https://github.com/inftech-ai/INF-MLLM/blob/main/README.md",
+          "title": "Publisher README",
+          "evidence_sha256": "cddb1a2a0d27836ad9476be94af20253b86f41ccf709414587143a16a4396211",
+          "blob_sha": "3034b4381856464d3cca336a05d0a0f0b464400a"
+        }
+      ]
+    },
+    {
+      "slug": "jameslimers-document-layout-analysis",
+      "entity": "JaMesLiMers/Document_layout_analysis",
+      "canonical_url": "https://document.kymatalabs.com/p/jameslimers-document-layout-analysis/",
+      "repository": "https://github.com/JaMesLiMers/Document_layout_analysis",
+      "summary": "Publisher description of JaMesLiMers/Document_layout_analysis: Implementation code for document layout analysis (Hackathon 2020 in Suzhou). The saved 2026-11-08 catalog classified it under Layout & Structure.",
+      "selection_context": "Use this dated reference to locate the publisher documentation for Layout & Structure work, then compare it with the current ranked catalog before choosing a tool.",
+      "limitations": "Dated publisher-documentation check, not an independent runtime, security or performance test. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "last_catalog_snapshot": "2026-11-08T16:47:44.280718+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "SoftwareSourceCode",
+      "last_successful_source_commit": "16eabbc6ba4820b483acd910d8bdab478a675527",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://github.com/JaMesLiMers/Document_layout_analysis/blob/master/README.md",
+          "title": "Publisher README",
+          "evidence_sha256": "1b433f3be75fb5f46a176304233cac9aa7d0ea47de3df234a75a5318746ee5a5",
+          "blob_sha": "209a25c25af2aae635f085aab0634a7b2a3200d3"
+        }
+      ]
+    },
+    {
+      "slug": "landing-ai-ade-python",
+      "entity": "landing-ai/ade-python",
+      "canonical_url": "https://document.kymatalabs.com/p/landing-ai-ade-python/",
+      "repository": "https://github.com/landing-ai/ade-python",
+      "summary": "Publisher description of landing-ai/ade-python: Python library for Agentic Document Extraction (ADE). The saved 2026-11-08 catalog classified it under Document Parsing.",
+      "selection_context": "Use this dated reference to locate the publisher documentation for Document Parsing work, then compare it with the current ranked catalog before choosing a tool.",
+      "limitations": "Dated publisher-documentation check, not an independent runtime, security or performance test. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "last_catalog_snapshot": "2026-11-08T16:47:44.280718+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "SoftwareSourceCode",
+      "last_successful_source_commit": "16eabbc6ba4820b483acd910d8bdab478a675527",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://github.com/landing-ai/ade-python/blob/main/README.md",
+          "title": "Publisher README",
+          "evidence_sha256": "c923b2f9e2b2c3b85b9297536d42996fd4b6e9f174da8223a0ce905fe9790317",
+          "blob_sha": "0d1cbd69df00955b757b3d045e32d9a7f3f8d00f"
+        }
+      ]
+    },
+    {
+      "slug": "nttmdlab-nlp-vdocrag",
+      "entity": "nttmdlab-nlp/VDocRAG",
+      "canonical_url": "https://document.kymatalabs.com/p/nttmdlab-nlp-vdocrag/",
+      "repository": "https://github.com/nttmdlab-nlp/VDocRAG",
+      "summary": "Publisher description of nttmdlab-nlp/VDocRAG: [CVPR2025] VDocRAG: Retirval-Augmented Generation over Visually-Rich Documents. The saved 2026-11-08 catalog classified it under Document Parsing.",
+      "selection_context": "Use this dated reference to locate the publisher documentation for Document Parsing work, then compare it with the current ranked catalog before choosing a tool.",
+      "limitations": "Dated publisher-documentation check, not an independent runtime, security or performance test. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "last_catalog_snapshot": "2026-11-08T16:47:44.280718+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "SoftwareSourceCode",
+      "last_successful_source_commit": "16eabbc6ba4820b483acd910d8bdab478a675527",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://github.com/nttmdlab-nlp/VDocRAG/blob/main/README.md",
+          "title": "Publisher README",
+          "evidence_sha256": "9f8cff55a7bef012b96abae39af58dcb291700f572e0b170d125e7c0218652db",
+          "blob_sha": "219e2ae14467c1a9f5c13ac8fe9a122909810ce6"
+        }
+      ]
+    },
+    {
+      "slug": "overcuriousity-pdf2epub",
+      "entity": "overcuriousity/pdf2epub",
+      "canonical_url": "https://document.kymatalabs.com/p/overcuriousity-pdf2epub/",
+      "repository": "https://github.com/overcuriousity/pdf2epub",
+      "summary": "Publisher description of overcuriousity/pdf2epub: Convert PDF files to nicely structured Markdown and EPUB format with intelligent layout detection using AI. The saved 2026-11-08 catalog classified it under Layout & Structure.",
+      "selection_context": "Use this dated reference to locate the publisher documentation for Layout & Structure work, then compare it with the current ranked catalog before choosing a tool.",
+      "limitations": "Dated publisher-documentation check, not an independent runtime, security or performance test. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "last_catalog_snapshot": "2026-11-08T16:47:44.280718+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "SoftwareSourceCode",
+      "last_successful_source_commit": "16eabbc6ba4820b483acd910d8bdab478a675527",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://github.com/overcuriousity/pdf2epub/blob/main/README.md",
+          "title": "Publisher README",
+          "evidence_sha256": "f2c6169bb1d1d1aaf16e81d944cd2a4476ad68350bf59efe75669be6f9bee7af",
+          "blob_sha": "16c6b4a5c86988353b52a15b30039868dba3788e"
+        }
+      ]
+    },
+    {
+      "slug": "pspdfkit-ai-assistant-demo",
+      "entity": "PSPDFKit/ai-assistant-demo",
+      "canonical_url": "https://document.kymatalabs.com/p/pspdfkit-ai-assistant-demo/",
+      "repository": "https://github.com/PSPDFKit/ai-assistant-demo",
+      "summary": "Publisher description of PSPDFKit/ai-assistant-demo: AI Document Assistant for PSPDFKit Demo showcases how to interact with PDFs using natural language commands powered by AI, integrated with PSPDFKit for Web. The saved 2026-11-08 catalog classified it under Document Parsing.",
+      "selection_context": "Use this dated reference to locate the publisher documentation for Document Parsing work, then compare it with the current ranked catalog before choosing a tool.",
+      "limitations": "Dated publisher-documentation check, not an independent runtime, security or performance test. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "last_catalog_snapshot": "2026-11-08T16:47:44.280718+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "SoftwareSourceCode",
+      "last_successful_source_commit": "16eabbc6ba4820b483acd910d8bdab478a675527",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://github.com/PSPDFKit/ai-assistant-demo/blob/master/README.md",
+          "title": "Publisher README",
+          "evidence_sha256": "ba31b9887b5bd6ecd62d8f1b19901bccb5df1ddc1e829ce31192db6b5b7b037a",
+          "blob_sha": "2be04bd982ffc14a2b0a00d6029e8a247599679b"
+        }
+      ]
+    },
+    {
+      "slug": "scub-france-docling-studio",
+      "entity": "scub-france/docling-Studio",
+      "canonical_url": "https://document.kymatalabs.com/p/scub-france-docling-studio/",
+      "repository": "https://github.com/scub-france/docling-Studio",
+      "summary": "Publisher description of scub-france/docling-Studio: Visual document analysis studio powered by Docling, configure the extraction pipeline, inspect text, tables and bounding boxes in the browser, then chunk, embed and index into OpenSearch and Neo4j. The saved 2026-11-08 catalog classified it under Document Parsing.",
+      "selection_context": "Use this dated reference to locate the publisher documentation for Document Parsing work, then compare it with the current ranked catalog before choosing a tool.",
+      "limitations": "Dated publisher-documentation check, not an independent runtime, security or performance test. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "last_catalog_snapshot": "2026-11-08T16:47:44.280718+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "SoftwareSourceCode",
+      "last_successful_source_commit": "16eabbc6ba4820b483acd910d8bdab478a675527",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://github.com/scub-france/docling-Studio/blob/main/README.md",
+          "title": "Publisher README",
+          "evidence_sha256": "1382ca335d6f3b681fb569187fc40a60e28028522bec72c9051b19860703ccef",
+          "blob_sha": "31812349d8ff5750d58e660bf91e8e0c28ef99a7"
+        }
+      ]
+    },
+    {
+      "slug": "snapotter-hq-snapotter",
+      "entity": "snapotter-hq/SnapOtter",
+      "canonical_url": "https://document.kymatalabs.com/p/snapotter-hq-snapotter/",
+      "repository": "https://github.com/snapotter-hq/SnapOtter",
+      "summary": "Publisher description of snapotter-hq/SnapOtter: Open-source, self-hosted file-processing tool. Convert, compress, OCR, transcribe & run local AI across image, video, audio, PDF & documents, via UI, REST API & pipelines. Your files never leave your network. The saved 2026-11-08 catalog classified it under OCR Engines.",
+      "selection_context": "Use this dated reference to locate the publisher documentation for OCR Engines work, then compare it with the current ranked catalog before choosing a tool.",
+      "limitations": "Dated publisher-documentation check, not an independent runtime, security or performance test. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "last_catalog_snapshot": "2026-11-08T16:47:44.280718+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "SoftwareSourceCode",
+      "last_successful_source_commit": "16eabbc6ba4820b483acd910d8bdab478a675527",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://github.com/snapotter-hq/SnapOtter/blob/main/README.md",
+          "title": "Publisher README",
+          "evidence_sha256": "32f82dfa0751bf4e72cfdf0d200b69e22a875231a4e78b1ddf40f00ef954fe98",
+          "blob_sha": "712a62aadd8b0bc133117e1e0a5af4788f5a27e0"
+        }
+      ]
+    },
+    {
+      "slug": "storytold-pdfcraft",
+      "entity": "storytold/pdfcraft",
+      "canonical_url": "https://document.kymatalabs.com/p/storytold-pdfcraft/",
+      "repository": "https://github.com/storytold/pdfcraft",
+      "summary": "Publisher description of storytold/pdfcraft: PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust. The saved 2026-11-08 catalog classified it under PDF Extraction.",
+      "selection_context": "Use this dated reference to locate the publisher documentation for PDF Extraction work, then compare it with the current ranked catalog before choosing a tool.",
+      "limitations": "Dated publisher-documentation check, not an independent runtime, security or performance test. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "last_catalog_snapshot": "2026-11-08T16:47:44.280718+00:00",
+      "reviewed_on": "2026-11-25",
+      "schema_type": "SoftwareSourceCode",
+      "last_successful_source_commit": "16eabbc6ba4820b483acd910d8bdab478a675527",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "primary_sources": [
+        {
+          "url": "https://github.com/storytold/pdfcraft/blob/main/README.md",
+          "title": "Publisher README",
+          "evidence_sha256": "08fdcbdf058ea5a0cf4583af51af12b299506212d56fb54bfeae8ab4f0cb6707",
+          "blob_sha": "3492a2e27c86130910250910da28614c0b47940a"
+        }
+      ]
     }
   ],
   "retirements": [],
