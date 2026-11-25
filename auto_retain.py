@@ -228,7 +228,7 @@ def run(root=ROOT, today=None, get=fetch, catalog=None):
     for canonical in pending:
         row = rows.get(canonical.rstrip('/').rsplit('/', 1)[1])
         entity = row and (row.get('full_name') or row.get('id') or row.get('repo'))
-        if not row or not snapshot or not entity or not re.fullmatch(r'[\w.-]+/[\w.-]+', entity):
+        if not row or not snapshot or not entity or not re.fullmatch(r'[\w.-]+/[\w.-]+', entity) or '..' in entity:
             report['undecided'][canonical] = 'no saved catalog record'
         else:
             work[canonical] = (row, entity)

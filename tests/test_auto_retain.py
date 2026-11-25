@@ -146,6 +146,9 @@ class AutoRetainTests(unittest.TestCase):
             root, rules, (rows, snapshot, commit) = self.fixture(directory, ['acme/widget'])
             report = self.run_auto(root, ({}, snapshot, commit), FakeSources(live=['acme/widget']))
             self.assertEqual(report['undecided'], {canonical('acme-widget'): 'no saved catalog record'})
+            rows['acme-widget'] = dict(rows['acme-widget'], full_name='../acme', id='../acme')
+            report = self.run_auto(root, (rows, snapshot, commit), FakeSources(live=['acme/widget', '../acme']))
+            self.assertEqual(report['undecided'], {canonical('acme-widget'): 'no saved catalog record'})
             with self.assertRaisesRegex(ValueError, 'retention/retirement'):
                 url_lifecycle.verify(root)
 
