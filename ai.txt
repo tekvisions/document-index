@@ -40,3 +40,12 @@ Explore document parsing, extraction, OCR and knowledge workflows.
 
 - [Machine-readable capabilities, resources and dated coverage](https://document.kymatalabs.com/capabilities.json)
 - The capabilities document uses Kymata's descriptive format; it is not a standard agent tool protocol.
+
+## More from Kymata Labs
+Other products from the same publisher. They are not part of this index or its rankings.
+- [Keyspoken](https://keyspoken.com/): On-device dictation for iPhone
+- [Kymata Health](https://kymatahealth.com/): Evidence-based health guides and calculators
+- [CrowLingo](https://crowlingo.org/): American crow call atlas
+- [Verse Made Simple](https://www.versemadesimple.com/): Bible verses in three reading styles
+- [PercentEase](https://percentease.com/): Percentage calculator
+- [Enzo Adventures](https://enzoadventures.com/): Comic stories and coloring books

@@ -7,11 +7,43 @@
     "name": "Kymata Labs LLC",
     "url": "https://www.kymatalabs.com/"
   },
+  "more_from_publisher": [
+    {
+      "name": "Keyspoken",
+      "url": "https://keyspoken.com/",
+      "description": "On-device dictation for iPhone"
+    },
+    {
+      "name": "Kymata Health",
+      "url": "https://kymatahealth.com/",
+      "description": "Evidence-based health guides and calculators"
+    },
+    {
+      "name": "CrowLingo",
+      "url": "https://crowlingo.org/",
+      "description": "American crow call atlas"
+    },
+    {
+      "name": "Verse Made Simple",
+      "url": "https://www.versemadesimple.com/",
+      "description": "Bible verses in three reading styles"
+    },
+    {
+      "name": "PercentEase",
+      "url": "https://percentease.com/",
+      "description": "Percentage calculator"
+    },
+    {
+      "name": "Enzo Adventures",
+      "url": "https://enzoadventures.com/",
+      "description": "Comic stories and coloring books"
+    }
+  ],
   "mission": "Kymata Labs makes open-source AI tools, models and infrastructure easier to understand through focused, source-backed indexes. We publish dated source signals, explain ranking methods and limitations, and separate advertising from ranking and inclusion.",
   "scope": "Explore document parsing, extraction, OCR and knowledge workflows.",
   "snapshot": {
-    "collected_at": "2026-11-08T16:47:44.280718+00:00",
-    "records_in_saved_snapshot": 232,
+    "collected_at": "2026-11-25T21:00:19.265397+00:00",
+    "records_in_saved_snapshot": 227,
     "coverage": "focused source selection; not an exhaustive census of the ecosystem"
   },
   "capabilities": [
