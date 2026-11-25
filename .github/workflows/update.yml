@@ -34,11 +34,12 @@ jobs:
         run: |
           python gen_details.py
           python gen_og.py
-      - name: Render and verify the public catalog snapshot
+      - name: Record retention decisions for published routes that left discovery
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python auto_retain.py
+      - name: Render and verify the public catalog snapshot
         run: |
-          python auto_retain.py
           python url_lifecycle.py --render-retained
           python sanitize_detail_schema.py
           python render_home.py
