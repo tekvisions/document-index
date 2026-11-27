@@ -2,8 +2,8 @@
 
 > The Document Index: a source-backed catalog published by Kymata Labs.
 
-Snapshot collected: 2026-11-26T19:50:19.857350+00:00
-Current catalog records: 227
+Snapshot collected: 2026-11-27T19:39:49.395671+00:00
+Current catalog records: 229
 
 ## Sources and interpretation
 
@@ -29,29 +29,29 @@ Momentum blends log-scaled GitHub stars (55%), push recency decaying over 180 da
 - [ocrmypdf/OCRmyPDF](https://document.kymatalabs.com/p/ocrmypdf-ocrmypdf/) — OCR Engines
 - [opendataloader-project/opendataloader-pdf](https://document.kymatalabs.com/p/opendataloader-project-opendataloader-pdf/) — PDF Extraction
 - [baidu/Unlimited-OCR](https://document.kymatalabs.com/p/baidu-unlimited-ocr/) — OCR Engines
-- [firecrawl/pdf-inspector](https://document.kymatalabs.com/p/firecrawl-pdf-inspector/) — PDF Extraction
 - [JaidedAI/EasyOCR](https://document.kymatalabs.com/p/jaidedai-easyocr/) — OCR Engines
-- [datalab-to/surya](https://document.kymatalabs.com/p/datalab-to-surya/) — Table Extraction
+- [firecrawl/pdf-inspector](https://document.kymatalabs.com/p/firecrawl-pdf-inspector/) — PDF Extraction
 - [MODSetter/SurfSense](https://document.kymatalabs.com/p/modsetter-surfsense/) — Document Parsing
 - [Unstructured-IO/unstructured](https://document.kymatalabs.com/p/unstructured-io-unstructured/) — Document Parsing
 - [run-llama/liteparse](https://document.kymatalabs.com/p/run-llama-liteparse/) — Document Parsing
-- [jev-chat/jev-chat-jarvis](https://document.kymatalabs.com/p/jev-chat-jev-chat-jarvis/) — Document Parsing
+- [datalab-to/surya](https://document.kymatalabs.com/p/datalab-to-surya/) — Table Extraction
 - [pymupdf/PyMuPDF](https://document.kymatalabs.com/p/pymupdf-pymupdf/) — Layout & Structure
 - [CVHub520/X-AnyLabeling](https://document.kymatalabs.com/p/cvhub520-x-anylabeling/) — Document Parsing
-- [datalab-to/chandra](https://document.kymatalabs.com/p/datalab-to-chandra/) — OCR Engines
-- [jsvine/pdfplumber](https://document.kymatalabs.com/p/jsvine-pdfplumber/) — PDF Extraction
+- [jev-chat/jev-chat-jarvis](https://document.kymatalabs.com/p/jev-chat-jev-chat-jarvis/) — Document Parsing
 - [anbeime/skill](https://document.kymatalabs.com/p/anbeime-skill/) — Collections
 - [xberg-io/xberg](https://document.kymatalabs.com/p/xberg-io-xberg/) — OCR Engines
 - [datalab-to/indra](https://document.kymatalabs.com/p/datalab-to-indra/) — OCR Engines
+- [datalab-to/chandra](https://document.kymatalabs.com/p/datalab-to-chandra/) — OCR Engines
+- [jsvine/pdfplumber](https://document.kymatalabs.com/p/jsvine-pdfplumber/) — PDF Extraction
 - [RapidAI/RapidOCR](https://document.kymatalabs.com/p/rapidai-rapidocr/) — Collections
 - [Zipstack/unstract](https://document.kymatalabs.com/p/zipstack-unstract/) — Document Parsing
 - [SoMarkAI/OXR](https://document.kymatalabs.com/p/somarkai-oxr/) — Document Parsing
 - [PaddlePaddle/PaddleOCR](https://document.kymatalabs.com/p/paddlepaddle-paddleocr/) — OCR Engines
 - [mindee/doctr](https://document.kymatalabs.com/p/mindee-doctr/) — OCR Engines
 - [clusterzx/paperless-ai](https://document.kymatalabs.com/p/clusterzx-paperless-ai/) — OCR Engines
-- [Yuliang-Liu/MonkeyOCR](https://document.kymatalabs.com/p/yuliang-liu-monkeyocr/) — Document Parsing
 - [liustack/modlens](https://document.kymatalabs.com/p/liustack-modlens/) — OCR Engines
 - [LaoFeng-mouse/flyingmouse-format](https://document.kymatalabs.com/p/laofeng-mouse-flyingmouse-format/) — OCR Engines
+- [Yuliang-Liu/MonkeyOCR](https://document.kymatalabs.com/p/yuliang-liu-monkeyocr/) — Document Parsing
 - [FB208/OpenBidKit_Yibiao](https://document.kymatalabs.com/p/fb208-openbidkit-yibiao/) — Document Parsing
 - [NehaOwens08/mirillis-action](https://document.kymatalabs.com/p/nehaowens08-mirillis-action/) — Document Parsing
 - [FengZhenfei/carrel](https://document.kymatalabs.com/p/fengzhenfei-carrel/) — Document Parsing
