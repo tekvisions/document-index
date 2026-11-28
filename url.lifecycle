@@ -512,6 +512,29 @@
           "blob_sha": "3492a2e27c86130910250910da28614c0b47940a"
         }
       ]
+    },
+    {
+      "slug": "opendcai-flash-mineru",
+      "entity": "OpenDCAI/Flash-MinerU",
+      "canonical_url": "https://document.kymatalabs.com/p/opendcai-flash-mineru/",
+      "repository": "https://github.com/OpenDCAI/Flash-MinerU",
+      "summary": "The saved 2026-11-27 catalog classified OpenDCAI/Flash-MinerU under PDF Extraction; the publisher description is not in English, so see the README for scope.",
+      "selection_context": "Use this dated reference to locate the publisher documentation for PDF Extraction work, then compare it with the current ranked catalog before choosing a tool.",
+      "limitations": "Automated dated publisher-documentation check, not an independent runtime, security or performance test. No current rank or momentum score is assigned. Verify current availability, license and requirements.",
+      "last_catalog_snapshot": "2026-11-27T19:39:49.395671+00:00",
+      "reviewed_on": "2026-11-28",
+      "last_successful_source_commit": "a98cf79d693c56a7fd896b83880e5199ae81566f",
+      "decision": "Retain the published route as a dated unranked reference when absent from the current discovery snapshot.",
+      "upstream_status": "publisher source reachable (HTTP 200) on the 2026-11-28 automated check",
+      "primary_sources": [
+        {
+          "url": "https://github.com/OpenDCAI/Flash-MinerU/blob/main/README.md",
+          "title": "Publisher README",
+          "evidence_sha256": "a96e994147748d9e87da1a1f2dd37b644996c46f1392d63fc60322ce1bf44a39",
+          "blob_sha": "9a8d8bf84a2006c6ad981952ab72507dfda5942d"
+        }
+      ],
+      "evidence_sha256": "a96e994147748d9e87da1a1f2dd37b644996c46f1392d63fc60322ce1bf44a39"
     }
   ],
   "retirements": [],

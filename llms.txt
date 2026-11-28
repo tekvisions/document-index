@@ -2,8 +2,8 @@
 
 > The Document Index: a source-backed catalog published by Kymata Labs.
 
-Snapshot collected: 2026-11-27T19:39:49.395671+00:00
-Current catalog records: 229
+Snapshot collected: 2026-11-28T18:30:16.325683+00:00
+Current catalog records: 228
 
 ## Sources and interpretation
 
@@ -36,8 +36,8 @@ Momentum blends log-scaled GitHub stars (55%), push recency decaying over 180 da
 - [run-llama/liteparse](https://document.kymatalabs.com/p/run-llama-liteparse/) — Document Parsing
 - [datalab-to/surya](https://document.kymatalabs.com/p/datalab-to-surya/) — Table Extraction
 - [pymupdf/PyMuPDF](https://document.kymatalabs.com/p/pymupdf-pymupdf/) — Layout & Structure
-- [CVHub520/X-AnyLabeling](https://document.kymatalabs.com/p/cvhub520-x-anylabeling/) — Document Parsing
 - [jev-chat/jev-chat-jarvis](https://document.kymatalabs.com/p/jev-chat-jev-chat-jarvis/) — Document Parsing
+- [CVHub520/X-AnyLabeling](https://document.kymatalabs.com/p/cvhub520-x-anylabeling/) — Document Parsing
 - [anbeime/skill](https://document.kymatalabs.com/p/anbeime-skill/) — Collections
 - [xberg-io/xberg](https://document.kymatalabs.com/p/xberg-io-xberg/) — OCR Engines
 - [datalab-to/indra](https://document.kymatalabs.com/p/datalab-to-indra/) — OCR Engines
@@ -53,15 +53,15 @@ Momentum blends log-scaled GitHub stars (55%), push recency decaying over 180 da
 - [LaoFeng-mouse/flyingmouse-format](https://document.kymatalabs.com/p/laofeng-mouse-flyingmouse-format/) — OCR Engines
 - [Yuliang-Liu/MonkeyOCR](https://document.kymatalabs.com/p/yuliang-liu-monkeyocr/) — Document Parsing
 - [FB208/OpenBidKit_Yibiao](https://document.kymatalabs.com/p/fb208-openbidkit-yibiao/) — Document Parsing
-- [NehaOwens08/mirillis-action](https://document.kymatalabs.com/p/nehaowens08-mirillis-action/) — Document Parsing
-- [FengZhenfei/carrel](https://document.kymatalabs.com/p/fengzhenfei-carrel/) — Document Parsing
 - [run-llama/llama_cloud_services](https://document.kymatalabs.com/p/run-llama-llama-cloud-services/) — Document Parsing
-- [deepdoctection/deepdoctection](https://document.kymatalabs.com/p/deepdoctection-deepdoctection/) — Document Parsing
 - [UglyToad/PdfPig](https://document.kymatalabs.com/p/uglytoad-pdfpig/) — PDF Extraction
+- [FengZhenfei/carrel](https://document.kymatalabs.com/p/fengzhenfei-carrel/) — Document Parsing
 - [microsoft/unilm](https://document.kymatalabs.com/p/microsoft-unilm/) — Document Parsing
-- [shcherbak-ai/contextgem](https://document.kymatalabs.com/p/shcherbak-ai-contextgem/) — Document Parsing
+- [deepdoctection/deepdoctection](https://document.kymatalabs.com/p/deepdoctection-deepdoctection/) — Document Parsing
 - [run-llama/semtools](https://document.kymatalabs.com/p/run-llama-semtools/) — Document Parsing
 - [YOLOW92/pagesift](https://document.kymatalabs.com/p/yolow92-pagesift/) — OCR Engines
+- [zai-org/GLM-OCR](https://document.kymatalabs.com/p/zai-org-glm-ocr/) — OCR Engines
+- [shcherbak-ai/contextgem](https://document.kymatalabs.com/p/shcherbak-ai-contextgem/) — Document Parsing
 
 <!-- Kymata discovery capabilities -->
 ## Mission and scope
